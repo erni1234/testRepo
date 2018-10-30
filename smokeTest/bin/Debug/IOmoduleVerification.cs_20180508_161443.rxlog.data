@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1bee849e363d8e80"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="08.05.2018 16:14:49"
+		timestampiso="2018-05-08T14:14:49"
+		endtime="08.05.2018 16:15:09"
+		timeoutfactor="1"
+		module="IOmoduleVerification">
+		<detail>
+			IOmoduleVerification
+		</detail>
+		<errormessage>
+			No element found for path '/dom[@caption~'^elproMONITOR\ -\ I/O\ Module' and @page='125']//button[#'btnScanBridge']' within 10s.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.091"
+			timeRelativeToTestModuleStartTime="00:20.092"
+			timeWallClock="16:15:09"
+			time="00:20.091"
+			level="Error"
+			category="Module"
+			errimg=".\IOmodule_49d47a4a_c3ce4369_trace.jpg"
+			errthumb=".\IOmodule_49d47a4a_c3ce4369_trace_thumb.jpg">
+			<message>
+				No element found for path '/dom[@caption~'^elproMONITOR\ -\ I/O\ Module' and @page='125']//button[#'btnScanBridge']' within 10s.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   bei Ranorex.Core.Element.FromPath(String path)
+   bei Ranorex.ButtonTag.FromPath(String path)
+   bei Ranorex.ButtonTag.op_Implicit(String path)
+   bei smokeTest.IOmoduleVerification.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs:Zeile 88.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="88"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

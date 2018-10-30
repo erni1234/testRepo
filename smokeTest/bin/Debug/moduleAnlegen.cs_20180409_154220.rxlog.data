@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2dc80f8cfa423ff1"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="09.04.2018 15:42:22"
+		timestampiso="2018-04-09T13:42:22"
+		endtime="09.04.2018 15:43:23"
+		timeoutfactor="1"
+		module="moduleAnlegen">
+		<detail>
+			moduleAnlegen
+		</detail>
+		<errormessage>
+			Failed to find item 'smokeTestRepository.ElproMONITORLogin.ModuleType'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.578"
+			timeRelativeToTestModuleStartTime="01:00.578"
+			timeWallClock="15:43:22"
+			time="01:00.578"
+			level="Error"
+			category="Module"
+			errimg=".\moduleAn_7839eb29_102ab60a_trace.jpg"
+			errthumb=".\moduleAn_7839eb29_102ab60a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'smokeTestRepository.ElproMONITORLogin.ModuleType'.<br/>No element found for path '/dom[@domain='192.168.250.180']//select[#'ModuleType']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   bei smokeTest.smokeTestRepositoryFolders.ElproMONITORLoginAppFolder.get_ModuleType() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\smokeTestRepository.cs:Zeile 1043.
+   bei smokeTest.moduleAnlegen.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\moduleAnlegen.cs:Zeile 50.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\moduleAnlegen.cs"
+				codeline="50"
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//select[#'ModuleType']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ModuleType"
+				id="d15e5aad869e46cf9cfcc8effd228d64"
+				timeout="60000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

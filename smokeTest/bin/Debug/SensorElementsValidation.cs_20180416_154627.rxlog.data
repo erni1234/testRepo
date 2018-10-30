@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3f06ffba426026c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="16.04.2018 15:46:28"
+		timestampiso="2018-04-16T13:46:28"
+		endtime="16.04.2018 15:46:45"
+		timeoutfactor="1"
+		module="SensorElementsValidation">
+		<detail>
+			SensorElementsValidation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.121"
+			timeRelativeToTestModuleStartTime="00:03.121"
+			timeWallClock="15:46:31"
+			time="00:03.121"
+			level="Warn"
+			category="Automation"
+			errimg=".\SensorEl_8d72f04e_ac8d7e6c_trace.jpg"
+			errthumb=".\SensorEl_8d72f04e_ac8d7e6c_trace_thumb.jpg">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="57"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.034"
+			timeRelativeToTestModuleStartTime="00:17.034"
+			timeWallClock="15:46:45"
+			time="00:17.034"
+			level="Error"
+			category="User"
+			errimg=".\SensorEl_8d72f04e_41a0c03a_trace.jpg"
+			errthumb=".\SensorEl_8d72f04e_41a0c03a_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

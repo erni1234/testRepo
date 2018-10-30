@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="155cdec04b40a752"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="22.08.2018 14:21:54"
+		timestampiso="2018-08-22T12:21:54"
+		endtime="22.08.2018 14:23:10"
+		timeoutfactor="1"
+		module="CalibrationAnalysis">
+		<detail>
+			CalibrationAnalysis
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.618"
+			timeRelativeToTestModuleStartTime="00:10.619"
+			timeWallClock="14:22:04"
+			time="00:10.618"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Calibrat_e89e2031_rxlog.jpg"
+			errthumb=".\Calibrat_e89e2031_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="75"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.692"
+			timeRelativeToTestModuleStartTime="00:10.693"
+			timeWallClock="14:22:04"
+			time="00:10.692"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Calibrat_74032031_rxlog.jpg"
+			errthumb=".\Calibrat_74032031_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="76"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.955"
+			timeRelativeToTestModuleStartTime="00:10.956"
+			timeWallClock="14:22:04"
+			time="00:10.955"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagCalibrate' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				itempath="?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagCalibrate"
+				id="c5118c38224a44398c7b2894ce95ce8f"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="78"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:16.260"
+			timeRelativeToTestModuleStartTime="01:16.261"
+			timeWallClock="14:23:10"
+			time="01:16.260"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Calibrat_d1d42031_rxlog.jpg"
+			errthumb=".\Calibrat_d1d42031_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

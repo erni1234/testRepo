@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.6m"
+		durationms="97087"
+		type="root"
+		rid="37163f1484d20f8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="18.05.2018 09:24:51"
+		timestampiso="2018-05-18T07:24:51"
+		endtime="18.05.2018 09:26:28"
+		timeoutfactor="1"
+		module="combobox">
+		<detail>
+			combobox
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.394"
+			timeRelativeToTestModuleStartTime="00:06.394"
+			timeWallClock="09:24:58"
+			time="00:06.394"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'NavElproAbout' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.183']//a[#'Nav_Elpro_About']"
+				itempath=".//a[#'Nav_Elpro_About']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavElproAbout"
+				id="026e4a3b50314f46b19c405a56c9d77c"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs"
+				codeline="58"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.656"
+			timeRelativeToTestModuleStartTime="00:06.656"
+			timeWallClock="09:24:58"
+			time="00:06.656"
+			level="Info"
+			category="Screenshot"
+			errimg=".\combobox_30481fa_rxlog.jpg"
+			errthumb=".\combobox_30481fa_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs"
+				codeline="59"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:37.087"
+			timeRelativeToTestModuleStartTime="01:37.087"
+			timeWallClock="09:26:28"
+			time="01:37.087"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

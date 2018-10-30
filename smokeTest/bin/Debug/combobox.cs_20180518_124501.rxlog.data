@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6b0549a4ebe0992"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="18.05.2018 12:45:07"
+		timestampiso="2018-05-18T10:45:07"
+		endtime="18.05.2018 12:47:13"
+		timeoutfactor="1"
+		module="combobox">
+		<detail>
+			combobox
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.937"
+			timeRelativeToTestModuleStartTime="00:05.937"
+			timeWallClock="12:45:13"
+			time="00:05.937"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'NavElproAbout' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.183']//a[#'Nav_Elpro_About']"
+				itempath=".//a[#'Nav_Elpro_About']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavElproAbout"
+				id="026e4a3b50314f46b19c405a56c9d77c"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs"
+				codeline="58"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.216"
+			timeRelativeToTestModuleStartTime="00:06.216"
+			timeWallClock="12:45:13"
+			time="00:06.216"
+			level="Info"
+			category="Screenshot"
+			errimg=".\combobox_fe7a6123_rxlog.jpg"
+			errthumb=".\combobox_fe7a6123_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs"
+				codeline="59"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:48.395"
+			timeRelativeToTestModuleStartTime="01:48.395"
+			timeWallClock="12:46:56"
+			time="01:48.395"
+			level="Success"
+			category="User">
+			<message>
+				Correct Version of elproMonitor installed
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs"
+				codeline="66"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:03.472"
+			timeRelativeToTestModuleStartTime="02:03.472"
+			timeWallClock="12:47:11"
+			time="02:03.472"
+			level="Info"
+			category="Screenshot"
+			errimg=".\combobox_fe7a6124_rxlog.jpg"
+			errthumb=".\combobox_fe7a6124_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs"
+				codeline="84"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:03.522"
+			timeRelativeToTestModuleStartTime="02:03.522"
+			timeWallClock="12:47:11"
+			time="02:03.522"
+			level="Info"
+			category="Screenshot"
+			errimg=".\combobox_fe7a6125_rxlog.jpg"
+			errthumb=".\combobox_fe7a6125_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:03.572"
+			timeRelativeToTestModuleStartTime="02:03.572"
+			timeWallClock="12:47:11"
+			time="02:03.572"
+			level="Info"
+			category="Screenshot"
+			errimg=".\combobox_fe7a6126_rxlog.jpg"
+			errthumb=".\combobox_fe7a6126_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:05.382"
+			timeRelativeToTestModuleStartTime="02:05.382"
+			timeWallClock="12:47:13"
+			time="02:05.382"
+			level="Info"
+			category="Screenshot"
+			errimg=".\combobox_fe7a6127_rxlog.jpg"
+			errthumb=".\combobox_fe7a6127_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs"
+				codeline="117"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

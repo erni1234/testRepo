@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8c0ab48e421bb58"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="20.04.2018 12:30:15"
+		timestampiso="2018-04-20T10:30:15"
+		endtime="20.04.2018 12:31:07"
+		timeoutfactor="1"
+		module="IOmoduleVerification">
+		<detail>
+			IOmoduleVerification
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.699"
+			timeRelativeToTestModuleStartTime="00:07.699"
+			timeWallClock="12:30:22"
+			time="00:07.699"
+			level="Success"
+			category="Validation"
+			errimg=".\IOmodule_9f2fea75_bf15d2b0_trace.jpg"
+			errthumb=".\IOmodule_9f2fea75_bf15d2b0_trace_thumb.jpg">
+			<message>
+				Element for item 'Report' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Report']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.Report"
+				id="e1be08644dae4384941aa8e7bf5e3d24"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="67"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.931"
+			timeRelativeToTestModuleStartTime="00:08.931"
+			timeWallClock="12:30:24"
+			time="00:08.931"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_b10b00c6_rxlog.jpg"
+			errthumb=".\IOmodule_b10b00c6_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="68"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.116"
+			timeRelativeToTestModuleStartTime="00:09.116"
+			timeWallClock="12:30:24"
+			time="00:09.116"
+			level="Info"
+			category="User"
+			errimg=".\IOmodule_9f2fea75_51f2e8fc_trace.jpg"
+			errthumb=".\IOmodule_9f2fea75_51f2e8fc_trace_thumb.jpg">
+			<message>
+				True
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="69"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.415"
+			timeRelativeToTestModuleStartTime="00:52.415"
+			timeWallClock="12:31:07"
+			time="00:52.415"
+			level="Error"
+			category="User"
+			errimg=".\IOmodule_9f2fea75_a558dcba_trace.jpg"
+			errthumb=".\IOmodule_9f2fea75_a558dcba_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

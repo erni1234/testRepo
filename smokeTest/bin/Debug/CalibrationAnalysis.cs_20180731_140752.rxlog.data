@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="354fbc3581927"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="31.07.2018 14:07:59"
+		timestampiso="2018-07-31T12:07:59"
+		endtime="31.07.2018 14:09:42"
+		timeoutfactor="1"
+		module="CalibrationAnalysis">
+		<detail>
+			CalibrationAnalysis
+		</detail>
+		<errormessage>
+			Failed to find item 'smokeTestRepository.ElproMONITORLogin.ContentRight.ButtonTagReport'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.578"
+			timeRelativeToTestModuleStartTime="00:12.579"
+			timeWallClock="14:08:11"
+			time="00:12.578"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Calibrat_3684fcfa_rxlog.jpg"
+			errthumb=".\Calibrat_3684fcfa_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.590"
+			timeRelativeToTestModuleStartTime="00:12.591"
+			timeWallClock="14:08:11"
+			time="00:12.590"
+			level="Info"
+			category="User"
+			errimg=".\Calibrat_d1bdf669_e51b3596_trace.jpg"
+			errthumb=".\Calibrat_d1bdf669_e51b3596_trace_thumb.jpg">
+			<message>
+				Calibrate Button does not exit
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="91"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:42.892"
+			timeRelativeToTestModuleStartTime="01:42.893"
+			timeWallClock="14:09:41"
+			time="01:42.892"
+			level="Error"
+			category="Module"
+			errimg=".\Calibrat_d1bdf669_996f19d3_trace.jpg"
+			errthumb=".\Calibrat_d1bdf669_996f19d3_trace_thumb.jpg">
+			<message>
+				Failed to find item 'smokeTestRepository.ElproMONITORLogin.ContentRight.ButtonTagReport'.<br/>No element found for path '/dom[@domain='192.168.250.188']//div[#'contentRight']//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Report\ ']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   bei Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   bei smokeTest.smokeTestRepositoryFolders.ContentRightFolder.get_ButtonTagReport() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\smokeTestRepository.cs:Zeile 4153.&#13;&#10;   bei smokeTest.CalibrationAnalysis.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs:Zeile 96.&#13;&#10;   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="96"
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentRight']//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Report\ ']"
+				itempath=".//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Report\ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentRight.ButtonTagReport"
+				id="7c6c22a9910542a48caa5b64a3b56880"
+				timeout="90000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

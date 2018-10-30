@@ -1,0 +1,3276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="16.64s"
+		durationms="16637"
+		type="root"
+		rid="14fbfa0d243e6f1f"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="57"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="57"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="26.07.2018 10:04:17"
+		timestampiso="2018-07-26T08:04:17"
+		endtime="26.07.2018 10:04:38"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="20.56s"
+			durationms="20556"
+			type="test-suite"
+			rid="5d3e07001e49a07"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="57"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="8"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="57"
+			totalmaintenancemodecount="0"
+			testsuitename="smokeTest"
+			headertext="smokeTest"
+			runconfigname="SmokeTest_TR_2"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="15.56s"
+				durationms="15563"
+				type="iteration-container"
+				rid="3087184473588186"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="4"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="4"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="4"
+				totalmaintenancemodecount="0"
+				displayName="TestCase(addProModuls)"
+				headertext="TestCase(addProModuls)"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="d37a3e0e-f52b-437d-b7a5-9a13fd40e949"
+				datasource="proModulesConnector"
+				dataiterationcount="5">
+				<activity
+					result="Failed"
+					duration="15.55s"
+					durationms="15552"
+					type="test-case"
+					rid="95910bed540af0"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProModuls)"
+					testcontainerid="d37a3e0e-f52b-437d-b7a5-9a13fd40e949"
+					headertext="TestCase(addProModuls)"
+					displayName="TestCase(addProModuls)"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="IO Module Name">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Type">
+							ECOLOG-PRO LBR
+						</field>
+						<field
+							name="IP Address">
+							127.0.0.11
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="15.52s"
+						durationms="15515"
+						type="test-module"
+						rid="14e2b1afd41b1103"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="AddProModules"
+						displayName="AddProModules"
+						moduleid="16766d13-82cc-4999-9acd-8b5c735f712c"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="IPaddress"
+								value="127.0.0.11">
+							</varbinding>
+							<varbinding
+								name="IOmoduleType"
+								value="ECOLOG-PRO LBR">
+							</varbinding>
+							<varbinding
+								name="IOmoduleName"
+								value="LBR-127-0-0-11">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.282"
+							timeRelativeToTestModuleStartTime="00:00.033"
+							timeWallClock="10:04:18"
+							time="00:01.282"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$IPaddress = '127.0.0.11', $IOmoduleType = 'ECOLOG-PRO LBR', $IOmoduleName = 'LBR-127-0-0-11'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.362"
+							timeRelativeToTestModuleStartTime="00:00.113"
+							timeWallClock="10:04:19"
+							time="00:01.362"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsIndex' at 68;21.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.188']//a[#'Nav_DeviceSettings_Index']"
+								itempath=".//a[#'Nav_DeviceSettings_Index']"
+								fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+								id="2ff9e083db334af6971aed372384639e"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+								codeline="121"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.005"
+							timeRelativeToTestModuleStartTime="00:04.756"
+							timeWallClock="10:04:23"
+							time="00:06.005"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsIoModules' at 74;16.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.188']//a[#'Nav_DeviceSettings_IoModules']"
+								itempath=".//a[#'Nav_DeviceSettings_IoModules']"
+								fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIoModules"
+								id="7e142bbdf62c4ebbb62cc41426f97b85"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+								codeline="125"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.291"
+							timeRelativeToTestModuleStartTime="00:06.042"
+							timeWallClock="10:04:25"
+							time="00:07.291"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.ContentCenter.AddNewIOModule' at 75;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext='Add new I/O Module']"
+								itempath="?/?/button[@innertext='Add new I/O Module']"
+								fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewIOModule"
+								id="27a87b1fa7d84e6da6eb539960bf0bb2"
+								timeout="90000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+								codeline="129"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.032"
+							timeRelativeToTestModuleStartTime="00:07.783"
+							timeWallClock="10:04:26"
+							time="00:09.032"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'ElproMONITORLogin.Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.188']//input[#'Name']"
+								itempath=".//input[#'Name']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Name"
+								id="3f050153d41549179f8092c0de67a333"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+								codeline="133"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.457"
+							timeRelativeToTestModuleStartTime="00:09.208"
+							timeWallClock="10:04:28"
+							time="00:10.457"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$IOmoduleName' with focus on 'ElproMONITORLogin.Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.188']//input[#'Name']"
+								itempath=".//input[#'Name']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Name"
+								id="3f050153d41549179f8092c0de67a333"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+								codeline="137"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.459"
+							timeRelativeToTestModuleStartTime="00:11.210"
+							timeWallClock="10:04:30"
+							time="00:12.459"
+							level="Info"
+							category="Keyboard"
+							errimg="images_smokeTes_a0e09ebd\smokeTes_a0e09ebd_aa2ef959_trace.jpg"
+							errthumb="images_smokeTes_a0e09ebd\smokeTes_a0e09ebd_aa2ef959_trace_thumb.jpg">
+							<message>
+								Key sequence from variable '$IOmoduleType' with focus on 'ElproMONITORLogin.ModuleType'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.188']//select[#'ModuleType']"
+								itempath=".//select[#'ModuleType']"
+								fullname="smokeTestRepository.ElproMONITORLogin.ModuleType"
+								id="d15e5aad869e46cf9cfcc8effd228d64"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+								codeline="141"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.527"
+							timeRelativeToTestModuleStartTime="00:13.278"
+							timeWallClock="10:04:32"
+							time="00:14.527"
+							level="Info"
+							category="Keyboard"
+							errimg="images_smokeTes_a0e09ebd\smokeTes_a0e09ebd_e74b70a1_trace.jpg"
+							errthumb="images_smokeTes_a0e09ebd\smokeTes_a0e09ebd_e74b70a1_trace_thumb.jpg">
+							<message>
+								Key sequence from variable '$IPaddress' with focus on 'ElproMONITORLogin.EcologProIpAddress'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.188']//input[#'EcologProIpAddress']"
+								itempath=".//input[#'EcologProIpAddress']"
+								fullname="smokeTestRepository.ElproMONITORLogin.EcologProIpAddress"
+								id="3ae8c354f9a24e55b9a93dcca52c606b"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+								codeline="145"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.188"
+							timeRelativeToTestModuleStartTime="00:14.939"
+							timeWallClock="10:04:33"
+							time="00:16.188"
+							level="Info"
+							category="Mouse"
+							errimg="images_smokeTes_a0e09ebd\smokeTes_a0e09ebd_23ed8219_trace.jpg"
+							errthumb="images_smokeTes_a0e09ebd\smokeTes_a0e09ebd_23ed8219_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.BtnScanBridge' at 86;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.188']//button[#'btnScanBridge']"
+								itempath=".//button[#'btnScanBridge']"
+								fullname="smokeTestRepository.ElproMONITORLogin.BtnScanBridge"
+								id="70e77f69c7ea4985bc97974ac43f3b1d"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+								codeline="149"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.636"
+							timeRelativeToTestModuleStartTime="00:15.387"
+							timeWallClock="10:04:34"
+							time="00:16.636"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="2f3efe44d0a822ec"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProModuls)"
+					testcontainerid="d37a3e0e-f52b-437d-b7a5-9a13fd40e949"
+					headertext="TestCase(addProModuls)"
+					displayName="TestCase(addProModuls)"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="IO Module Name">
+							LBR-127-0-0-12
+						</field>
+						<field
+							name="IO Module Type">
+							ECOLOG-PRO LBR
+						</field>
+						<field
+							name="IP Address">
+							127.0.0.12
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="c7335e7da411802"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProModuls)"
+					testcontainerid="d37a3e0e-f52b-437d-b7a5-9a13fd40e949"
+					headertext="TestCase(addProModuls)"
+					displayName="TestCase(addProModuls)"
+					iteration="3"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="IO Module Name">
+							LBR-127-0-0-13
+						</field>
+						<field
+							name="IO Module Type">
+							ECOLOG-PRO LBR
+						</field>
+						<field
+							name="IP Address">
+							127.0.0.13
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="2517ab61c5ea7494"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProModuls)"
+					testcontainerid="d37a3e0e-f52b-437d-b7a5-9a13fd40e949"
+					headertext="TestCase(addProModuls)"
+					displayName="TestCase(addProModuls)"
+					iteration="4"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="IO Module Name">
+							LBR-127-0-0-14
+						</field>
+						<field
+							name="IO Module Type">
+							ECOLOG-PRO LBR
+						</field>
+						<field
+							name="IP Address">
+							127.0.0.14
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="6436efe3323c218"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProModuls)"
+					testcontainerid="d37a3e0e-f52b-437d-b7a5-9a13fd40e949"
+					headertext="TestCase(addProModuls)"
+					displayName="TestCase(addProModuls)"
+					iteration="5"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="IO Module Name">
+							LBR-127-0-0-15
+						</field>
+						<field
+							name="IO Module Type">
+							ECOLOG-PRO LBR
+						</field>
+						<field
+							name="IP Address">
+							127.0.0.15
+						</field>
+					</datarow>
+				</activity>
+			</activity>
+			<activity
+				result="Ignored"
+				duration="59ms"
+				durationms="59"
+				type="iteration-container"
+				rid="25fa0b0cb0087bf8"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="5"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="5"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="5"
+				totalmaintenancemodecount="0"
+				displayName="TestCase(addNetModuls)"
+				headertext="TestCase(addNetModuls)"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="d6bd13db-a93f-4de9-98e4-9d5ec3e6db52"
+				datasource="NetModulsConnector"
+				dataiterationcount="5">
+				<activity
+					result="Ignored"
+					duration="47ms"
+					durationms="47"
+					type="test-case"
+					rid="7db02865f26e9e8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetModuls)"
+					testcontainerid="d6bd13db-a93f-4de9-98e4-9d5ec3e6db52"
+					headertext="TestCase(addNetModuls)"
+					displayName="TestCase(addNetModuls)"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="IO Module Name">
+							SIM-NET-LP4-M1
+						</field>
+						<field
+							name="IO Module Type">
+							ECOLOG-NET LP4
+						</field>
+						<field
+							name="IP Address">
+							127.0.0.16
+						</field>
+						<field
+							name="Port Number">
+							2101
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="27e133b345d5eaaa"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetModuls)"
+					testcontainerid="d6bd13db-a93f-4de9-98e4-9d5ec3e6db52"
+					headertext="TestCase(addNetModuls)"
+					displayName="TestCase(addNetModuls)"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="IO Module Name">
+							SIM-NET-LP4-M2
+						</field>
+						<field
+							name="IO Module Type">
+							ECOLOG-NET LP4
+						</field>
+						<field
+							name="IP Address">
+							127.0.0.16
+						</field>
+						<field
+							name="Port Number">
+							2102
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="33166fbccb3220b6"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetModuls)"
+					testcontainerid="d6bd13db-a93f-4de9-98e4-9d5ec3e6db52"
+					headertext="TestCase(addNetModuls)"
+					displayName="TestCase(addNetModuls)"
+					iteration="3"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="IO Module Name">
+							SIM-NET-LP4-M3
+						</field>
+						<field
+							name="IO Module Type">
+							ECOLOG-NET LP4
+						</field>
+						<field
+							name="IP Address">
+							127.0.0.16
+						</field>
+						<field
+							name="Port Number">
+							2103
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="18558c91f277f310"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetModuls)"
+					testcontainerid="d6bd13db-a93f-4de9-98e4-9d5ec3e6db52"
+					headertext="TestCase(addNetModuls)"
+					displayName="TestCase(addNetModuls)"
+					iteration="4"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="IO Module Name">
+							SIM-NET-LP4-M4
+						</field>
+						<field
+							name="IO Module Type">
+							ECOLOG-NET LP4
+						</field>
+						<field
+							name="IP Address">
+							127.0.0.16
+						</field>
+						<field
+							name="Port Number">
+							2104
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="2ms"
+					durationms="2"
+					type="test-case"
+					rid="8670b688e978b7a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetModuls)"
+					testcontainerid="d6bd13db-a93f-4de9-98e4-9d5ec3e6db52"
+					headertext="TestCase(addNetModuls)"
+					displayName="TestCase(addNetModuls)"
+					iteration="5"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="IO Module Name">
+							SIM-NET-LP4-M5
+						</field>
+						<field
+							name="IO Module Type">
+							ECOLOG-NET LP4
+						</field>
+						<field
+							name="IP Address">
+							127.0.0.16
+						</field>
+						<field
+							name="Port Number">
+							2105
+						</field>
+					</datarow>
+				</activity>
+			</activity>
+			<activity
+				result="Ignored"
+				duration="1ms"
+				durationms="1"
+				type="test-case"
+				rid="efde4efbaa700b4"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="1"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase(ioModuleVerification)"
+				testcontainerid="b1ad61e3-e4ae-4404-b8b4-fa763ec44b8a"
+				headertext="TestCase(ioModuleVerification)"
+				displayName="TestCase(ioModuleVerification)"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+			</activity>
+			<activity
+				result="Ignored"
+				duration="80ms"
+				durationms="80"
+				type="iteration-container"
+				rid="92fafc20e33a5c8"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="20"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="20"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="20"
+				totalmaintenancemodecount="0"
+				displayName="TestCase(addNetSensors)"
+				headertext="TestCase(addNetSensors)"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+				datasource="netSensorsConnector"
+				dataiterationcount="20">
+				<activity
+					result="Ignored"
+					duration="47ms"
+					durationms="47"
+					type="test-case"
+					rid="ce767d22900bac"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M1-1
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M1
+						</field>
+						<field
+							name="IO Module Channel">
+							1
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(-02 bis 02 &#176;C)
+						</field>
+						<field
+							name="Logging Interval">
+							2
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="2ms"
+					durationms="2"
+					type="test-case"
+					rid="9b5fbee043a0348"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M1-2
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M1
+						</field>
+						<field
+							name="IO Module Channel">
+							2
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(10 bis 20&#176;C  )
+						</field>
+						<field
+							name="Logging Interval">
+							2
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="2ms"
+					durationms="2"
+					type="test-case"
+					rid="c9a4b2c8d1da51e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="3"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M1-3
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M1
+						</field>
+						<field
+							name="IO Module Channel">
+							3
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(05 bis 15&#176;C  )
+						</field>
+						<field
+							name="Logging Interval">
+							2
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="2ms"
+					durationms="2"
+					type="test-case"
+					rid="103be92a4eb69e0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="4"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M1-4
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M1
+						</field>
+						<field
+							name="IO Module Channel">
+							4
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="Logging Interval">
+							2
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="2f9d4b9aea1ab87c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="5"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M2-1
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M2
+						</field>
+						<field
+							name="IO Module Channel">
+							1
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="Logging Interval">
+							5
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="10451cb1946a0933"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="6"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M2-2
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M2
+						</field>
+						<field
+							name="IO Module Channel">
+							2
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="Logging Interval">
+							5
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="12274bbfee85db98"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="7"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M2-3
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M2
+						</field>
+						<field
+							name="IO Module Channel">
+							3
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="Logging Interval">
+							5
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="436888d7eaaf6fd"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="8"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M2-4
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M2
+						</field>
+						<field
+							name="IO Module Channel">
+							4
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="Logging Interval">
+							5
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="581217af5fd615c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="9"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M3-1
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M3
+						</field>
+						<field
+							name="IO Module Channel">
+							1
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(25 bis 40&#176;C  )
+						</field>
+						<field
+							name="Logging Interval">
+							1
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="1abf9db14d855d2e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="10"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M3-2
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M3
+						</field>
+						<field
+							name="IO Module Channel">
+							2
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(03 bis 07&#176;C  )-1Min-Delay
+						</field>
+						<field
+							name="Logging Interval">
+							1
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="151328e47fb5e254"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="11"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M3-3
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M3
+						</field>
+						<field
+							name="IO Module Channel">
+							3
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(06 bis 16&#176;C  )-2Min-Delay
+						</field>
+						<field
+							name="Logging Interval">
+							1
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="2aa13ae78f1069ce"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="12"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M3-4
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M3
+						</field>
+						<field
+							name="IO Module Channel">
+							4
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(05 bis 15&#176;C  )-5Min-Delay
+						</field>
+						<field
+							name="Logging Interval">
+							1
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="1f059f922ee871c6"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="13"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M4-1
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M4
+						</field>
+						<field
+							name="IO Module Channel">
+							1
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="Logging Interval">
+							6
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-06-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="2e42bfd6b2a65ac"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="14"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M4-2
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M4
+						</field>
+						<field
+							name="IO Module Channel">
+							2
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="Logging Interval">
+							6
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-06-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="1edaa37bbbb91926"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="15"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M4-3
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M4
+						</field>
+						<field
+							name="IO Module Channel">
+							3
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(-02 bis 02 &#176;C)
+						</field>
+						<field
+							name="Logging Interval">
+							6
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-06-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="18a308937281323e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="16"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M4-4
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M4
+						</field>
+						<field
+							name="IO Module Channel">
+							4
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(10 bis 20&#176;C  )
+						</field>
+						<field
+							name="Logging Interval">
+							6
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-06-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="13fb2079f70b5d6"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="17"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M5-1
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M5
+						</field>
+						<field
+							name="IO Module Channel">
+							1
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(05 bis 15&#176;C  )
+						</field>
+						<field
+							name="Logging Interval">
+							10
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-10-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="69c0d9dbf4c8a8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="18"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M5-2
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M5
+						</field>
+						<field
+							name="IO Module Channel">
+							2
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="Logging Interval">
+							10
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-10-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="132f7c7967a7aa87"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="19"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M5-3
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M5
+						</field>
+						<field
+							name="IO Module Channel">
+							3
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="Logging Interval">
+							10
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-10-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="39841a616160320"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="20"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M5-4
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M5
+						</field>
+						<field
+							name="IO Module Channel">
+							4
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="Logging Interval">
+							10
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-10-Min
+						</field>
+					</datarow>
+				</activity>
+			</activity>
+			<activity
+				result="Ignored"
+				duration="57ms"
+				durationms="57"
+				type="iteration-container"
+				rid="100cdbbe912e5ba"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="12"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="12"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="12"
+				totalmaintenancemodecount="0"
+				displayName="TestCase(addProSensors)"
+				headertext="TestCase(addProSensors)"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+				datasource="ProSensorConnector"
+				dataiterationcount="12">
+				<activity
+					result="Ignored"
+					duration="37ms"
+					durationms="37"
+					type="test-case"
+					rid="21bed663b7c0cc38"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0101-4PT-CH1
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(-02 bis 02 &#176;C)
+						</field>
+						<field
+							name="IO Module Channel">
+							0101 4PT 1
+						</field>
+						<field
+							name="Logging Interval">
+							1 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="b15d2da73020a88"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0101-4PT-CH2
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="IO Module Channel">
+							0101 4PT 2
+						</field>
+						<field
+							name="Logging Interval">
+							1 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="9c64d46a967bb90"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="3"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0101-4PT-CH3
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="IO Module Channel">
+							0101 4PT 3
+						</field>
+						<field
+							name="Logging Interval">
+							1 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="9e041f2ece6c0c3"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="4"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0101-4PT-CH4
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(10 bis 20&#176;C  )
+						</field>
+						<field
+							name="IO Module Channel">
+							0101 4PT 4
+						</field>
+						<field
+							name="Logging Interval">
+							1 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="14a043bd86111c0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="5"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0102-4MA-CH1
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-12
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="IO Module Channel">
+							0102 4MA 1
+						</field>
+						<field
+							name="Logging Interval">
+							5 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="16b7048dffcfe436"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="6"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0102-4MA-CH2
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-12
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(15 bis 25rH% )
+						</field>
+						<field
+							name="IO Module Channel">
+							0102 4MA 2
+						</field>
+						<field
+							name="Logging Interval">
+							5 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="1e84be9cc1f01be7"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="7"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0102-4MA-CH3
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-12
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(25 bis 40&#176;C  )
+						</field>
+						<field
+							name="IO Module Channel">
+							0102 4MA 3
+						</field>
+						<field
+							name="Logging Interval">
+							5 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="7c130a731b9cb6c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="8"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0102-4MA-CH4
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-12
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="IO Module Channel">
+							0102 4MA 4
+						</field>
+						<field
+							name="Logging Interval">
+							5 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="61c1b3dfbe18b35"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="9"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0105-2TH-CH1.1
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-13
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							n/a
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 2TH 1.1
+						</field>
+						<field
+							name="Logging Interval">
+							2 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="82b4816e2465ccd"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="10"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0105-2TH-CH1.2
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-13
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(0 bis 05rH% )
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 2TH 1.2
+						</field>
+						<field
+							name="Logging Interval">
+							2 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="25e12b6398f9450"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="11"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0105-2TH-CH2.1
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-13
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(05 bis 15&#176;C  )
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 2TH 2.1
+						</field>
+						<field
+							name="Logging Interval">
+							2 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="ffd77dcd2bb13ba"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addProSensors)"
+					testcontainerid="631ed4f7-58a7-4dc9-af77-01cceeaca24f"
+					headertext="TestCase(addProSensors)"
+					displayName="TestCase(addProSensors)"
+					iteration="12"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							S-0105-2TH-CH2.2
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-13
+						</field>
+						<field
+							name="Alarm Limit Profile">
+							AL-(15 bis 25rH% )
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 2TH 2.2
+						</field>
+						<field
+							name="Logging Interval">
+							2 Minute(s)
+						</field>
+						<field
+							name="Sensor Groups">
+							Pro-02-Min
+						</field>
+					</datarow>
+				</activity>
+			</activity>
+			<activity
+				result="Ignored"
+				duration="70ms"
+				durationms="70"
+				type="iteration-container"
+				rid="6b39ed4c16ff880"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="12"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="12"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="12"
+				totalmaintenancemodecount="0"
+				displayName="TestCase(addDigitalInputs)"
+				headertext="TestCase(addDigitalInputs)"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+				datasource="digitalInputConnector"
+				dataiterationcount="12">
+				<activity
+					result="Ignored"
+					duration="48ms"
+					durationms="48"
+					type="test-case"
+					rid="11484bca24d61e04"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-1-Standard-1.1
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 1.1
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="2a9d5f188515e430"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-1-TimeMonitor-1.2
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 1.2
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="5bd9b968441a21f"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="3"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-1-EdgeCounter-1.3
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 1.3
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="bb5f4579f80ea38"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="4"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-2-Standard-1.2
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 2.1
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="33c11b29f4111d8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="5"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-2-TimeMonitor-1.3
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 2.2
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="11df9c0fee23d59e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="6"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-2-EdgeCounter-1.4
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 2.3
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="71805c15ed03699"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="7"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-3-Standard-1.2
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 3.1
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="296c9eb69b6836da"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="8"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-3-TimeMonitor-1.3
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 3.2
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="2ms"
+					durationms="2"
+					type="test-case"
+					rid="911de272944bf3a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="9"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-3-EdgeCounter-1.4
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 3.3
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="51378bf3937fa20"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="10"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-4-Standard-1.2
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 4.1
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="d1a69629c3a34f8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="11"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-4-TimeMonitor-1.3
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 4.2
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="29a288bfd35dcee"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="12"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-4-EdgeCounter-1.4
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+							0105 4DI 4.3
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI-01-Min
+						</field>
+					</datarow>
+				</activity>
+			</activity>
+			<activity
+				result="Ignored"
+				duration="0ms"
+				durationms="0"
+				type="test-case"
+				rid="6033c2adcf8a254"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="1"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase(Verification2)"
+				testcontainerid="b62ddb76-e096-4398-bc9f-5540aaaed248"
+				headertext="TestCase(Verification2)"
+				displayName="TestCase(Verification2)"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+			</activity>
+			<activity
+				result="Ignored"
+				duration="0ms"
+				durationms="0"
+				type="test-case"
+				rid="f845805f7bb95b0"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="1"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase(logoutUser)"
+				testcontainerid="36bd56a1-3673-404b-a34c-e019391ed6f0"
+				headertext="TestCase(logoutUser)"
+				displayName="TestCase(logoutUser)"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+			</activity>
+			<activity
+				result="Ignored"
+				duration="0ms"
+				durationms="0"
+				type="test-case"
+				rid="2074d6a8333987b2"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="1"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase(logoutMONITOR)"
+				testcontainerid="69a87783-358a-43ef-9383-b8e82e4dd322"
+				headertext="TestCase(logoutMONITOR)"
+				displayName="TestCase(logoutMONITOR)"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+			</activity>
+		</activity>
+	</activity>
+</report>

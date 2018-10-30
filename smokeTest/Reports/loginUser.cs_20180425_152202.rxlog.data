@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="168d3e13c604cd6"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="25.04.2018 15:22:03"
+		timestampiso="2018-04-25T13:22:03"
+		endtime="25.04.2018 15:22:23"
+		timeoutfactor="1"
+		module="loginUser">
+		<detail>
+			loginUser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.308"
+			timeRelativeToTestModuleStartTime="00:06.308"
+			timeWallClock="15:22:09"
+			time="00:06.308"
+			level="Info"
+			category="Screenshot"
+			errimg=".\loginUse_1b6fc96f_rxlog.jpg"
+			errthumb=".\loginUse_1b6fc96f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="61"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.910"
+			timeRelativeToTestModuleStartTime="00:13.910"
+			timeWallClock="15:22:17"
+			time="00:13.910"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Edit' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@page='']//div[#'main-content-left']//nav/?/?/div/button[2]/span[@innertext='Edit        ']"
+				fullname="userRepo.WebDocument192168250180.MainContentLeft.Edit"
+				id="702d027d7a6744e398d16dc686ffa38f"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="89"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.994"
+			timeRelativeToTestModuleStartTime="00:13.994"
+			timeWallClock="15:22:17"
+			time="00:13.994"
+			level="Info"
+			category="Screenshot"
+			errimg=".\loginUse_1b70c96f_rxlog.jpg"
+			errthumb=".\loginUse_1b70c96f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.353"
+			timeRelativeToTestModuleStartTime="00:14.353"
+			timeWallClock="15:22:18"
+			time="00:14.353"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Add' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@page='']//div[#'main-content-left']//nav/?/?/div/button[3]/span[@innertext='Add        ']"
+				fullname="userRepo.WebDocument192168250180.MainContentLeft.Add"
+				id="49907abfa2554303a5475eade9b502ae"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="92"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.427"
+			timeRelativeToTestModuleStartTime="00:14.427"
+			timeWallClock="15:22:18"
+			time="00:14.427"
+			level="Info"
+			category="Screenshot"
+			errimg=".\loginUse_1b71c96f_rxlog.jpg"
+			errthumb=".\loginUse_1b71c96f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.759"
+			timeRelativeToTestModuleStartTime="00:14.759"
+			timeWallClock="15:22:18"
+			time="00:14.759"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Report' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@page='']//div[#'main-content-left']//nav/?/?/div/button[4]/span[@innertext='Report']"
+				fullname="userRepo.WebDocument192168250180.MainContentLeft.Report"
+				id="c9a109547d6c4ea5945a859b32d0af50"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="95"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.827"
+			timeRelativeToTestModuleStartTime="00:14.827"
+			timeWallClock="15:22:18"
+			time="00:14.827"
+			level="Info"
+			category="Screenshot"
+			errimg=".\loginUse_1b72c96f_rxlog.jpg"
+			errthumb=".\loginUse_1b72c96f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.199"
+			timeRelativeToTestModuleStartTime="00:15.199"
+			timeWallClock="15:22:18"
+			time="00:15.199"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Delete' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@page='']//div[#'main-content-left']//nav/?/?/div/button[1]/span[@innertext='Delete        ']"
+				fullname="userRepo.WebDocument192168250180.MainContentLeft.Delete"
+				id="30d31451e5ea4b6fb9d7395fac95cce5"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="98"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.279"
+			timeRelativeToTestModuleStartTime="00:15.279"
+			timeWallClock="15:22:18"
+			time="00:15.279"
+			level="Info"
+			category="Screenshot"
+			errimg=".\loginUse_1b6bc96f_rxlog.jpg"
+			errthumb=".\loginUse_1b6bc96f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.952"
+			timeRelativeToTestModuleStartTime="00:16.952"
+			timeWallClock="15:22:20"
+			time="00:16.952"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Groups' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@page='']//div[#'side-content']/div[@title='Administration']//a[@href='#/settings/groups']/span[@innertext='Groups']"
+				fullname="userRepo.WebDocument192168250180.Groups"
+				id="f222a65698bc4adab9e54e04747c5367"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="132"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.152"
+			timeRelativeToTestModuleStartTime="00:20.152"
+			timeWallClock="15:22:23"
+			time="00:20.152"
+			level="Success"
+			category="Validation">
+			<message>
+				Element '{SpanTag:Edit}' does exist.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="152"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.214"
+			timeRelativeToTestModuleStartTime="00:20.214"
+			timeWallClock="15:22:23"
+			time="00:20.214"
+			level="Info"
+			category="Screenshot"
+			errimg=".\loginUse_1b6cc96f_rxlog.jpg"
+			errthumb=".\loginUse_1b6cc96f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="153"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.249"
+			timeRelativeToTestModuleStartTime="00:20.249"
+			timeWallClock="15:22:23"
+			time="00:20.249"
+			level="Success"
+			category="Validation">
+			<message>
+				Element '{SpanTag:Delete}' does exist.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="155"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.315"
+			timeRelativeToTestModuleStartTime="00:20.315"
+			timeWallClock="15:22:23"
+			time="00:20.315"
+			level="Info"
+			category="Screenshot"
+			errimg=".\loginUse_1b6dc96f_rxlog.jpg"
+			errthumb=".\loginUse_1b6dc96f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginUser.cs"
+				codeline="156"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

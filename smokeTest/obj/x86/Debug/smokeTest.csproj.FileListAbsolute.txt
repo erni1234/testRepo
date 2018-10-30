@@ -1,0 +1,13 @@
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\bin\Debug\smokeTest.rxtmg
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\bin\Debug\smokeTest.rxtst
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\bin\Debug\smokeTest.exe.config
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\bin\Debug\smokeTest.exe
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\bin\Debug\smokeTest.pdb
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\bin\Debug\Ranorex.PDF.exe
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\obj\x86\Debug\smokeTest.csprojResolveAssemblyReference.cache
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\obj\x86\Debug\smokeTest.exe
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\obj\x86\Debug\smokeTest.pdb
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\bin\Debug\RepositoryImages\smokeTestRepository990591fb.rximgres
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\bin\Debug\Ranorex.Core.Resolver.dll

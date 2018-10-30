@@ -1,0 +1,26 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="SensorCalibrationAnalysis.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="IOmoduleVerification.cs" />
+    <Element value="RetireSensor.cs" />
+    <Element value="logIn.cs" />
+    <Element value="DeleteSensor.cs" />
+    <Element value="SensorCalibrationAnalysis.cs" />
+    <Element value="SensorActivation.cs" />
+    <Element value="DeviationVerification.cs" />
+    <Element value="smokeTest.rxtst" />
+    <Element value="DataExportProfilePDF.rxrec" />
+    <Element value="ExportScheduleTasks.rxrec" />
+    <Element value="smokeTestRepository.rxrep" />
+    <Element value="allFields.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

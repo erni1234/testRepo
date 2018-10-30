@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21fb2a0ff725f2c0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="26.07.2018 12:57:46"
+		timestampiso="2018-07-26T10:57:46"
+		endtime="26.07.2018 12:58:02"
+		timeoutfactor="1"
+		module="allFields">
+		<detail>
+			allFields
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.567"
+			timeRelativeToTestModuleStartTime="00:02.568"
+			timeWallClock="12:57:49"
+			time="00:02.567"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.ContentLeft.Pro01Min' at 77;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentLeft']/?/?/ul/?/?/a[@innertext='Pro-01-Min']"
+				itempath="?/?/ul/?/?/a[@innertext='Pro-01-Min']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentLeft.Pro01Min"
+				id="d82b34a4ff2149b89bc69dcf7af0d87c"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\allFields.cs"
+				codeline="82"
+				itemindex="180"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.437"
+			timeRelativeToTestModuleStartTime="00:07.438"
+			timeWallClock="12:57:54"
+			time="00:07.437"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Sensors.Checkbox2' at 14;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//table[#'sensors']/tbody/tr[1]/td[1]/input[@type='checkbox']"
+				itempath="tbody/tr[1]/td[1]/input[@type='checkbox']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Sensors.Checkbox2"
+				id="a9f8944d78524a56a7b8c13bc039d3c7"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\allFields.cs"
+				codeline="86"
+				itemindex="181"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.170"
+			timeRelativeToTestModuleStartTime="00:09.171"
+			timeWallClock="12:57:55"
+			time="00:09.170"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.ContentCenter.ButtonTagCalibrate' at 64;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				itempath="?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagCalibrate"
+				id="c5118c38224a44398c7b2894ce95ce8f"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\allFields.cs"
+				codeline="90"
+				itemindex="182"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.526"
+			timeRelativeToTestModuleStartTime="00:10.527"
+			timeWallClock="12:57:57"
+			time="00:10.526"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Sensors.S01014PTCH1' at 63;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//table[#'sensors']//td[@innertext='S-0101-4PT-CH1']"
+				itempath=".//td[@innertext='S-0101-4PT-CH1']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Sensors.S01014PTCH1"
+				id="26cf2604489547bebd74f8ca869a0fe9"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\allFields.cs"
+				codeline="94"
+				itemindex="184"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.917"
+			timeRelativeToTestModuleStartTime="00:13.918"
+			timeWallClock="12:58:00"
+			time="00:13.917"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.ContentRight.ButtonTagReport' at 21;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentRight']//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Report\ ']"
+				itempath=".//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Report\ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentRight.ButtonTagReport"
+				id="7c6c22a9910542a48caa5b64a3b56880"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\allFields.cs"
+				codeline="98"
+				itemindex="187"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

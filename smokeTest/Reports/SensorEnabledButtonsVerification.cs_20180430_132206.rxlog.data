@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7ebed7c69a5fb18"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="30.04.2018 13:22:12"
+		timestampiso="2018-04-30T11:22:12"
+		endtime="30.04.2018 13:22:45"
+		timeoutfactor="1"
+		module="SensorEnabledButtonsVerification">
+		<detail>
+			SensorEnabledButtonsVerification
+		</detail>
+		<errormessage>
+			Failed to find item 'smokeTestRepository.ElproMONITORSensors.ContentRight.Report'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.175"
+			timeRelativeToTestModuleStartTime="00:33.175"
+			timeWallClock="13:22:45"
+			time="00:33.175"
+			level="Error"
+			category="Module"
+			errimg=".\SensorEn_575edb26_13046981_trace.jpg"
+			errthumb=".\SensorEn_575edb26_13046981_trace_thumb.jpg">
+			<message>
+				Failed to find item 'smokeTestRepository.ElproMONITORSensors.ContentRight.Report'.<br/>No element found for path '/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Report']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   bei Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   bei smokeTest.smokeTestRepositoryFolders.ContentRightFolder.get_Report() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\smokeTestRepository.cs:Zeile 3166.&#13;&#10;   bei smokeTest.SensorEnabledButtonsVerification.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs:Zeile 67.&#13;&#10;   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="67"
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Report']"
+				itempath="?/?/button[@innertext='Report']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.Report"
+				id="7840f09a18fc497fabff9d6e5a009417"
+				timeout="90000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

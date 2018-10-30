@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3186a9dc82734a3"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="08.03.2018 15:59:26"
+		timestampiso="2018-03-08T14:59:26"
+		endtime="08.03.2018 16:00:03"
+		timeoutfactor="1"
+		module="LoginEMON">
+		<detail>
+			LoginEMON
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.429"
+			timeRelativeToTestModuleStartTime="00:00.429"
+			timeWallClock="15:59:26"
+			time="00:00.429"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>UserName, Password
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.443"
+			timeRelativeToTestModuleStartTime="00:00.443"
+			timeWallClock="15:59:26"
+			time="00:00.443"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.ElproMONITORLoginInternetExplorer' at 92;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Ausgeführte Anwendungen']/button[@accessiblename~'^elproMONITOR\ -\ Login\ -\ In']"
+				fullname="smokeTestRepository.Explorer.ElproMONITORLoginInternetExplorer"
+				id="2ef87a0d44a849afa571217933190340"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\LoginEMON.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.799"
+			timeRelativeToTestModuleStartTime="00:01.799"
+			timeWallClock="15:59:27"
+			time="00:01.799"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$UserName' with focus on 'ElproMONITORLogin.UserName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.178']//input[#'UserName']"
+				fullname="smokeTestRepository.ElproMONITORLogin.UserName"
+				id="f094aa29c10f4d7eae049f26e573a9b3"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\LoginEMON.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.343"
+			timeRelativeToTestModuleStartTime="00:03.343"
+			timeWallClock="15:59:29"
+			time="00:03.343"
+			level="Info"
+			category="Keyboard"
+			errimg=".\LoginEMO_ecedccb3_1f14ec1f_trace.jpg"
+			errthumb=".\LoginEMO_ecedccb3_1f14ec1f_trace_thumb.jpg">
+			<message>
+				Key sequence from variable '$Password' with focus on 'ElproMONITORLogin.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.178']//input[#'Password']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Password"
+				id="7cad7bb45cc54194a010df57b6f2d2c3"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\LoginEMON.cs"
+				codeline="120"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.045"
+			timeRelativeToTestModuleStartTime="00:05.045"
+			timeWallClock="15:59:31"
+			time="00:05.045"
+			level="Info"
+			category="Mouse"
+			errimg=".\LoginEMO_ecedccb3_d76c0e74_trace.jpg"
+			errthumb=".\LoginEMO_ecedccb3_d76c0e74_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Submit' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.178']//div[#'form']/form[@action='/Account/Login']/?/?/section/?/?/ol/?/?/input[@type='submit']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Submit"
+				id="bc3541f173834cbd90d0ba6e2a2f9a14"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\LoginEMON.cs"
+				codeline="124"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.711"
+			timeRelativeToTestModuleStartTime="00:37.711"
+			timeWallClock="16:00:03"
+			time="00:37.711"
+			level="Error"
+			category="User"
+			errimg=".\LoginEMO_ecedccb3_00aa65df_trace.jpg"
+			errthumb=".\LoginEMO_ecedccb3_00aa65df_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

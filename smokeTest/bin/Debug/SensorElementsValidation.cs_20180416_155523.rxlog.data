@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5d9b39048d1e702"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="16.04.2018 15:55:25"
+		timestampiso="2018-04-16T13:55:25"
+		endtime="16.04.2018 15:55:36"
+		timeoutfactor="1"
+		module="SensorElementsValidation">
+		<detail>
+			SensorElementsValidation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.411"
+			timeRelativeToTestModuleStartTime="00:07.411"
+			timeWallClock="15:55:32"
+			time="00:07.411"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_5d2bb19b_rxlog.jpg"
+			errthumb=".\SensorEl_5d2bb19b_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="73"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.878"
+			timeRelativeToTestModuleStartTime="00:07.878"
+			timeWallClock="15:55:33"
+			time="00:07.878"
+			level="Info"
+			category="User">
+			<message>
+				True
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="74"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.409"
+			timeRelativeToTestModuleStartTime="00:08.409"
+			timeWallClock="15:55:33"
+			time="00:08.409"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_5d2bb19c_rxlog.jpg"
+			errthumb=".\SensorEl_5d2bb19c_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.958"
+			timeRelativeToTestModuleStartTime="00:08.958"
+			timeWallClock="15:55:34"
+			time="00:08.958"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_5d2bb19d_rxlog.jpg"
+			errthumb=".\SensorEl_5d2bb19d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.412"
+			timeRelativeToTestModuleStartTime="00:09.412"
+			timeWallClock="15:55:34"
+			time="00:09.412"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'AddNewSensor' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Add new Sensor']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.AddNewSensor"
+				id="52fea247a6ee4180915ee3801253d7fb"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="87"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.975"
+			timeRelativeToTestModuleStartTime="00:09.975"
+			timeWallClock="15:55:35"
+			time="00:09.975"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_5d2bb19e_rxlog.jpg"
+			errthumb=".\SensorEl_5d2bb19e_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="88"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.465"
+			timeRelativeToTestModuleStartTime="00:10.465"
+			timeWallClock="15:55:35"
+			time="00:10.465"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Close' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Close']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.Close"
+				id="50067c2c832947eeb78411d72b8c8579"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="91"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.026"
+			timeRelativeToTestModuleStartTime="00:11.026"
+			timeWallClock="15:55:36"
+			time="00:11.026"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_5d2bb197_rxlog.jpg"
+			errthumb=".\SensorEl_5d2bb197_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="92"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.500"
+			timeRelativeToTestModuleStartTime="00:11.500"
+			timeWallClock="15:55:36"
+			time="00:11.500"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'smokeTestRepository.ElproMONITORSensors.ContentRight.Close' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Close']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.Close"
+				id="50067c2c832947eeb78411d72b8c8579"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="94"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.502"
+			timeRelativeToTestModuleStartTime="00:11.502"
+			timeWallClock="15:55:36"
+			time="00:11.502"
+			level="Info"
+			category="User">
+			<message>
+				The following Buttons are enabled: REPORT,RETIRE,EDIT,CLOSE and ADD-NEW-DIGITIALINPUT
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

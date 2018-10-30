@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f891ab50179c488"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="08.03.2018 15:25:27"
+		timestampiso="2018-03-08T14:25:27"
+		endtime="08.03.2018 15:25:37"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.424"
+			timeRelativeToTestModuleStartTime="00:00.424"
+			timeWallClock="15:25:27"
+			time="00:00.424"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_1f1617c5_a0c5615d_trace.jpg"
+			errthumb=".\Recordin_1f1617c5_a0c5615d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer.ElproMONITORLoginInternetExplorer' at 92;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Ausgeführte Anwendungen']/button[@accessiblename~'^elproMONITOR\ -\ Login\ -\ In']"
+				fullname="smokeTestRepository.Explorer.ElproMONITORLoginInternetExplorer"
+				id="2ef87a0d44a849afa571217933190340"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.749"
+			timeRelativeToTestModuleStartTime="00:10.749"
+			timeWallClock="15:25:37"
+			time="00:10.749"
+			level="Error"
+			category="User"
+			errimg=".\Recordin_1f1617c5_27f61baa_trace.jpg"
+			errthumb=".\Recordin_1f1617c5_27f61baa_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

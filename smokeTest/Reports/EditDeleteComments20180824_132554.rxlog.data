@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="88db6bf67deab8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="24.08.2018 13:26:01"
+		timestampiso="2018-08-24T11:26:01"
+		endtime="24.08.2018 13:26:27"
+		timeoutfactor="1"
+		module="EditDeleteComments">
+		<detail>
+			EditDeleteComments
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.655"
+			timeRelativeToTestModuleStartTime="00:02.656"
+			timeWallClock="13:26:03"
+			time="00:02.655"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsIndex' at 102;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//a[#'Nav_DeviceSettings_Index']"
+				itempath=".//a[#'Nav_DeviceSettings_Index']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+				id="2ff9e083db334af6971aed372384639e"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.451"
+			timeRelativeToTestModuleStartTime="00:05.452"
+			timeWallClock="13:26:06"
+			time="00:05.451"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.NavApplicationSettingsCommentTemplates' at 81;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//a[#'Nav_ApplicationSettings_CommentTemplates']"
+				itempath=".//a[#'Nav_ApplicationSettings_CommentTemplates']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavApplicationSettingsCommentTemplates"
+				id="6902fce275eb432a99c03c3f7ebe55ba"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.342"
+			timeRelativeToTestModuleStartTime="00:07.343"
+			timeWallClock="13:26:08"
+			time="00:07.342"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.TdTagAT' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//table[#'DataTables_Table_0']/tbody/tr[1]/td[3]"
+				itempath=".//table[#'DataTables_Table_0']/tbody/tr[1]/td[3]"
+				fullname="smokeTestRepository.ElproMONITORLogin.TdTagAT"
+				id="4f98175a6d5c4937be2225ae95fc235e"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.722"
+			timeRelativeToTestModuleStartTime="00:10.723"
+			timeWallClock="13:26:11"
+			time="00:10.722"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.ContentRight.Edit' at 29;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentRight']/?/?/button[@innertext='Edit']"
+				itempath="?/?/button[@innertext='Edit']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentRight.Edit"
+				id="1bc4e8742db14e25807094b9e305ee73"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.550"
+			timeRelativeToTestModuleStartTime="00:12.551"
+			timeWallClock="13:26:13"
+			time="00:12.550"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Text' at 291;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//textarea[#'Text']"
+				itempath=".//textarea[#'Text']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Text"
+				id="0539474e4af34a3e900338867b737a17"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.080"
+			timeRelativeToTestModuleStartTime="00:14.081"
+			timeWallClock="13:26:15"
+			time="00:14.080"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back}{Back}{Back}{Back}{Back}{Back}{Back}{Back}' with focus on 'ElproMONITORLogin.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//textarea[#'Text']"
+				itempath=".//textarea[#'Text']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Text"
+				id="0539474e4af34a3e900338867b737a17"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.538"
+			timeRelativeToTestModuleStartTime="00:15.539"
+			timeWallClock="13:26:16"
+			time="00:15.538"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '' with focus on 'ElproMONITORLogin.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//textarea[#'Text']"
+				itempath=".//textarea[#'Text']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Text"
+				id="0539474e4af34a3e900338867b737a17"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.227"
+			timeRelativeToTestModuleStartTime="00:16.228"
+			timeWallClock="13:26:17"
+			time="00:16.227"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Save' at 13;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentRight']/?/?/button[@innertext='Save']"
+				itempath=".//div[#'contentRight']/?/?/button[@innertext='Save']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Save"
+				id="8e0a39eab651419abce6e39bb7864abf"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.079"
+			timeRelativeToTestModuleStartTime="00:18.080"
+			timeWallClock="13:26:19"
+			time="00:18.079"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Close' at 33;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentRight']/?/?/button[@innertext='Close']"
+				itempath=".//div[#'contentRight']/?/?/button[@innertext='Close']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Close"
+				id="eb8d293ff72d4f98b303a61b903f723d"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.063"
+			timeRelativeToTestModuleStartTime="00:20.064"
+			timeWallClock="13:26:21"
+			time="00:20.063"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.TdTagAT' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//table[#'DataTables_Table_0']/tbody/tr[1]/td[3]"
+				itempath=".//table[#'DataTables_Table_0']/tbody/tr[1]/td[3]"
+				fullname="smokeTestRepository.ElproMONITORLogin.TdTagAT"
+				id="4f98175a6d5c4937be2225ae95fc235e"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.590"
+			timeRelativeToTestModuleStartTime="00:23.591"
+			timeWallClock="13:26:24"
+			time="00:23.590"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORCommentTemplates.Delete' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Comment\ Te' and @page='45']//div[#'contentRight']/?/?/button[@innertext='Delete']"
+				itempath=".//div[#'contentRight']/?/?/button[@innertext='Delete']"
+				fullname="smokeTestRepository.ElproMONITORCommentTemplates.Delete"
+				id="d396536c206a460284a0c381b3581b42"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.815"
+			timeRelativeToTestModuleStartTime="00:25.816"
+			timeWallClock="13:26:26"
+			time="00:25.815"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MeldungVonWebseite.ButtonOK' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Meldung von Webseite']/button[@text='OK']"
+				itempath="button[@text='OK']"
+				fullname="smokeTestRepository.MeldungVonWebseite.ButtonOK"
+				id="101a95a0ee5a464981ab07ebca0ffc09"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

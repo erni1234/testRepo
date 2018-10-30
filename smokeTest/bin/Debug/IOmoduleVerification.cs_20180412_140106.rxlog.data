@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="36681c426808440"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="12.04.2018 14:01:08"
+		timestampiso="2018-04-12T12:01:08"
+		endtime="12.04.2018 14:01:19"
+		timeoutfactor="1"
+		module="IOmoduleVerification">
+		<detail>
+			IOmoduleVerification
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.891"
+			timeRelativeToTestModuleStartTime="00:06.891"
+			timeWallClock="14:01:15"
+			time="00:06.891"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Report' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Report']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.Report"
+				id="e1be08644dae4384941aa8e7bf5e3d24"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="64"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.635"
+			timeRelativeToTestModuleStartTime="00:07.635"
+			timeWallClock="14:01:15"
+			time="00:07.635"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_9a424939_rxlog.jpg"
+			errthumb=".\IOmodule_9a424939_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.315"
+			timeRelativeToTestModuleStartTime="00:08.315"
+			timeWallClock="14:01:16"
+			time="00:08.315"
+			level="Info"
+			category="User">
+			<message>
+				True
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="66"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.003"
+			timeRelativeToTestModuleStartTime="00:09.003"
+			timeWallClock="14:01:17"
+			time="00:09.003"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Delete' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Delete']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.Delete"
+				id="5793f797fbce4fa7aaf06de48640c9ae"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="68"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.736"
+			timeRelativeToTestModuleStartTime="00:09.736"
+			timeWallClock="14:01:17"
+			time="00:09.736"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_9a42493a_rxlog.jpg"
+			errthumb=".\IOmodule_9a42493a_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="69"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.886"
+			timeRelativeToTestModuleStartTime="00:09.886"
+			timeWallClock="14:01:18"
+			time="00:09.886"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'smokeTestRepository.ElproMONITORLogin.ContentCenter.Delete' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Delete']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.Delete"
+				id="5793f797fbce4fa7aaf06de48640c9ae"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="71"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.332"
+			timeRelativeToTestModuleStartTime="00:10.332"
+			timeWallClock="14:01:18"
+			time="00:10.332"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Edit' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Edit']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.Edit"
+				id="fc6a354d8fbd41358b3516d8f8571126"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="77"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.737"
+			timeRelativeToTestModuleStartTime="00:10.737"
+			timeWallClock="14:01:18"
+			time="00:10.737"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'AddNewIOModule' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Add new I/O Module']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewIOModule"
+				id="27a87b1fa7d84e6da6eb539960bf0bb2"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="82"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.204"
+			timeRelativeToTestModuleStartTime="00:11.204"
+			timeWallClock="14:01:19"
+			time="00:11.204"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_9a424937_rxlog.jpg"
+			errthumb=".\IOmodule_9a424937_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

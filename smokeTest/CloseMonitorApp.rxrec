@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fd8a8a2d-f6bc-4ca1-9146-56f8f58d767f"
+mode="Global"
+rxversion="8.1">
+	<name>
+		CloseMonitorApp
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseMonitorApp"
+	namespace="smokeTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="d8ad3eae-e71a-4ed0-85a8-45bdd87e8eb6">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="25c61f80-d40a-4ba3-a185-60040e21e901"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='192.168.250.188']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="1922bd5c-23a7-4451-b62b-69ad8c2542c9"
+	name="smokeTestRepository"
+	relativepath="smokeTestRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="smokeTestRepository"
+		namespace="smokeTest">
+		</codegen>
+		<rootfolder
+		id="990591fb-ca06-4d28-bbc8-644ddea7748e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseMonitorApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

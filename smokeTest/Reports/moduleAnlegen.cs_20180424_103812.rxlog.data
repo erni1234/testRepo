@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9d59247bc7fca62"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="24.04.2018 10:38:14"
+		timestampiso="2018-04-24T08:38:14"
+		endtime="24.04.2018 10:38:23"
+		timeoutfactor="1"
+		module="moduleAnlegen">
+		<detail>
+			moduleAnlegen
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.584"
+			timeRelativeToTestModuleStartTime="00:08.584"
+			timeWallClock="10:38:23"
+			time="00:08.584"
+			level="Info"
+			category="Screenshot"
+			errimg=".\moduleAn_f170b94a_rxlog.jpg"
+			errthumb=".\moduleAn_f170b94a_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\moduleAnlegen.cs"
+				codeline="74"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

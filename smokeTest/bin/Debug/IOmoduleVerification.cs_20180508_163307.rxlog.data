@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2a83ca0eab470fbe"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="08.05.2018 16:33:14"
+		timestampiso="2018-05-08T14:33:14"
+		endtime="08.05.2018 16:34:00"
+		timeoutfactor="1"
+		module="IOmoduleVerification">
+		<detail>
+			IOmoduleVerification
+		</detail>
+		<errormessage>
+			Failed to find item 'smokeTestRepository.ElproMONITORLogin.ContentRight.Edit'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.538"
+			timeRelativeToTestModuleStartTime="00:46.539"
+			timeWallClock="16:34:00"
+			time="00:46.538"
+			level="Error"
+			category="Module"
+			errimg=".\IOmodule_c4804caf_f0b155ca_trace.jpg"
+			errthumb=".\IOmodule_c4804caf_f0b155ca_trace_thumb.jpg">
+			<message>
+				Failed to find item 'smokeTestRepository.ElproMONITORLogin.ContentRight.Edit'.<br/>No element found for path '/dom[@domain='192.168.250.182']//div[#'contentRight']/?/?/button[@innertext='Edit']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   bei Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   bei smokeTest.smokeTestRepositoryFolders.ContentRightFolder.get_Edit() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\smokeTestRepository.cs:Zeile 3711.&#13;&#10;   bei smokeTest.IOmoduleVerification.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs:Zeile 71.&#13;&#10;   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="71"
+				type="repoitem"
+				path="/dom[@domain='192.168.250.182']//div[#'contentRight']/?/?/button[@innertext='Edit']"
+				itempath="?/?/button[@innertext='Edit']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentRight.Edit"
+				id="1bc4e8742db14e25807094b9e305ee73"
+				timeout="90000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

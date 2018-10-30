@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="27.85s"
+		durationms="27852"
+		type="root"
+		rid="220277082f7e292"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="24.07.2018 16:36:14"
+		timestampiso="2018-07-24T14:36:14"
+		endtime="24.07.2018 16:36:42"
+		timeoutfactor="1"
+		module="CalibrationAnalysis">
+		<detail>
+			CalibrationAnalysis
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.374"
+			timeRelativeToTestModuleStartTime="00:13.374"
+			timeWallClock="16:36:28"
+			time="00:13.374"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Calibrat_3a8548bf_rxlog.jpg"
+			errthumb=".\Calibrat_3a8548bf_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="69"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.461"
+			timeRelativeToTestModuleStartTime="00:13.461"
+			timeWallClock="16:36:28"
+			time="00:13.461"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Calibrat_af2048bf_rxlog.jpg"
+			errthumb=".\Calibrat_af2048bf_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="70"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.027"
+			timeRelativeToTestModuleStartTime="00:14.027"
+			timeWallClock="16:36:28"
+			time="00:14.027"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagCalibrate' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.181']//div[#'contentCenter']/?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				itempath="?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagCalibrate"
+				id="c5118c38224a44398c7b2894ce95ce8f"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.953"
+			timeRelativeToTestModuleStartTime="00:19.953"
+			timeWallClock="16:36:34"
+			time="00:19.953"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{TdTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CalibrationAnalysis.cs"
+				codeline="77"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.852"
+			timeRelativeToTestModuleStartTime="00:27.852"
+			timeWallClock="16:36:42"
+			time="00:27.852"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

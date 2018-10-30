@@ -1,0 +1,1314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="86f79dee5f3841c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="16"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="16"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="13.04.2018 09:56:54"
+		timestampiso="2018-04-13T07:56:54"
+		endtime="13.04.2018 09:57:17"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="22.43s"
+			durationms="22428"
+			type="test-suite"
+			rid="2382d35be9ea4f06"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="16"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="16"
+			testsuitename="smokeTest"
+			headertext="smokeTest"
+			runconfigname="SmokeTest_TR_2"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="21.6s"
+				durationms="21596"
+				type="iteration-container"
+				rid="974a34e267dfefc"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="16"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="16"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="16"
+				displayName="TestCase(addNetSensors)"
+				headertext="TestCase(addNetSensors)"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+				datasource="netSensorsConnector"
+				dataiterationcount="17">
+				<activity
+					result="Failed"
+					duration="21.58s"
+					durationms="21575"
+					type="test-case"
+					rid="3a3a2a75cea7a3e9"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M1-4
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M1
+						</field>
+						<field
+							name="IO Module Channel">
+							4
+						</field>
+						<field
+							name="Logging Interval">
+							1
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-01-Min
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="21.51s"
+						durationms="21512"
+						type="test-module"
+						rid="cc157aff8d6cebc"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="AddNetSensors"
+						displayName="AddNetSensors"
+						moduleid="3a9f86ff-65c8-4664-9375-8cc2833cdb4b"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="SensorName"
+								value="SIM-LP4-M1-4">
+							</varbinding>
+							<varbinding
+								name="IOModule"
+								value="SIM-NET-LP4-M1">
+							</varbinding>
+							<varbinding
+								name="IOModuleChannel"
+								value="4">
+							</varbinding>
+							<varbinding
+								name="LoggingInterval"
+								value="1">
+							</varbinding>
+							<varbinding
+								name="SensorGroupName"
+								value="Net-01-Min">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.955"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="09:56:56"
+							time="00:01.955"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$SensorName = 'SIM-LP4-M1-4', $IOModule = 'SIM-NET-LP4-M1', $IOModuleChannel = '4', $LoggingInterval = '1', $SensorGroupName = 'Net-01-Min'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.020"
+							timeRelativeToTestModuleStartTime="00:00.068"
+							timeWallClock="09:56:56"
+							time="00:02.020"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsIndex' at 61;23.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//a[#'Nav_DeviceSettings_Index']"
+								fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+								id="2ff9e083db334af6971aed372384639e"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="147"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.906"
+							timeRelativeToTestModuleStartTime="00:01.954"
+							timeWallClock="09:56:58"
+							time="00:03.906"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsSensors' at 31;17.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//a[#'Nav_DeviceSettings_Sensors']"
+								fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsSensors"
+								id="ba12067a80bd41c788800a571bd9eb57"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="151"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.586"
+							timeRelativeToTestModuleStartTime="00:03.634"
+							timeWallClock="09:57:00"
+							time="00:05.586"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.ContentCenter.AddNewSensor' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Add new Sensor']"
+								fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewSensor"
+								id="c613505a658441888bc158f533488499"
+								timeout="90000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="155"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.939"
+							timeRelativeToTestModuleStartTime="00:05.987"
+							timeWallClock="09:57:02"
+							time="00:07.939"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'ElproMONITORLogin.Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'Name']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Name"
+								id="3f050153d41549179f8092c0de67a333"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="159"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.332"
+							timeRelativeToTestModuleStartTime="00:07.380"
+							timeWallClock="09:57:03"
+							time="00:09.332"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$SensorName' with focus on 'ElproMONITORLogin.Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'Name']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Name"
+								id="3f050153d41549179f8092c0de67a333"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="163"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.265"
+							timeRelativeToTestModuleStartTime="00:09.313"
+							timeWallClock="09:57:05"
+							time="00:11.265"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$IOModule' with focus on 'ElproMONITORLogin.IoModuleId'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//select[#'IoModuleId']"
+								fullname="smokeTestRepository.ElproMONITORLogin.IoModuleId"
+								id="61773eddf6ed45f68ef53e135b4e1b7f"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="167"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.591"
+							timeRelativeToTestModuleStartTime="00:11.639"
+							timeWallClock="09:57:08"
+							time="00:13.591"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$IOModuleChannel' with focus on 'ElproMONITORLogin.Channel'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//select[#'Channel']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Channel"
+								id="46aac6cf65fa4687b915df56cf14a552"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="171"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.371"
+							timeRelativeToTestModuleStartTime="00:12.419"
+							timeWallClock="09:57:08"
+							time="00:14.371"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'ElproMONITORLogin.LoggingInterval'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//select[#'LoggingInterval']"
+								fullname="smokeTestRepository.ElproMONITORLogin.LoggingInterval"
+								id="1d932ef92de2434d8e019f0a68386107"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="175"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.355"
+							timeRelativeToTestModuleStartTime="00:13.403"
+							timeWallClock="09:57:09"
+							time="00:15.355"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'ElproMONITORLogin.H2TagLogging'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//div[#'form']/form[@name='mshtml.HTMLInputElementClass']/?/?/h2[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Logg']"
+								fullname="smokeTestRepository.ElproMONITORLogin.H2TagLogging"
+								id="a5171ace3e354c3e9da4cb3072374e9a"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="183"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.539"
+							timeRelativeToTestModuleStartTime="00:14.587"
+							timeWallClock="09:57:11"
+							time="00:16.539"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'H2TagLogging' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//div[#'form']/form[@name='mshtml.HTMLInputElementClass']/?/?/h2[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Logg']"
+								fullname="smokeTestRepository.ElproMONITORLogin.H2TagLogging"
+								id="a5171ace3e354c3e9da4cb3072374e9a"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="184"
+								loglvl="Success"
+								itemindex="9">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.591"
+							timeRelativeToTestModuleStartTime="00:14.639"
+							timeWallClock="09:57:11"
+							time="00:16.591"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.H2TagLogging' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//div[#'form']/form[@name='mshtml.HTMLInputElementClass']/?/?/h2[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Logg']"
+								fullname="smokeTestRepository.ElproMONITORLogin.H2TagLogging"
+								id="a5171ace3e354c3e9da4cb3072374e9a"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="187"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.585"
+							timeRelativeToTestModuleStartTime="00:16.633"
+							timeWallClock="09:57:13"
+							time="00:18.585"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.LoggingInterval' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//select[#'LoggingInterval']"
+								fullname="smokeTestRepository.ElproMONITORLogin.LoggingInterval"
+								id="1d932ef92de2434d8e019f0a68386107"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="191"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.775"
+							timeRelativeToTestModuleStartTime="00:17.823"
+							timeWallClock="09:57:14"
+							time="00:19.775"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$LoggingInterval' with focus on 'ElproMONITORLogin.LoggingInterval'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//select[#'LoggingInterval']"
+								fullname="smokeTestRepository.ElproMONITORLogin.LoggingInterval"
+								id="1d932ef92de2434d8e019f0a68386107"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="195"
+								itemindex="12"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.689"
+							timeRelativeToTestModuleStartTime="00:18.737"
+							timeWallClock="09:57:15"
+							time="00:20.689"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Scroll Vertical by -1200 units.
+							</message>
+							<metainfo
+								itemindex="13"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="199"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.229"
+							timeRelativeToTestModuleStartTime="00:19.277"
+							timeWallClock="09:57:15"
+							time="00:21.229"
+							level="Info"
+							category="Keyboard"
+							errimg="images_smokeTes_474f855a\smokeTes_474f855a_092636a3_trace.jpg"
+							errthumb="images_smokeTes_474f855a\smokeTes_474f855a_092636a3_trace_thumb.jpg">
+							<message>
+								Key sequence from variable '$SensorGroupName' with focus on 'ElproMONITORLogin.SensorGroupList'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//select[#'SensorGroupList']"
+								fullname="smokeTestRepository.ElproMONITORLogin.SensorGroupList"
+								id="38847a2acff94140a9173c17fad80720"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="203"
+								itemindex="14"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.943"
+							timeRelativeToTestModuleStartTime="00:20.991"
+							timeWallClock="09:57:17"
+							time="00:22.943"
+							level="Info"
+							category="Mouse"
+							errimg="images_smokeTes_474f855a\smokeTes_474f855a_80c24363_trace.jpg"
+							errthumb="images_smokeTes_474f855a\smokeTes_474f855a_80c24363_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.AddSensorGroup' at 17;22.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//button[#'AddSensorGroup']"
+								fullname="smokeTestRepository.ElproMONITORLogin.AddSensorGroup"
+								id="8ba3143c2b754022a9ae71d971c6109d"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddNetSensors.cs"
+								codeline="207"
+								itemindex="15"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.330"
+							timeRelativeToTestModuleStartTime="00:21.378"
+							timeWallClock="09:57:17"
+							time="00:23.330"
+							level="Error"
+							category="User"
+							errimg="images_smokeTes_474f855a\smokeTes_474f855a_12cb105b_trace.jpg"
+							errthumb="images_smokeTes_474f855a\smokeTes_474f855a_12cb105b_trace_thumb.jpg">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="145ba264b20824c5"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M2-1
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M2
+						</field>
+						<field
+							name="IO Module Channel">
+							1
+						</field>
+						<field
+							name="Logging Interval">
+							2
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="6c85bfe4911f7de"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="3"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M2-2
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M2
+						</field>
+						<field
+							name="IO Module Channel">
+							2
+						</field>
+						<field
+							name="Logging Interval">
+							2
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="43f6e82f48bf73c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="4"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M2-3
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M2
+						</field>
+						<field
+							name="IO Module Channel">
+							3
+						</field>
+						<field
+							name="Logging Interval">
+							2
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="d779b9c6a7a6f7c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="5"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M2-4
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M2
+						</field>
+						<field
+							name="IO Module Channel">
+							4
+						</field>
+						<field
+							name="Logging Interval">
+							2
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-02-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="2d74e80c649446c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="6"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M3-1
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M3
+						</field>
+						<field
+							name="IO Module Channel">
+							1
+						</field>
+						<field
+							name="Logging Interval">
+							5
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="1c2f61f48790ce00"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="7"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M3-2
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M3
+						</field>
+						<field
+							name="IO Module Channel">
+							2
+						</field>
+						<field
+							name="Logging Interval">
+							5
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="a2f2b05e2e55f40"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="8"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M3-3
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M3
+						</field>
+						<field
+							name="IO Module Channel">
+							3
+						</field>
+						<field
+							name="Logging Interval">
+							5
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="9dfb30c95620a7"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="9"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M3-4
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M3
+						</field>
+						<field
+							name="IO Module Channel">
+							4
+						</field>
+						<field
+							name="Logging Interval">
+							5
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-05-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="1d8c84b50bfba179"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="10"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M4-1
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M4
+						</field>
+						<field
+							name="IO Module Channel">
+							1
+						</field>
+						<field
+							name="Logging Interval">
+							6
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-06-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="55ee2d739c68476"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="11"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M4-2
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M4
+						</field>
+						<field
+							name="IO Module Channel">
+							2
+						</field>
+						<field
+							name="Logging Interval">
+							6
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-06-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="14939f90f674a7df"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="12"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M4-3
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M4
+						</field>
+						<field
+							name="IO Module Channel">
+							3
+						</field>
+						<field
+							name="Logging Interval">
+							6
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-06-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="e994f4fe31418b8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="13"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M4-4
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M4
+						</field>
+						<field
+							name="IO Module Channel">
+							4
+						</field>
+						<field
+							name="Logging Interval">
+							6
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-06-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="8aa71d99f55ec3b"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="14"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M5-1
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M5
+						</field>
+						<field
+							name="IO Module Channel">
+							1
+						</field>
+						<field
+							name="Logging Interval">
+							10
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-10-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="21c193c1b9bedd8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="15"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M5-2
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M5
+						</field>
+						<field
+							name="IO Module Channel">
+							2
+						</field>
+						<field
+							name="Logging Interval">
+							10
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-10-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="166d360ad9ba35c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="16"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M5-3
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M5
+						</field>
+						<field
+							name="IO Module Channel">
+							3
+						</field>
+						<field
+							name="Logging Interval">
+							10
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-10-Min
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="1c9b7ba70fec3f8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addNetSensors)"
+					testcontainerid="6ad697b8-f564-477e-b992-2f247bad5ce1"
+					headertext="TestCase(addNetSensors)"
+					displayName="TestCase(addNetSensors)"
+					iteration="17"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Name">
+							SIM-LP4-M5-4
+						</field>
+						<field
+							name="IO Module">
+							SIM-NET-LP4-M5
+						</field>
+						<field
+							name="IO Module Channel">
+							4
+						</field>
+						<field
+							name="Logging Interval">
+							10
+						</field>
+						<field
+							name="Sensor Group Name">
+							Net-10-Min
+						</field>
+					</datarow>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

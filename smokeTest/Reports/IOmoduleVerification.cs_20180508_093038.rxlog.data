@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="545d059ef5b589e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="08.05.2018 09:30:44"
+		timestampiso="2018-05-08T07:30:44"
+		endtime="08.05.2018 09:31:05"
+		timeoutfactor="1"
+		module="IOmoduleVerification">
+		<detail>
+			IOmoduleVerification
+		</detail>
+		<errormessage>
+			No element found for path '/dom[@domain='192.168.250.183']//div[#'pluginEditForm']/section[2]/?/?/span[@innertext~'^ID:\ 0102\ ECOLOG-PRO\ 4MA']' within 10s.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.781"
+			timeRelativeToTestModuleStartTime="00:20.782"
+			timeWallClock="09:31:05"
+			time="00:20.781"
+			level="Error"
+			category="Module"
+			errimg=".\IOmodule_e33a3e54_2201ac5c_trace.jpg"
+			errthumb=".\IOmodule_e33a3e54_2201ac5c_trace_thumb.jpg">
+			<message>
+				No element found for path '/dom[@domain='192.168.250.183']//div[#'pluginEditForm']/section[2]/?/?/span[@innertext~'^ID:\ 0102\ ECOLOG-PRO\ 4MA']' within 10s.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   bei Ranorex.Core.Element.FromPath(String path)
+   bei Ranorex.SpanTag.FromPath(String path)
+   bei Ranorex.SpanTag.op_Implicit(String path)
+   bei smokeTest.IOmoduleVerification.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs:Zeile 88.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="88"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

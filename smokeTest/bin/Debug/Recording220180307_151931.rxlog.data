@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="11dc68117855fe8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="07.03.2018 15:19:33"
+		timestampiso="2018-03-07T14:19:33"
+		endtime="07.03.2018 15:19:36"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.455"
+			timeRelativeToTestModuleStartTime="00:00.456"
+			timeWallClock="15:19:33"
+			time="00:00.455"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORSensorsMozillaFirefox.ADDNEWSENSOR' at 55;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^elproMONITOR\ -\ Sensors\ -\ ']/container[@accessiblerole='Grouping']/container[5]/?/?/container[@accessiblename='elproMONITOR - Sensors']//button[@accessiblename='ADD NEW SENSOR']"
+				fullname="smokeTestRepository.ElproMONITORSensorsMozillaFirefox.ADDNEWSENSOR"
+				id="1f853d78b938454ebec2aa8ae0d1889b"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.191"
+			timeRelativeToTestModuleStartTime="00:02.192"
+			timeWallClock="15:19:35"
+			time="00:02.191"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORSensorsMozillaFirefox.SensorName' at 155;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^elproMONITOR\ -\ Sensors\ -\ ']/container[@accessiblerole='Grouping']/container[5]/?/?/container[@accessiblename='elproMONITOR - Sensors']/element[2]/element[3]/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/?/?/list[@accessiblerole='List']/listitem[@accessiblename='Sensor Name New Sensor']/text[@accessiblename='Sensor Name' and @accessiblerole='Text']"
+				fullname="smokeTestRepository.ElproMONITORSensorsMozillaFirefox.SensorName"
+				id="2865b21b9d7c49c2a099299ce2bf6698"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

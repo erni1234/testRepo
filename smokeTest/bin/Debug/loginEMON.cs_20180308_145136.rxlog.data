@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="243730a4a2182d0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="08.03.2018 14:51:37"
+		timestampiso="2018-03-08T13:51:37"
+		endtime="08.03.2018 14:51:40"
+		timeoutfactor="1"
+		module="loginEMON">
+		<detail>
+			loginEMON
+		</detail>
+		<errormessage>
+			Setting attribute 'text' failed on element '{Text:Username}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.188"
+			timeRelativeToTestModuleStartTime="00:02.188"
+			timeWallClock="14:51:40"
+			time="00:02.188"
+			level="Error"
+			category="Module"
+			errimg=".\loginEMO_f39897b3_53d7d59a_trace.jpg"
+			errthumb=".\loginEMO_f39897b3_53d7d59a_trace_thumb.jpg">
+			<message>
+				Setting attribute 'text' failed on element '{Text:Username}'.<br/>The operation is not supported.<br/>Die Methode oder der Vorgang ist nicht implementiert.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Element.SetAttributeValue(String name, Object value)
+   bei Ranorex.Core.Element.SetAttributeValue(String name, String value)
+   bei Ranorex.Text.set_TextValue(String value)
+   bei smokeTest.loginEMON.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginEMON.cs:Zeile 59.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginEMON.cs"
+				codeline="59"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

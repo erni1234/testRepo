@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c2d3731435c7e0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="01.05.2018 15:34:25"
+		timestampiso="2018-05-01T13:34:25"
+		endtime="01.05.2018 15:34:59"
+		timeoutfactor="1"
+		module="IOmoduleVerification">
+		<detail>
+			IOmoduleVerification
+		</detail>
+		<errormessage>
+			Failed to find item 'smokeTestRepository.ElproMONITORIOModules.ContentRight.AddNewIOModule'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.231"
+			timeRelativeToTestModuleStartTime="00:34.232"
+			timeWallClock="15:34:59"
+			time="00:34.231"
+			level="Error"
+			category="Module"
+			errimg=".\IOmodule_7cfe2474_a5ee960a_trace.jpg"
+			errthumb=".\IOmodule_7cfe2474_a5ee960a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'smokeTestRepository.ElproMONITORIOModules.ContentRight.AddNewIOModule'.<br/>No element found for path '/dom[@caption~'^elproMONITOR\ -\ I/O\ Module' and @page='92']//div[#'contentRight']/?/?/button[@innertext='Add new I/O Module']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   bei Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   bei smokeTest.smokeTestRepositoryFolders.ContentRightFolder2.get_AddNewIOModule() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\smokeTestRepository.cs:Zeile 3936.&#13;&#10;   bei smokeTest.IOmoduleVerification.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs:Zeile 63.&#13;&#10;   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="63"
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ I/O\ Module' and @page='92']//div[#'contentRight']/?/?/button[@innertext='Add new I/O Module']"
+				itempath="?/?/button[@innertext='Add new I/O Module']"
+				fullname="smokeTestRepository.ElproMONITORIOModules.ContentRight.AddNewIOModule"
+				id="b485d9bc630c44df838270e20bab1c46"
+				timeout="90000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

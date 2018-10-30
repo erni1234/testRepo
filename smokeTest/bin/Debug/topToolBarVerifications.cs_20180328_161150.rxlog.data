@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="33fe592aec97b1e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="28.03.2018 16:11:52"
+		timestampiso="2018-03-28T14:11:52"
+		endtime="28.03.2018 16:12:06"
+		timeoutfactor="1"
+		module="topToolBarVerifications">
+		<detail>
+			topToolBarVerifications
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.102"
+			timeRelativeToTestModuleStartTime="00:03.102"
+			timeWallClock="16:11:55"
+			time="00:03.102"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'NavElproAbout' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.178']//a[#'Nav_Elpro_About']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavElproAbout"
+				id="026e4a3b50314f46b19c405a56c9d77c"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="59"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.348"
+			timeRelativeToTestModuleStartTime="00:03.348"
+			timeWallClock="16:11:55"
+			time="00:03.348"
+			level="Info"
+			category="Screenshot"
+			errimg=".\topToolB_71d7e6fb_rxlog.jpg"
+			errthumb=".\topToolB_71d7e6fb_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="60"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.443"
+			timeRelativeToTestModuleStartTime="00:04.443"
+			timeWallClock="16:11:56"
+			time="00:04.443"
+			level="Success"
+			category="User">
+			<message>
+				Image found and clicked successfully
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="64"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.254"
+			timeRelativeToTestModuleStartTime="00:06.254"
+			timeWallClock="16:11:58"
+			time="00:06.254"
+			level="Info"
+			category="Screenshot"
+			errimg=".\topToolB_e672e6fb_rxlog.jpg"
+			errthumb=".\topToolB_e672e6fb_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="69"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.769"
+			timeRelativeToTestModuleStartTime="00:06.769"
+			timeWallClock="16:11:58"
+			time="00:06.769"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'NavMonitorIndex' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.178']//a[#'Nav_Monitor_Index']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavMonitorIndex"
+				id="800ab70f736043d58b81a27817f0e2c0"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="70"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.688"
+			timeRelativeToTestModuleStartTime="00:08.688"
+			timeWallClock="16:12:00"
+			time="00:08.688"
+			level="Info"
+			category="Screenshot"
+			errimg=".\topToolB_88a1e6fb_rxlog.jpg"
+			errthumb=".\topToolB_88a1e6fb_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="75"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.292"
+			timeRelativeToTestModuleStartTime="00:09.292"
+			timeWallClock="16:12:01"
+			time="00:09.292"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'NavCalibrationIndex' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.178']//a[#'Nav_Calibration_Index']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavCalibrationIndex"
+				id="c623fd4dfd31451794e25f95a20802e0"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="76"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.389"
+			timeRelativeToTestModuleStartTime="00:11.389"
+			timeWallClock="16:12:03"
+			time="00:11.389"
+			level="Info"
+			category="Screenshot"
+			errimg=".\topToolB_fd3ce6fb_rxlog.jpg"
+			errthumb=".\topToolB_fd3ce6fb_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="80"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.767"
+			timeRelativeToTestModuleStartTime="00:11.767"
+			timeWallClock="16:12:03"
+			time="00:11.767"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'NavDeviationsIndex' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.178']//a[#'Nav_Deviations_Index']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavDeviationsIndex"
+				id="84790a1cf9704f0dab50492587b19422"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="81"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.742"
+			timeRelativeToTestModuleStartTime="00:13.742"
+			timeWallClock="16:12:05"
+			time="00:13.742"
+			level="Info"
+			category="Screenshot"
+			errimg=".\topToolB_9f6be6fb_rxlog.jpg"
+			errthumb=".\topToolB_9f6be6fb_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.262"
+			timeRelativeToTestModuleStartTime="00:14.262"
+			timeWallClock="16:12:06"
+			time="00:14.262"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'NavDeviceSettingsIndex' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.178']//a[#'Nav_DeviceSettings_Index']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+				id="2ff9e083db334af6971aed372384639e"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+				codeline="87"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

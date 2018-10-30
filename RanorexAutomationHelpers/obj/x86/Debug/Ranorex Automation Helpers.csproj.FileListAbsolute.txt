@@ -1,0 +1,7 @@
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\RanorexAutomationHelpers\bin\Debug\Ranorex.PDF.exe
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb
+C:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll

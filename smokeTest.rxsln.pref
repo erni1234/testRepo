@@ -1,0 +1,12 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>{221F4480-052D-419D-BF2F-3ACA1715DCB6}</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution smokeTest[Solution Items[]smokeTest[]]]&#xD;&#xA;Solution smokeTest\smokeTest\SensorCalibrationAnalysis.cs&#xD;&#xA;Solution smokeTest\smokeTest\DeleteSensor.cs" />
+  <StartupProject value="{221F4480-052D-419D-BF2F-3ACA1715DCB6}" />
+</Properties>

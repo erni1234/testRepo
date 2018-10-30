@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="358be3c445e9c142"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="27.08.2018 14:02:54"
+		timestampiso="2018-08-27T12:02:54"
+		endtime="27.08.2018 14:05:11"
+		timeoutfactor="1"
+		module="NetSensorActivated">
+		<detail>
+			NetSensorActivated
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.029"
+			timeRelativeToTestModuleStartTime="00:10.030"
+			timeWallClock="14:03:04"
+			time="00:10.029"
+			level="Info"
+			category="Screenshot"
+			errimg=".\NetSenso_cecbad34_rxlog.jpg"
+			errthumb=".\NetSenso_cecbad34_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorActivated.cs"
+				codeline="66"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.103"
+			timeRelativeToTestModuleStartTime="00:10.104"
+			timeWallClock="14:03:04"
+			time="00:10.103"
+			level="Info"
+			category="Screenshot"
+			errimg=".\NetSenso_717321cf_rxlog.jpg"
+			errthumb=".\NetSenso_717321cf_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorActivated.cs"
+				codeline="67"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

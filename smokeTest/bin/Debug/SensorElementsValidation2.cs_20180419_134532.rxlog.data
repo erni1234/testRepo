@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a3fc867b5315e6e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="19.04.2018 13:45:34"
+		timestampiso="2018-04-19T11:45:34"
+		endtime="19.04.2018 13:45:36"
+		timeoutfactor="1"
+		module="SensorElementsValidation2">
+		<detail>
+			SensorElementsValidation2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.520"
+			timeRelativeToTestModuleStartTime="00:02.520"
+			timeWallClock="13:45:36"
+			time="00:02.520"
+			level="Info"
+			category="User">
+			<message>
+				Close is not disabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs"
+				codeline="62"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

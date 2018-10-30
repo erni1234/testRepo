@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="44d72d4c9c6d7b0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="18.04.2018 08:21:02"
+		timestampiso="2018-04-18T06:21:02"
+		endtime="18.04.2018 08:21:12"
+		timeoutfactor="1"
+		module="logIn">
+		<detail>
+			logIn
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.984"
+			timeRelativeToTestModuleStartTime="00:08.984"
+			timeWallClock="08:21:11"
+			time="00:08.984"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\logIn.cs"
+				codeline="64"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

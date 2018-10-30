@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1ab461352f34e10"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="16.04.2018 14:00:28"
+		timestampiso="2018-04-16T12:00:28"
+		endtime="16.04.2018 14:00:43"
+		timeoutfactor="1"
+		module="DigitalInputsEnabledButtonsverification">
+		<detail>
+			DigitalInputsEnabledButtonsverification
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.743"
+			timeRelativeToTestModuleStartTime="00:06.743"
+			timeWallClock="14:00:34"
+			time="00:06.743"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Report' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Report']"
+				fullname="smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Report"
+				id="a910450b05e64f5c9a886ca0ca486c84"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="69"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.642"
+			timeRelativeToTestModuleStartTime="00:07.642"
+			timeWallClock="14:00:35"
+			time="00:07.642"
+			level="Info"
+			category="Screenshot"
+			errimg=".\DigitalI_ee91c879_rxlog.jpg"
+			errthumb=".\DigitalI_ee91c879_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="70"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.451"
+			timeRelativeToTestModuleStartTime="00:08.451"
+			timeWallClock="14:00:36"
+			time="00:08.451"
+			level="Info"
+			category="User">
+			<message>
+				True
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="71"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.255"
+			timeRelativeToTestModuleStartTime="00:09.255"
+			timeWallClock="14:00:37"
+			time="00:09.255"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Retire' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Retire']"
+				fullname="smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Retire"
+				id="1f80b19278de46b68fc71543ea43fc5e"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="73"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.128"
+			timeRelativeToTestModuleStartTime="00:10.128"
+			timeWallClock="14:00:38"
+			time="00:10.128"
+			level="Info"
+			category="Screenshot"
+			errimg=".\DigitalI_79f6c879_rxlog.jpg"
+			errthumb=".\DigitalI_79f6c879_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="74"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.868"
+			timeRelativeToTestModuleStartTime="00:10.868"
+			timeWallClock="14:00:39"
+			time="00:10.868"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Retire' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Retire']"
+				fullname="smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Retire"
+				id="1f80b19278de46b68fc71543ea43fc5e"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="76"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.661"
+			timeRelativeToTestModuleStartTime="00:11.661"
+			timeWallClock="14:00:39"
+			time="00:11.661"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Edit' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Edit']"
+				fullname="smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Edit"
+				id="bb36472d23d545b88d9d0852068d09e5"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="82"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.461"
+			timeRelativeToTestModuleStartTime="00:12.461"
+			timeWallClock="14:00:40"
+			time="00:12.461"
+			level="Info"
+			category="Screenshot"
+			errimg=".\DigitalI_d7c7c879_rxlog.jpg"
+			errthumb=".\DigitalI_d7c7c879_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="83"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.922"
+			timeRelativeToTestModuleStartTime="00:12.922"
+			timeWallClock="14:00:41"
+			time="00:12.922"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Edit' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Edit']"
+				fullname="smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Edit"
+				id="bb36472d23d545b88d9d0852068d09e5"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="85"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.394"
+			timeRelativeToTestModuleStartTime="00:13.394"
+			timeWallClock="14:00:41"
+			time="00:13.394"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'AddNewDigitalInput' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Add new Digital Input']"
+				fullname="smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.AddNewDigitalInput"
+				id="ec40ed39edef4b0db7f45afcb76db0fb"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="87"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.945"
+			timeRelativeToTestModuleStartTime="00:13.945"
+			timeWallClock="14:00:42"
+			time="00:13.945"
+			level="Info"
+			category="Screenshot"
+			errimg=".\DigitalI_632cc879_rxlog.jpg"
+			errthumb=".\DigitalI_632cc879_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="88"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.262"
+			timeRelativeToTestModuleStartTime="00:14.262"
+			timeWallClock="14:00:42"
+			time="00:14.262"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Close' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Close']"
+				fullname="smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Close"
+				id="e04fd4b7e9d24564842c649ab55322dd"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="91"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.612"
+			timeRelativeToTestModuleStartTime="00:14.612"
+			timeWallClock="14:00:42"
+			time="00:14.612"
+			level="Info"
+			category="Screenshot"
+			errimg=".\DigitalI_1c25c879_rxlog.jpg"
+			errthumb=".\DigitalI_1c25c879_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="92"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.842"
+			timeRelativeToTestModuleStartTime="00:14.842"
+			timeWallClock="14:00:43"
+			time="00:14.842"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Close' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Close']"
+				fullname="smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Close"
+				id="e04fd4b7e9d24564842c649ab55322dd"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="94"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

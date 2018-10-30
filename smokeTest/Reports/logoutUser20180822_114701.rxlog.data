@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a54879bc2373f1c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="22.08.2018 11:47:08"
+		timestampiso="2018-08-22T09:47:08"
+		endtime="22.08.2018 11:47:14"
+		timeoutfactor="1"
+		module="logoutUser">
+		<detail>
+			logoutUser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.462"
+			timeRelativeToTestModuleStartTime="00:02.462"
+			timeWallClock="11:47:11"
+			time="00:02.462"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.LogoutAdmin' at 123;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']/body/nav/?/?/div/ul[1]/?/?/a[@innertext='Logout (admin)']"
+				itempath="body/nav/?/?/div/ul[1]/?/?/a[@innertext='Logout (admin)']"
+				fullname="smokeTestRepository.ElproMONITORLogin.LogoutAdmin"
+				id="d4f2c771e329423b98720987700e63a9"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\logoutUser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.753"
+			timeRelativeToTestModuleStartTime="00:05.753"
+			timeWallClock="11:47:14"
+			time="00:05.753"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'Http192168250188ElproUSERInte'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^http://192\.168\.250\.188/el']"
+				itempath="/form[@title~'^http://192\.168\.250\.188/el']"
+				fullname="smokeTestRepository.Http192168250188ElproUSERInte.Self"
+				id="c276ec4aa60d4330837542a3df788284"
+				timeout="30000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\logoutUser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

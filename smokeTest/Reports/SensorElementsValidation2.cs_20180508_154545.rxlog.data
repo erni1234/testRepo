@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c9196ded0681e0c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="08.05.2018 15:45:51"
+		timestampiso="2018-05-08T13:45:51"
+		endtime="08.05.2018 15:46:03"
+		timeoutfactor="1"
+		module="SensorElementsValidation2">
+		<detail>
+			SensorElementsValidation2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.322"
+			timeRelativeToTestModuleStartTime="00:11.323"
+			timeWallClock="15:46:03"
+			time="00:11.322"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_cb3e4191_rxlog.jpg"
+			errthumb=".\SensorEl_cb3e4191_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs"
+				codeline="76"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.382"
+			timeRelativeToTestModuleStartTime="00:11.383"
+			timeWallClock="15:46:03"
+			time="00:11.382"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_cb3f4191_rxlog.jpg"
+			errthumb=".\SensorEl_cb3f4191_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs"
+				codeline="76"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.431"
+			timeRelativeToTestModuleStartTime="00:11.433"
+			timeWallClock="15:46:03"
+			time="00:11.431"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_cb404191_rxlog.jpg"
+			errthumb=".\SensorEl_cb404191_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs"
+				codeline="76"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.482"
+			timeRelativeToTestModuleStartTime="00:11.483"
+			timeWallClock="15:46:03"
+			time="00:11.482"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_cb414191_rxlog.jpg"
+			errthumb=".\SensorEl_cb414191_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs"
+				codeline="76"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.484"
+			timeRelativeToTestModuleStartTime="00:11.485"
+			timeWallClock="15:46:03"
+			time="00:11.484"
+			level="Info"
+			category="User">
+			<message>
+				REPORT, RETIRE,EDIT AND CLOSE BUTTONS ARE PRESENT AND ENABLED
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21c4733b5b9716d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="2"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="2"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="13.04.2018 15:36:44"
+		timestampiso="2018-04-13T13:36:44"
+		endtime="13.04.2018 15:36:57"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="11.32s"
+			durationms="11316"
+			type="test-suite"
+			rid="2c976900a66dfa96"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="2"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="2"
+			testsuitename="smokeTest"
+			headertext="smokeTest"
+			runconfigname="SmokeTest_TR_2"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="10.34s"
+				durationms="10343"
+				type="iteration-container"
+				rid="12f2994b888a8d0c"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="2"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="2"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="2"
+				displayName="TestCase(addDigitalInputs)"
+				headertext="TestCase(addDigitalInputs)"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+				datasource="digitalInputConnector"
+				dataiterationcount="3">
+				<activity
+					result="Failed"
+					duration="10.34s"
+					durationms="10337"
+					type="test-case"
+					rid="18785ffc187a940b"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-Standard-1.1
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="10.31s"
+						durationms="10313"
+						type="test-module"
+						rid="47e10bda5908c86"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="AddDigitalInputs"
+						displayName="AddDigitalInputs"
+						moduleid="d3685e36-f569-492d-ab64-28e1aafc0532"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="DigitalInputName"
+								value="DI-Standard-1.1">
+							</varbinding>
+							<varbinding
+								name="IOModule"
+								value="LBR-127-0-0-11">
+							</varbinding>
+							<varbinding
+								name="SensorGroupName"
+								value="DI">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.150"
+							timeRelativeToTestModuleStartTime="00:00.037"
+							timeWallClock="15:36:47"
+							time="00:02.150"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$DigitalInputName = 'DI-Standard-1.1', $IOModule = 'LBR-127-0-0-11', $SensorGroupName = 'DI'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.198"
+							timeRelativeToTestModuleStartTime="00:00.085"
+							timeWallClock="15:36:47"
+							time="00:02.198"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsIndex' at 48;20.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//a[#'Nav_DeviceSettings_Index']"
+								fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+								id="2ff9e083db334af6971aed372384639e"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddDigitalInputs.cs"
+								codeline="121"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.375"
+							timeRelativeToTestModuleStartTime="00:02.262"
+							timeWallClock="15:36:49"
+							time="00:04.375"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsDigitalInputs' at 74;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//a[#'Nav_DeviceSettings_DigitalInputs']"
+								fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsDigitalInputs"
+								id="d60c241f715e46fbb77b2c4136a7ae51"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddDigitalInputs.cs"
+								codeline="125"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.823"
+							timeRelativeToTestModuleStartTime="00:03.710"
+							timeWallClock="15:36:50"
+							time="00:05.823"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.ContentCenter.AddNewDigitalInput' at 96;19.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Add new Digital Input']"
+								fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewDigitalInput"
+								id="75087c9bf4c0428eb7439cab38f803a4"
+								timeout="90000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddDigitalInputs.cs"
+								codeline="129"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.584"
+							timeRelativeToTestModuleStartTime="00:06.471"
+							timeWallClock="15:36:53"
+							time="00:08.584"
+							level="Info"
+							category="Keyboard"
+							errimg="images_smokeTes_a43b83d6\smokeTes_a43b83d6_9d91606a_trace.jpg"
+							errthumb="images_smokeTes_a43b83d6\smokeTes_a43b83d6_9d91606a_trace_thumb.jpg">
+							<message>
+								Key sequence 'yourtext' with focus on 'ElproMONITORLogin.Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'Name']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Name"
+								id="3f050153d41549179f8092c0de67a333"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddDigitalInputs.cs"
+								codeline="133"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.818"
+							timeRelativeToTestModuleStartTime="00:08.705"
+							timeWallClock="15:36:55"
+							time="00:10.818"
+							level="Info"
+							category="Keyboard"
+							errimg="images_smokeTes_a43b83d6\smokeTes_a43b83d6_6f499bc0_trace.jpg"
+							errthumb="images_smokeTes_a43b83d6\smokeTes_a43b83d6_6f499bc0_trace_thumb.jpg">
+							<message>
+								Key sequence from variable '$DigitalInputName' with focus on 'ElproMONITORLogin.Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'Name']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Name"
+								id="3f050153d41549179f8092c0de67a333"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddDigitalInputs.cs"
+								codeline="137"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.281"
+							timeRelativeToTestModuleStartTime="00:10.168"
+							timeWallClock="15:36:57"
+							time="00:12.281"
+							level="Error"
+							category="User"
+							errimg="images_smokeTes_a43b83d6\smokeTes_a43b83d6_4c5682a1_trace.jpg"
+							errthumb="images_smokeTes_a43b83d6\smokeTes_a43b83d6_4c5682a1_trace_thumb.jpg">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="1190980e386946f3"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-TimeMonitor-1.2
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="1dd6c0e9ee6718d0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(addDigitalInputs)"
+					testcontainerid="1cc8e917-e627-4d51-8f5c-fd7c126c8376"
+					headertext="TestCase(addDigitalInputs)"
+					displayName="TestCase(addDigitalInputs)"
+					iteration="3"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Digital Input Name">
+							DI-EdgeCounter-1.3
+						</field>
+						<field
+							name="IO Module">
+							LBR-127-0-0-11
+						</field>
+						<field
+							name="IO Module Channel">
+						</field>
+						<field
+							name="Logging Interval">
+						</field>
+						<field
+							name="Digital Input Profile">
+						</field>
+						<field
+							name="Recipients Profile">
+						</field>
+						<field
+							name="Sensor Group Name">
+							DI
+						</field>
+					</datarow>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

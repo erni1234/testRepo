@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6765e950ae66ba2"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="11.04.2018 14:46:31"
+		timestampiso="2018-04-11T12:46:31"
+		endtime="11.04.2018 14:48:05"
+		timeoutfactor="1"
+		module="IOmoduleVerification">
+		<detail>
+			IOmoduleVerification
+		</detail>
+		<errormessage>
+			Element for item 'Edit' does not exist (Failed to find item 'smokeTestRepository.ElproMONITORLogin.ListDataTableNoFooter.Edit'. No element found for path '/dom[@domain='192.168.250.180']//div[#'DataTables_Table_0_wrapper']/div/div[1]/?/?/table/tbody/tr/td[6]/button[@innertext='Edit']' within 1.5m.).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.712"
+			timeRelativeToTestModuleStartTime="00:02.713"
+			timeWallClock="14:46:34"
+			time="00:02.712"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Report' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Report']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.Report"
+				id="e1be08644dae4384941aa8e7bf5e3d24"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="54"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.064"
+			timeRelativeToTestModuleStartTime="00:03.065"
+			timeWallClock="14:46:34"
+			time="00:03.064"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_40d10438_rxlog.jpg"
+			errthumb=".\IOmodule_40d10438_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="55"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.124"
+			timeRelativeToTestModuleStartTime="00:03.125"
+			timeWallClock="14:46:34"
+			time="00:03.124"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Delete' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Delete']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.Delete"
+				id="5793f797fbce4fa7aaf06de48640c9ae"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="57"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.498"
+			timeRelativeToTestModuleStartTime="00:03.499"
+			timeWallClock="14:46:35"
+			time="00:03.498"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_40d10437_rxlog.jpg"
+			errthumb=".\IOmodule_40d10437_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="58"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.809"
+			timeRelativeToTestModuleStartTime="00:03.810"
+			timeWallClock="14:46:35"
+			time="00:03.809"
+			level="Success"
+			category="Validation"
+			errimg=".\IOmodule_58f9ee27_1c95820b_trace.jpg"
+			errthumb=".\IOmodule_58f9ee27_1c95820b_trace_thumb.jpg">
+			<message>
+				Element for item 'Edit' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Edit']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.Edit"
+				id="fc6a354d8fbd41358b3516d8f8571126"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="60"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.981"
+			timeRelativeToTestModuleStartTime="00:03.982"
+			timeWallClock="14:46:35"
+			time="00:03.981"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_40d10436_rxlog.jpg"
+			errthumb=".\IOmodule_40d10436_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="61"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:34.076"
+			timeRelativeToTestModuleStartTime="01:34.077"
+			timeWallClock="14:48:05"
+			time="01:34.076"
+			level="Failure"
+			category="Validation"
+			errimg=".\IOmodule_58f9ee27_b132814e_trace.jpg"
+			errthumb=".\IOmodule_58f9ee27_b132814e_trace_thumb.jpg">
+			<message>
+				Element for item 'Edit' does not exist (Failed to find item 'smokeTestRepository.ElproMONITORLogin.ListDataTableNoFooter.Edit'. No element found for path '/dom[@domain='192.168.250.180']//div[#'DataTables_Table_0_wrapper']/div/div[1]/?/?/table/tbody/tr/td[6]/button[@innertext='Edit']' within 1.5m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'DataTables_Table_0_wrapper']/div/div[1]/?/?/table/tbody/tr/td[6]/button[@innertext='Edit']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ListDataTableNoFooter.Edit"
+				id="eeb8c7781654463fbf74468dea25178d"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="66"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:34.083"
+			timeRelativeToTestModuleStartTime="01:34.084"
+			timeWallClock="14:48:05"
+			time="01:34.083"
+			level="Error"
+			category="Module"
+			errimg=".\IOmodule_58f9ee27_b132814e_trace.jpg"
+			errthumb=".\IOmodule_58f9ee27_b132814e_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for item 'Edit' does not exist (Failed to find item 'smokeTestRepository.ElproMONITORLogin.ListDataTableNoFooter.Edit'. No element found for path '/dom[@domain='192.168.250.180']//div[#'DataTables_Table_0_wrapper']/div/div[1]/?/?/table/tbody/tr/td[6]/button[@innertext='Edit']' within 1.5m.).
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   bei Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   bei Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   bei smokeTest.IOmoduleVerification.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs:Zeile 66.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="66"
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'DataTables_Table_0_wrapper']/div/div[1]/?/?/table/tbody/tr/td[6]/button[@innertext='Edit']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ListDataTableNoFooter.Edit"
+				id="eeb8c7781654463fbf74468dea25178d"
+				timeout="90000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,359 @@
+﻿<repository
+id="449c638f-898f-4b81-ae3e-6c834e6b46c2"
+name="userRepo"
+rxversion="8.1">
+	<codegen
+	classname="userRepo"
+	namespace="smokeTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="7ff3f5a1-83c0-4c74-8124-e105c1ab96d0"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5218bce4-3aa2-4d97-b38c-19123b76e0f1"
+		isrooted="True"
+		name="DownloadAccountReportInternetExplo"
+		refpath="/form[@title='Download Account Report - Internet Explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="26a9a737-f722-4446-9f0f-cc033c123c73"
+			name="ElproUSERRegisterkartengruppe1"
+			refimgid="a223b1fb-0b3a-4c61-add9-d038c6f69b0b"
+			refpath="/form[@title~'^Download\ Account\ Report\ -']/element[@class='WorkerW']/container/container/container/tabpagelist/tabpage[@accessiblename~'^elproUSER\ Registerkarteng']"
+			searchtimeout="30000ms">
+				/form[@title~'^Download\ Account\ Report\ -']/element[@class='WorkerW']//tabpagelist[@accessiblename='Registerkartenreihe']/tabpage[@accessiblename~'^elproUSER\ Registerkarteng']
+			</item>
+			<basepath>
+				/form[@title~'^Download\ Account\ Report\ -']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="9eb0cc0f-b1d8-4c63-87ab-8ff4c592419e"
+		isrooted="True"
+		name="WebDocument192168250180"
+		refpath="/dom[@domain='192.168.250.180' and @page='']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b5759c21-c087-403d-a096-e2af819f6e6b"
+			isrooted="True"
+			name="RowProductLogoContent"
+			refpath="/dom[@domain='192.168.250.180' and @page='']//form[#'contentform']/div[2]/div/div[2]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="2b769400-3d8d-47e1-a621-9bd84d6ce092"
+				name="Password"
+				refimgid="648396bf-f090-4de4-a8cb-5b6aae5ebf66"
+				refpath="/dom[@domain='192.168.250.180' and @page='']//form[#'contentform']/div[2]/div/div[2]/div[2]/input[@name='password']"
+				searchtimeout="30000ms">
+					/dom[@page='']//form[#'contentform']/div[2]/div/div[2]/?/?/input[@name='password']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="7d0aed61-3707-4eb7-bd53-8fcc8dd4b0c1"
+				name="Username"
+				refimgid="f75c0fb1-48e6-4c01-ab61-9a8a7c5e853c"
+				refpath="/dom[@domain='192.168.250.180' and @page='']//form[#'contentform']/div[2]/div/div[2]/div[1]/input[@name='username']"
+				searchtimeout="30000ms">
+					/dom[@page='']//form[#'contentform']/div[2]/div/div[2]/?/?/input[@name='username']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="e9b6358c-5946-4527-9823-c04af57a2fa7"
+				name="BtnBtnDefaultNgScopeNgIsolateScop"
+				refimgid="30b81db0-6660-4313-b6fe-8c9ad903ad19"
+				refpath="/dom[@domain='192.168.250.180' and @page='']//form[#'contentform']/div[2]/div/div[2]/button"
+				searchtimeout="30000ms">
+					/dom[@page='']//form[#'contentform']/div[2]/div/div[2]/button
+				</item>
+				<basepath>
+					/dom[@page='']//form[#'contentform']/div[2]/div/div[2]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2f933f95-0304-483c-8ff2-b5372a961052"
+			name="Name"
+			refimgid="88dd47af-dfe1-4056-86c8-4624c03a5666"
+			refpath="/dom[@domain='192.168.250.180' and @page='']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[2]/div[1]/div/div/div/span/input[@name='name']"
+			searchtimeout="30000ms">
+				/dom[@page='']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[2]/div[1]//input[@name='name']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b6bb0399-f24f-40af-9a2b-98c84b0c4e12"
+			name="Cancel"
+			refimgid="a561ad87-7ff4-4354-bac4-5f007fe9e0b5"
+			refpath="/dom[@domain='192.168.250.180' and @page='']//form[#'contentform']/div[1]/div/nav/div[2]/div/button[1]/span[@innertext='Cancel']"
+			searchtimeout="30000ms">
+				/dom[@page='']//form[#'contentform']//nav/?/?/div/button[1]/span[@innertext='Cancel']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="f222a656-98bc-4ada-b9e5-4e04747c5367"
+			name="Groups"
+			refimgid="f2a5f6a2-864c-4e18-b3c2-65f50397567f"
+			refpath="/dom[@domain='192.168.250.180' and @page='']//div[#'side-content']/div[@title='Administration']/div[2]/div/div/a[@href='#/settings/groups']/span[@innertext='Groups']"
+			searchtimeout="30000ms">
+				/dom[@page='']//div[#'side-content']/div[@title='Administration']//a[@href='#/settings/groups']/span[@innertext='Groups']
+			</item>
+			<folder
+			capname="divtag"
+			id="618da18d-17e5-46b9-80ff-ad5f48c82f59"
+			isrooted="True"
+			name="MainContentLeft"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="702d027d-7a67-44e3-98d1-6dc686ffa38f"
+				name="Edit"
+				refimgid="da7c936b-d405-46b8-a062-8a13bab9dc88"
+				refpath="/dom[@domain='192.168.250.180' and @page='']//div[#'main-content-left']/div[1]/div/nav/div[2]/div/button[2]/span[@innertext='Edit        ']"
+				searchtimeout="30000ms">
+					/dom[@page='']//div[#'main-content-left']//nav/?/?/div/button[2]/span[@innertext='Edit        ']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="49907abf-a255-4303-a547-5eade9b502ae"
+				name="Add"
+				refimgid="1052f7bc-0521-4074-bbdd-cfee8955b649"
+				refpath="/dom[@domain='192.168.250.180' and @page='']//div[#'main-content-left']/div[1]/div/nav/div[2]/div/button[3]/span[@innertext='Add        ']"
+				searchtimeout="30000ms">
+					/dom[@page='']//div[#'main-content-left']//nav/?/?/div/button[3]/span[@innertext='Add        ']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="0b3dc58b-9046-4c1d-a318-f8457463b928"
+				name="BtnBtnDefaultNgScopeNgIsolateScop"
+				refimgid="0ec7ff44-5fc4-4a32-b020-8282096cf910"
+				refpath="/dom[@domain='192.168.250.180' and @page='']//div[#'main-content-left']/div[1]/div/nav/div[2]/div/button[4]"
+				searchtimeout="30000ms">
+					/dom[@page='']//div[#'main-content-left']//nav/div[2]/div/button[4]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="c9a10954-7d6c-4ea5-945a-859b32d0af50"
+				name="Report"
+				refimgid="bdee7e37-de51-4439-b2e0-9bd7b437d331"
+				refpath="/dom[@domain='192.168.250.180' and @page='']//div[#'main-content-left']/div[1]/div/nav/div[2]/div/button[4]/span[@innertext='Report']"
+				searchtimeout="30000ms">
+					/dom[@page='']//div[#'main-content-left']//nav/?/?/div/button[4]/span[@innertext='Report']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="30d31451-e5ea-4b6f-b9d7-395fac95cce5"
+				name="Delete"
+				refimgid="fc5b0284-5b22-40f7-a339-fc9f1370f4e2"
+				refpath="/dom[@domain='192.168.250.180' and @page='']//div[#'main-content-left']/div[1]/div/nav/div[2]/div/button[1]/span[@innertext='Delete        ']"
+				searchtimeout="30000ms">
+					/dom[@page='']//div[#'main-content-left']//nav/?/?/div/button[1]/span[@innertext='Delete        ']
+				</item>
+				<basepath>
+					/dom[@page='']//div[#'main-content-left']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f0eef3e3-0357-411d-aaf3-a90e51fc09a6"
+			name="Username"
+			refimgid="2078120d-369a-4ff5-a8da-bdc1f4eca6f6"
+			refpath="/dom[@domain='192.168.250.180' and @page='']//form[#'contentform']/div[2]/div/div[2]/div[1]/input[@name='username']"
+			searchtimeout="30000ms">
+				/dom[@page='']//form[#'contentform']/div[2]/div/div[2]/?/?/input[@name='username']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="ec0a9bcb-80ac-43ba-8f46-a8cb51fd7abb"
+			name="Elpro"
+			refimgid="02bf69d8-4aef-4376-840c-5191863a7b8e"
+			refpath="/dom[@domain='192.168.250.180' and @page='']//form[#'contentform']/div[2]/div/div[1]/div[2]/span[@innertext='elpro']"
+			searchtimeout="30000ms">
+				/dom[@page='']//form[#'contentform']/div[2]/div/div[1]/?/?/span[@innertext='elpro']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="6b8c55c9-efe0-4431-b885-3f8c43315e07"
+			name="Users"
+			refimgid="c9fd5621-e0d3-4260-8a1a-54bba167a42c"
+			refpath="/dom[@domain='192.168.250.180' and @page='']//div[#'side-content']/div[@title='Administration']/div[2]/div/div/a[@href='#/settings/users']/span[@innertext='Users']"
+			searchtimeout="30000ms">
+				/dom[@page='']//div[#'side-content']/div[@title='Administration']//a[@href='#/settings/users']/span[@innertext='Users']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0166983d-54fc-4d77-8387-f3368e859eae"
+			name="Name1"
+			refimgid="356f2b29-34f6-4f59-99d1-18379b9ae5fb"
+			refpath="/dom[@domain='192.168.250.183' and @page='']//input[#'name']"
+			searchtimeout="30000ms">
+				/dom[@page='']//input[#'name']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9a56d3ef-cd14-495f-9478-0df976a898a3"
+			name="Password"
+			refimgid="47d917af-0cc5-46c1-98b1-913805f6743e"
+			refpath="/dom[@domain='192.168.250.183' and @page='']//input[#'password']"
+			searchtimeout="30000ms">
+				/dom[@page='']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="29952efe-1331-4b97-b6a2-5a2062f38bdb"
+			name="ConfirmPassword"
+			refimgid="f276e1f6-17e7-4b34-b989-23a1d1d8e046"
+			refpath="/dom[@domain='192.168.250.183' and @page='']//input[#'confirmPassword']"
+			searchtimeout="30000ms">
+				/dom[@page='']//input[#'confirmPassword']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2e543179-6c4d-47e2-917d-b5072beba2f6"
+			name="Fullname"
+			refimgid="1d13ddb8-04bc-412f-b2f5-cab4b8d30eb8"
+			refpath="/dom[@domain='192.168.250.183' and @page='']//input[#'fullname']"
+			searchtimeout="30000ms">
+				/dom[@page='']//input[#'fullname']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="3b40c0f2-f52b-41f9-8e58-a6cf4b096f98"
+			name="GroupID"
+			refimgid="7cf56581-2c7a-4f85-a852-4861eae33e02"
+			refpath="/dom[@domain='192.168.250.183' and @page='']//select[#'groupID']"
+			searchtimeout="30000ms">
+				/dom[@page='']//select[#'groupID']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="7f81c383-604d-4c36-b784-13fe7434d11d"
+			name="PullRightBtnBtnDefaultNgIsolateSc"
+			refimgid="b42b0757-035a-4e13-b534-7a5cae77079a"
+			refpath="/dom[@domain='192.168.250.183' and @page='']//form[#'contentform']/div[2]/div/div[3]/div[2]/fieldset/div[1]/button"
+			searchtimeout="30000ms">
+				/dom[@page='']//form[#'contentform']/div[2]/div/div[3]//button
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="18d93abc-eb4b-44ff-b186-84a8f14f847f"
+			name="Save"
+			refimgid="ce471594-0d07-404c-8f45-fc595ee0aa6b"
+			refpath="/dom[@domain='192.168.250.183' and @page='']//form[#'contentform']/div[1]/div/nav/div[2]/div/button[2]/span[@innertext='Save']"
+			searchtimeout="30000ms">
+				/dom[@page='']//form[#'contentform']/div[1]/?/?/nav//span[@innertext='Save']
+			</item>
+			<basepath>
+				/dom[@page='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="aea68ce2-dfac-4cad-be97-732d428d6efc"
+		isrooted="True"
+		name="Http192168250183ElproUSERInte"
+		refimgid="b4fcf462-6b2e-48b5-9368-775edb4afac0"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^http://192\.168\.250\.188/el']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="927a329e1a4ffda"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="19.04.2018 13:35:58"
+		timestampiso="2018-04-19T11:35:58"
+		endtime="19.04.2018 13:36:02"
+		timeoutfactor="1"
+		module="SensorElementsValidation2">
+		<detail>
+			SensorElementsValidation2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.467"
+			timeRelativeToTestModuleStartTime="00:03.467"
+			timeWallClock="13:36:02"
+			time="00:03.467"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_60ea377f_rxlog.jpg"
+			errthumb=".\SensorEl_60ea377f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs"
+				codeline="57"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.083"
+			timeRelativeToTestModuleStartTime="00:04.083"
+			timeWallClock="13:36:02"
+			time="00:04.083"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEl_60eb377f_rxlog.jpg"
+			errthumb=".\SensorEl_60eb377f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs"
+				codeline="60"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

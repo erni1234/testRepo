@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="29.22s"
+		durationms="29223"
+		type="root"
+		rid="a55b7a7b3d4bb90"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="24.08.2018 12:22:00"
+		timestampiso="2018-08-24T10:22:00"
+		endtime="24.08.2018 12:22:29"
+		timeoutfactor="1"
+		module="EditDeleteComments">
+		<detail>
+			EditDeleteComments
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.630"
+			timeRelativeToTestModuleStartTime="00:02.630"
+			timeWallClock="12:22:02"
+			time="00:02.630"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsIndex' at 65;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//a[#'Nav_DeviceSettings_Index']"
+				itempath=".//a[#'Nav_DeviceSettings_Index']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+				id="2ff9e083db334af6971aed372384639e"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.083"
+			timeRelativeToTestModuleStartTime="00:06.083"
+			timeWallClock="12:22:06"
+			time="00:06.083"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.NavApplicationSettingsCommentTemplates' at 116;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//a[#'Nav_ApplicationSettings_CommentTemplates']"
+				itempath=".//a[#'Nav_ApplicationSettings_CommentTemplates']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavApplicationSettingsCommentTemplates"
+				id="6902fce275eb432a99c03c3f7ebe55ba"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.983"
+			timeRelativeToTestModuleStartTime="00:07.983"
+			timeWallClock="12:22:08"
+			time="00:07.983"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.ThTagSensorNam' at 380;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'DataTables_Table_0_wrapper']/div/div[1]/?/?/table/?/?/tr/th[3]"
+				itempath=".//div[#'DataTables_Table_0_wrapper']/div/div[1]/?/?/table/?/?/tr/th[3]"
+				fullname="smokeTestRepository.ElproMONITORLogin.ThTagSensorNam"
+				id="65ca63de1a2947dca605e916dc107513"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.544"
+			timeRelativeToTestModuleStartTime="00:10.544"
+			timeWallClock="12:22:10"
+			time="00:10.544"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Id23' at 10;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//input[#'Id_23']"
+				itempath=".//input[#'Id_23']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Id23"
+				id="a4cd6941258244bdaf3e4096c7d68072"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\EditDeleteComments.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.221"
+			timeRelativeToTestModuleStartTime="00:29.221"
+			timeWallClock="12:22:29"
+			time="00:29.221"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

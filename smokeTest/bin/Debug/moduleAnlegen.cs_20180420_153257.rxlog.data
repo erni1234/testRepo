@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="19de6d39052ebbe0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="20.04.2018 15:32:59"
+		timestampiso="2018-04-20T13:32:59"
+		endtime="20.04.2018 15:33:05"
+		timeoutfactor="1"
+		module="moduleAnlegen">
+		<detail>
+			moduleAnlegen
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.480"
+			timeRelativeToTestModuleStartTime="00:03.480"
+			timeWallClock="15:33:02"
+			time="00:03.480"
+			level="Warn"
+			category="Automation"
+			errimg=".\moduleAn_76154858_a0029208_trace.jpg"
+			errthumb=".\moduleAn_76154858_a0029208_trace_thumb.jpg">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\moduleAnlegen.cs"
+				codeline="55"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.413"
+			timeRelativeToTestModuleStartTime="00:06.413"
+			timeWallClock="15:33:05"
+			time="00:06.413"
+			level="Error"
+			category="User"
+			errimg=".\moduleAn_76154858_c1a4580c_trace.jpg"
+			errthumb=".\moduleAn_76154858_c1a4580c_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

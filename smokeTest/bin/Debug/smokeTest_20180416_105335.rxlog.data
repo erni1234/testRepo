@@ -1,0 +1,1147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2831bb462944fdc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="8"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="1"
+		totalblockedcount="8"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="16.04.2018 10:53:35"
+		timestampiso="2018-04-16T08:53:35"
+		endtime="16.04.2018 10:54:19"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="43.81s"
+			durationms="43814"
+			type="test-suite"
+			rid="15146091274e612"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="8"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="1"
+			totalblockedcount="8"
+			testsuitename="smokeTest"
+			headertext="smokeTest"
+			runconfigname="SmokeTest_TR_2"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="42.86s"
+				durationms="42859"
+				type="iteration-container"
+				rid="f91fdd44240f9a"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="8"
+				childsuccesscount="1"
+				childfailedcount="1"
+				childblockedcount="8"
+				totalsuccesscount="1"
+				totalfailedcount="1"
+				totalblockedcount="8"
+				displayName="TestCase(createAlarmLimits)"
+				headertext="TestCase(createAlarmLimits)"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+				datasource="createAlarmLimitsConnector"
+				dataiterationcount="10">
+				<activity
+					result="Success"
+					duration="21.92s"
+					durationms="21923"
+					type="test-case"
+					rid="39b234a0fa1c64c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcontainername="TestCase(createAlarmLimits)"
+					testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+					headertext="TestCase(createAlarmLimits)"
+					displayName="TestCase(createAlarmLimits)"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Limit Profile Name">
+							AL-(-02 bis 02 &#176;C)
+						</field>
+						<field
+							name="Lower Limit">
+							-2
+						</field>
+						<field
+							name="Lower Limit Delay">
+						</field>
+						<field
+							name="Upper Limit">
+							2
+						</field>
+						<field
+							name="Upper Limit Delay">
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="21.87s"
+						durationms="21867"
+						type="test-module"
+						rid="1241ad3009e286b"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CreateAlarmLimitsProfiles"
+						displayName="CreateAlarmLimitsProfiles"
+						moduleid="e00acc1a-8ca2-4f7c-b7f1-a4ae6af685c3"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="AlarmLimitName"
+								value="AL-(-02 bis 02 °C)">
+							</varbinding>
+							<varbinding
+								name="LowerLimit"
+								value="-2">
+							</varbinding>
+							<varbinding
+								name="LowerLimitDelay"
+								value="">
+							</varbinding>
+							<varbinding
+								name="UpperLimit"
+								value="2">
+							</varbinding>
+							<varbinding
+								name="UpperLimitDelay"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.088"
+							timeRelativeToTestModuleStartTime="00:00.003"
+							timeWallClock="10:53:37"
+							time="00:02.088"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$AlarmLimitName = 'AL-(-02 bis 02 &#176;C)', $LowerLimit = '-2', $LowerLimitDelay = '', $UpperLimit = '2', $UpperLimitDelay = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.152"
+							timeRelativeToTestModuleStartTime="00:00.067"
+							timeWallClock="10:53:37"
+							time="00:02.152"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsIndex' at 75;24.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//a[#'Nav_DeviceSettings_Index']"
+								fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+								id="2ff9e083db334af6971aed372384639e"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="147"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.354"
+							timeRelativeToTestModuleStartTime="00:02.269"
+							timeWallClock="10:53:39"
+							time="00:04.354"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.NavProfilesSensorLimitProfiles' at 88;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//a[#'Nav_Profiles_SensorLimitProfiles']"
+								fullname="smokeTestRepository.ElproMONITORLogin.NavProfilesSensorLimitProfiles"
+								id="c73c9a5323af4733becf63d969f1d61f"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="151"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.685"
+							timeRelativeToTestModuleStartTime="00:03.600"
+							timeWallClock="10:53:40"
+							time="00:05.685"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.ContentCenter.AddNewProfile' at 66;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Add new Profile']"
+								fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewProfile"
+								id="bebffaa0cfe24ffeb78e19776558b93b"
+								timeout="90000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="155"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.561"
+							timeRelativeToTestModuleStartTime="00:06.476"
+							timeWallClock="10:53:43"
+							time="00:08.561"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'ElproMONITORLogin.Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'Name']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Name"
+								id="3f050153d41549179f8092c0de67a333"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="159"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.289"
+							timeRelativeToTestModuleStartTime="00:08.204"
+							timeWallClock="10:53:45"
+							time="00:10.289"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$AlarmLimitName' with focus on 'ElproMONITORLogin.Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'Name']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Name"
+								id="3f050153d41549179f8092c0de67a333"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="163"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.026"
+							timeRelativeToTestModuleStartTime="00:10.941"
+							timeWallClock="10:53:48"
+							time="00:13.026"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'ElproMONITORLogin.LowerLevel'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'LowerLevel']"
+								fullname="smokeTestRepository.ElproMONITORLogin.LowerLevel"
+								id="b3807cce24a54b428c9ea54726eb9130"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="167"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.184"
+							timeRelativeToTestModuleStartTime="00:12.099"
+							timeWallClock="10:53:49"
+							time="00:14.184"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$LowerLimit' with focus on 'ElproMONITORLogin.LowerLevel'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'LowerLevel']"
+								fullname="smokeTestRepository.ElproMONITORLogin.LowerLevel"
+								id="b3807cce24a54b428c9ea54726eb9130"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="171"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.136"
+							timeRelativeToTestModuleStartTime="00:13.051"
+							timeWallClock="10:53:50"
+							time="00:15.136"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'ElproMONITORLogin.LowerDelay'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'LowerDelay']"
+								fullname="smokeTestRepository.ElproMONITORLogin.LowerDelay"
+								id="67429b61bf264c17b4a52a4b854dd57e"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="175"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.223"
+							timeRelativeToTestModuleStartTime="00:14.138"
+							timeWallClock="10:53:51"
+							time="00:16.223"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$LowerLimitDelay' with focus on 'ElproMONITORLogin.LowerDelay'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'LowerDelay']"
+								fullname="smokeTestRepository.ElproMONITORLogin.LowerDelay"
+								id="67429b61bf264c17b4a52a4b854dd57e"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="179"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.904"
+							timeRelativeToTestModuleStartTime="00:14.819"
+							timeWallClock="10:53:52"
+							time="00:16.904"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'ElproMONITORLogin.UpperLevel'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'UpperLevel']"
+								fullname="smokeTestRepository.ElproMONITORLogin.UpperLevel"
+								id="61278874820647509dd1fa0465fa75ca"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="183"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.905"
+							timeRelativeToTestModuleStartTime="00:15.820"
+							timeWallClock="10:53:53"
+							time="00:17.905"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$UpperLimit' with focus on 'ElproMONITORLogin.UpperLevel'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'UpperLevel']"
+								fullname="smokeTestRepository.ElproMONITORLogin.UpperLevel"
+								id="61278874820647509dd1fa0465fa75ca"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="187"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.651"
+							timeRelativeToTestModuleStartTime="00:16.566"
+							timeWallClock="10:53:53"
+							time="00:18.651"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'ElproMONITORLogin.UpperDelay'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'UpperDelay']"
+								fullname="smokeTestRepository.ElproMONITORLogin.UpperDelay"
+								id="b3d22992f6ca4e2ab9bf2c98e86edbba"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="191"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.687"
+							timeRelativeToTestModuleStartTime="00:17.602"
+							timeWallClock="10:53:54"
+							time="00:19.687"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$UpperLimitDelay' with focus on 'ElproMONITORLogin.UpperDelay'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'UpperDelay']"
+								fullname="smokeTestRepository.ElproMONITORLogin.UpperDelay"
+								id="b3d22992f6ca4e2ab9bf2c98e86edbba"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="195"
+								itemindex="12"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.304"
+							timeRelativeToTestModuleStartTime="00:18.219"
+							timeWallClock="10:53:55"
+							time="00:20.304"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.Save' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//div[#'contentRight']/?/?/button[@innertext='Save']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Save"
+								id="8e0a39eab651419abce6e39bb7864abf"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="199"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.004"
+							timeRelativeToTestModuleStartTime="00:19.919"
+							timeWallClock="10:53:57"
+							time="00:22.004"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.Close' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//div[#'contentRight']/?/?/button[@innertext='Close']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Close"
+								id="eb8d293ff72d4f98b303a61b903f723d"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="203"
+								itemindex="14"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="20.92s"
+					durationms="20922"
+					type="test-case"
+					rid="4f91f8111acc717"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcontainername="TestCase(createAlarmLimits)"
+					testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+					headertext="TestCase(createAlarmLimits)"
+					displayName="TestCase(createAlarmLimits)"
+					iteration="2"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Limit Profile Name">
+							AL-(0 bis 05 &#176;C    )
+						</field>
+						<field
+							name="Lower Limit">
+							0
+						</field>
+						<field
+							name="Lower Limit Delay">
+						</field>
+						<field
+							name="Upper Limit">
+							5
+						</field>
+						<field
+							name="Upper Limit Delay">
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="20.92s"
+						durationms="20919"
+						type="test-module"
+						rid="19566dd58eca5e8"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CreateAlarmLimitsProfiles"
+						displayName="CreateAlarmLimitsProfiles"
+						moduleid="e00acc1a-8ca2-4f7c-b7f1-a4ae6af685c3"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="AlarmLimitName"
+								value="AL-(0 bis 05 °C    )">
+							</varbinding>
+							<varbinding
+								name="LowerLimit"
+								value="0">
+							</varbinding>
+							<varbinding
+								name="LowerLimitDelay"
+								value="">
+							</varbinding>
+							<varbinding
+								name="UpperLimit"
+								value="5">
+							</varbinding>
+							<varbinding
+								name="UpperLimitDelay"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.956"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="10:53:59"
+							time="00:23.956"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$AlarmLimitName = 'AL-(0 bis 05 &#176;C    )', $LowerLimit = '0', $LowerLimitDelay = '', $UpperLimit = '5', $UpperLimitDelay = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.014"
+							timeRelativeToTestModuleStartTime="00:00.059"
+							timeWallClock="10:53:59"
+							time="00:24.014"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsIndex' at 75;24.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//a[#'Nav_DeviceSettings_Index']"
+								fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+								id="2ff9e083db334af6971aed372384639e"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="147"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:25.370"
+							timeRelativeToTestModuleStartTime="00:01.415"
+							timeWallClock="10:54:00"
+							time="00:25.370"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.NavProfilesSensorLimitProfiles' at 88;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//a[#'Nav_Profiles_SensorLimitProfiles']"
+								fullname="smokeTestRepository.ElproMONITORLogin.NavProfilesSensorLimitProfiles"
+								id="c73c9a5323af4733becf63d969f1d61f"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="151"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:26.705"
+							timeRelativeToTestModuleStartTime="00:02.750"
+							timeWallClock="10:54:01"
+							time="00:26.705"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ElproMONITORLogin.ContentCenter.AddNewProfile' at 66;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Add new Profile']"
+								fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewProfile"
+								id="bebffaa0cfe24ffeb78e19776558b93b"
+								timeout="90000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="155"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:28.779"
+							timeRelativeToTestModuleStartTime="00:04.824"
+							timeWallClock="10:54:03"
+							time="00:28.779"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'ElproMONITORLogin.Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'Name']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Name"
+								id="3f050153d41549179f8092c0de67a333"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="159"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:29.937"
+							timeRelativeToTestModuleStartTime="00:05.982"
+							timeWallClock="10:54:05"
+							time="00:29.937"
+							level="Info"
+							category="Keyboard"
+							errimg="images_smokeTes_d7e63ce9\smokeTes_d7e63ce9_dc7a16a4_trace.jpg"
+							errthumb="images_smokeTes_d7e63ce9\smokeTes_d7e63ce9_dc7a16a4_trace_thumb.jpg">
+							<message>
+								Key sequence from variable '$AlarmLimitName' with focus on 'ElproMONITORLogin.Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'Name']"
+								fullname="smokeTestRepository.ElproMONITORLogin.Name"
+								id="3f050153d41549179f8092c0de67a333"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="163"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:32.756"
+							timeRelativeToTestModuleStartTime="00:08.801"
+							timeWallClock="10:54:07"
+							time="00:32.756"
+							level="Info"
+							category="Keyboard"
+							errimg="images_smokeTes_d7e63ce9\smokeTes_d7e63ce9_e3999bb4_trace.jpg"
+							errthumb="images_smokeTes_d7e63ce9\smokeTes_d7e63ce9_e3999bb4_trace_thumb.jpg">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'ElproMONITORLogin.LowerLevel'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.250.180']//input[#'LowerLevel']"
+								fullname="smokeTestRepository.ElproMONITORLogin.LowerLevel"
+								id="b3807cce24a54b428c9ea54726eb9130"
+								timeout="60000"
+								codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\CreateAlarmLimitsProfiles.cs"
+								codeline="167"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.742"
+							timeRelativeToTestModuleStartTime="00:20.787"
+							timeWallClock="10:54:19"
+							time="00:44.742"
+							level="Error"
+							category="User"
+							errimg="images_smokeTes_d7e63ce9\smokeTes_d7e63ce9_66901fe8_trace.jpg"
+							errthumb="images_smokeTes_d7e63ce9\smokeTes_d7e63ce9_66901fe8_trace_thumb.jpg">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="2ms"
+					durationms="2"
+					type="test-case"
+					rid="175499db78de913a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(createAlarmLimits)"
+					testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+					headertext="TestCase(createAlarmLimits)"
+					displayName="TestCase(createAlarmLimits)"
+					iteration="3"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Limit Profile Name">
+							AL-(05 bis 10&#176;C  )
+						</field>
+						<field
+							name="Lower Limit">
+							5
+						</field>
+						<field
+							name="Lower Limit Delay">
+						</field>
+						<field
+							name="Upper Limit">
+							10
+						</field>
+						<field
+							name="Upper Limit Delay">
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="2086a7652e01d21a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(createAlarmLimits)"
+					testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+					headertext="TestCase(createAlarmLimits)"
+					displayName="TestCase(createAlarmLimits)"
+					iteration="4"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Limit Profile Name">
+							AL-(10 bis 20&#176;C  )
+						</field>
+						<field
+							name="Lower Limit">
+							10
+						</field>
+						<field
+							name="Lower Limit Delay">
+						</field>
+						<field
+							name="Upper Limit">
+							20
+						</field>
+						<field
+							name="Upper Limit Delay">
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="1a507b0fa9938a34"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(createAlarmLimits)"
+					testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+					headertext="TestCase(createAlarmLimits)"
+					displayName="TestCase(createAlarmLimits)"
+					iteration="5"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Limit Profile Name">
+							AL-(05 bis 10&#176;C  )
+						</field>
+						<field
+							name="Lower Limit">
+							5
+						</field>
+						<field
+							name="Lower Limit Delay">
+						</field>
+						<field
+							name="Upper Limit">
+							10
+						</field>
+						<field
+							name="Upper Limit Delay">
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test-case"
+					rid="3b12b65ed14894"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(createAlarmLimits)"
+					testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+					headertext="TestCase(createAlarmLimits)"
+					displayName="TestCase(createAlarmLimits)"
+					iteration="6"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Limit Profile Name">
+							AL-(15 bis 25&#176;C  )
+						</field>
+						<field
+							name="Lower Limit">
+							15
+						</field>
+						<field
+							name="Lower Limit Delay">
+						</field>
+						<field
+							name="Upper Limit">
+							25
+						</field>
+						<field
+							name="Upper Limit Delay">
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="1df220647cb6419"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(createAlarmLimits)"
+					testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+					headertext="TestCase(createAlarmLimits)"
+					displayName="TestCase(createAlarmLimits)"
+					iteration="7"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Limit Profile Name">
+							AL-(25 bis 40&#176;C  )
+						</field>
+						<field
+							name="Lower Limit">
+							25
+						</field>
+						<field
+							name="Lower Limit Delay">
+						</field>
+						<field
+							name="Upper Limit">
+							40
+						</field>
+						<field
+							name="Upper Limit Delay">
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="1826b2dc6040eb14"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(createAlarmLimits)"
+					testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+					headertext="TestCase(createAlarmLimits)"
+					displayName="TestCase(createAlarmLimits)"
+					iteration="8"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Limit Profile Name">
+							AL-(03 bis 07&#176;C  )-1Min-Delay
+						</field>
+						<field
+							name="Lower Limit">
+							3
+						</field>
+						<field
+							name="Lower Limit Delay">
+							1
+						</field>
+						<field
+							name="Upper Limit">
+							7
+						</field>
+						<field
+							name="Upper Limit Delay">
+							1
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="2b33040da63f54a0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(createAlarmLimits)"
+					testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+					headertext="TestCase(createAlarmLimits)"
+					displayName="TestCase(createAlarmLimits)"
+					iteration="9"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Limit Profile Name">
+							AL-(06 bis 16&#176;C  )-2Min-Delay
+						</field>
+						<field
+							name="Lower Limit">
+							6
+						</field>
+						<field
+							name="Lower Limit Delay">
+							2
+						</field>
+						<field
+							name="Upper Limit">
+							16
+						</field>
+						<field
+							name="Upper Limit Delay">
+							2
+						</field>
+					</datarow>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test-case"
+					rid="116df922e215b844"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="1"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcontainername="TestCase(createAlarmLimits)"
+					testcontainerid="f81cafc2-608e-41eb-8d9b-b4e70affdfeb"
+					headertext="TestCase(createAlarmLimits)"
+					displayName="TestCase(createAlarmLimits)"
+					iteration="10"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Sensor Limit Profile Name">
+							AL-(05 bis 15&#176;C  )-5Min-Delay
+						</field>
+						<field
+							name="Lower Limit">
+							5
+						</field>
+						<field
+							name="Lower Limit Delay">
+							5
+						</field>
+						<field
+							name="Upper Limit">
+							15
+						</field>
+						<field
+							name="Upper Limit Delay">
+							5
+						</field>
+					</datarow>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

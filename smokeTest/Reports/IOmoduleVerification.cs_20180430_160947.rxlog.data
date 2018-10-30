@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b3397de3d026a60"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="30.04.2018 16:09:53"
+		timestampiso="2018-04-30T14:09:53"
+		endtime="30.04.2018 16:10:11"
+		timeoutfactor="1"
+		module="IOmoduleVerification">
+		<detail>
+			IOmoduleVerification
+		</detail>
+		<errormessage>
+			No element found for path '/dom[1]//div[#'contentCenter']/?/?/h1[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ I/O\ Modules']' within 10s.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.733"
+			timeRelativeToTestModuleStartTime="00:06.734"
+			timeWallClock="16:09:59"
+			time="00:06.733"
+			level="Warn"
+			category="Automation"
+			errimg=".\IOmodule_1db0a86b_bd4b1220_trace.jpg"
+			errthumb=".\IOmodule_1db0a86b_bd4b1220_trace_thumb.jpg">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="59"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.748"
+			timeRelativeToTestModuleStartTime="00:17.749"
+			timeWallClock="16:10:10"
+			time="00:17.748"
+			level="Error"
+			category="Module"
+			errimg=".\IOmodule_1db0a86b_8788b9d7_trace.jpg"
+			errthumb=".\IOmodule_1db0a86b_8788b9d7_trace_thumb.jpg">
+			<message>
+				No element found for path '/dom[1]//div[#'contentCenter']/?/?/h1[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ I/O\ Modules']' within 10s.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   bei Ranorex.Core.Element.FromPath(String path)
+   bei Ranorex.H1Tag.FromPath(String path)
+   bei Ranorex.H1Tag.op_Implicit(String path)
+   bei smokeTest.IOmoduleVerification.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs:Zeile 63.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="63"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

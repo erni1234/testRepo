@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="617b050829a971e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="10.04.2018 13:19:05"
+		timestampiso="2018-04-10T11:19:05"
+		endtime="10.04.2018 13:19:26"
+		timeoutfactor="1"
+		module="AddProModules">
+		<detail>
+			AddProModules
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.452"
+			timeRelativeToTestModuleStartTime="00:00.452"
+			timeWallClock="13:19:05"
+			time="00:00.452"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsIndex' at 68;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//a[#'Nav_DeviceSettings_Index']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+				id="2ff9e083db334af6971aed372384639e"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.341"
+			timeRelativeToTestModuleStartTime="00:02.341"
+			timeWallClock="13:19:07"
+			time="00:02.341"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.NavDeviceSettingsIoModules' at 74;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//a[#'Nav_DeviceSettings_IoModules']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIoModules"
+				id="7e142bbdf62c4ebbb62cc41426f97b85"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.030"
+			timeRelativeToTestModuleStartTime="00:04.030"
+			timeWallClock="13:19:09"
+			time="00:04.030"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.ContentCenter.AddNewIOModule' at 75;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentCenter']/?/?/button[@innertext='Add new I/O Module']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewIOModule"
+				id="27a87b1fa7d84e6da6eb539960bf0bb2"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.719"
+			timeRelativeToTestModuleStartTime="00:06.719"
+			timeWallClock="13:19:11"
+			time="00:06.719"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Name' at 140;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//input[#'Name']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Name"
+				id="3f050153d41549179f8092c0de67a333"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.175"
+			timeRelativeToTestModuleStartTime="00:08.175"
+			timeWallClock="13:19:13"
+			time="00:08.175"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute TagValue to '7' on item 'ElproMONITORLogin.ModuleType'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//select[#'ModuleType']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ModuleType"
+				id="d15e5aad869e46cf9cfcc8effd228d64"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.613"
+			timeRelativeToTestModuleStartTime="00:08.613"
+			timeWallClock="13:19:13"
+			time="00:08.613"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.EcologProIpAddress' at 96;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//input[#'EcologProIpAddress']"
+				fullname="smokeTestRepository.ElproMONITORLogin.EcologProIpAddress"
+				id="3ae8c354f9a24e55b9a93dcca52c606b"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.860"
+			timeRelativeToTestModuleStartTime="00:09.860"
+			timeWallClock="13:19:14"
+			time="00:09.860"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '1' with focus on 'ElproMONITORLogin.EcologProIpAddress'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//input[#'EcologProIpAddress']"
+				fullname="smokeTestRepository.ElproMONITORLogin.EcologProIpAddress"
+				id="3ae8c354f9a24e55b9a93dcca52c606b"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.632"
+			timeRelativeToTestModuleStartTime="00:10.632"
+			timeWallClock="13:19:15"
+			time="00:10.632"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DropdownfeldFuerAutomatischeEmpfehlun.Cell1270011' at 81;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Dropdownfeld\ für\ automati']/?/?/row[@index='0']/cell[@text='127.0.0.11']"
+				fullname="smokeTestRepository.DropdownfeldFuerAutomatischeEmpfehlun.Cell1270011"
+				id="4853d6b6a67d4774bb2c022c5c58705e"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.444"
+			timeRelativeToTestModuleStartTime="00:11.444"
+			timeWallClock="13:19:16"
+			time="00:11.444"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.BtnScanBridge' at 86;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//button[#'btnScanBridge']"
+				fullname="smokeTestRepository.ElproMONITORLogin.BtnScanBridge"
+				id="70e77f69c7ea4985bc97974ac43f3b1d"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.750"
+			timeRelativeToTestModuleStartTime="00:12.750"
+			timeWallClock="13:19:17"
+			time="00:12.750"
+			level="Info"
+			category="Mouse"
+			errimg=".\AddProMo_98b5a7f_b3b66ab7_trace.jpg"
+			errthumb=".\AddProMo_98b5a7f_b3b66ab7_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Save' at 25;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentRight']/?/?/button[@innertext='Save']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Save"
+				id="8e0a39eab651419abce6e39bb7864abf"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.914"
+			timeRelativeToTestModuleStartTime="00:13.914"
+			timeWallClock="13:19:18"
+			time="00:13.914"
+			level="Info"
+			category="Mouse"
+			errimg=".\AddProMo_98b5a7f_a18ae290_trace.jpg"
+			errthumb=".\AddProMo_98b5a7f_a18ae290_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.AddNewIOModule' at 106;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.180']//div[#'contentRight']/?/?/button[@innertext='Add new I/O Module']"
+				fullname="smokeTestRepository.ElproMONITORLogin.AddNewIOModule"
+				id="3c93460dee49463f915e999ff877cfba"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AddProModules.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.808"
+			timeRelativeToTestModuleStartTime="00:21.808"
+			timeWallClock="13:19:26"
+			time="00:21.808"
+			level="Error"
+			category="User"
+			errimg=".\AddProMo_98b5a7f_edecfc02_trace.jpg"
+			errthumb=".\AddProMo_98b5a7f_edecfc02_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

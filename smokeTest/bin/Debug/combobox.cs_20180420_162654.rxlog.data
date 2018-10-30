@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="66d328fdd6c3361"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="20.04.2018 16:26:56"
+		timestampiso="2018-04-20T14:26:56"
+		endtime="20.04.2018 16:26:58"
+		timeoutfactor="1"
+		module="combobox">
+		<detail>
+			combobox
+		</detail>
+		<errormessage>
+			Setting attribute 'selecteditemindex' failed on element '{ComboBox:I/O Module Type}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.833"
+			timeRelativeToTestModuleStartTime="00:01.833"
+			timeWallClock="16:26:58"
+			time="00:01.833"
+			level="Error"
+			category="Module"
+			errimg=".\combobox_be54ddc3_98625070_trace.jpg"
+			errthumb=".\combobox_be54ddc3_98625070_trace_thumb.jpg">
+			<message>
+				Setting attribute 'selecteditemindex' failed on element '{ComboBox:I/O Module Type}'.<br/>The operation is not supported.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Element.SetAttributeValue(String name, Object value)
+   bei Ranorex.ComboBox.set_SelectedItemIndex(Int32 value)
+   bei smokeTest.combobox.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs:Zeile 52.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\combobox.cs"
+				codeline="52"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

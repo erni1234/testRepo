@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="fccbb5ac1da4961"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="29.08.2018 10:30:30"
+		timestampiso="2018-08-29T08:30:30"
+		endtime="29.08.2018 10:31:56"
+		timeoutfactor="1"
+		module="DeviationVerification">
+		<detail>
+			DeviationVerification
+		</detail>
+		<errormessage>
+			Failed to find item 'smokeTestRepository.ElproMONITORLogin.Save'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.186"
+			timeRelativeToTestModuleStartTime="00:13.187"
+			timeWallClock="10:30:44"
+			time="00:13.186"
+			level="Info"
+			category="User">
+			<message>
+				The following Bottons are enabled Details,Acknowlege,Comment and Report
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="87"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.918"
+			timeRelativeToTestModuleStartTime="00:13.919"
+			timeWallClock="10:30:44"
+			time="00:13.918"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagDetails' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext='        Details    ']"
+				itempath="?/?/button[@innertext='        Details    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagDetails"
+				id="b6ea469e9b964bac93356d0de691bbe6"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="99"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.984"
+			timeRelativeToTestModuleStartTime="00:13.985"
+			timeWallClock="10:30:44"
+			time="00:13.984"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Deviatio_3eeec79d_rxlog.jpg"
+			errthumb=".\Deviatio_3eeec79d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.686"
+			timeRelativeToTestModuleStartTime="00:14.687"
+			timeWallClock="10:30:45"
+			time="00:14.686"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagAcknowledge' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext='        Acknowledge    ']"
+				itempath="?/?/button[@innertext='        Acknowledge    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagAcknowledge"
+				id="2a59c387e42844d8a216ed5b048d4519"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="102"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.763"
+			timeRelativeToTestModuleStartTime="00:14.764"
+			timeWallClock="10:30:45"
+			time="00:14.763"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Deviatio_3eedc79d_rxlog.jpg"
+			errthumb=".\Deviatio_3eedc79d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.474"
+			timeRelativeToTestModuleStartTime="00:15.475"
+			timeWallClock="10:30:46"
+			time="00:15.474"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagComment' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext='        Comment    ']"
+				itempath="?/?/button[@innertext='        Comment    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagComment"
+				id="cb034e0cfdff4d999129efd3a1f0e797"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="105"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.563"
+			timeRelativeToTestModuleStartTime="00:15.564"
+			timeWallClock="10:30:46"
+			time="00:15.563"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Deviatio_3ef0c79d_rxlog.jpg"
+			errthumb=".\Deviatio_3ef0c79d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.323"
+			timeRelativeToTestModuleStartTime="00:16.324"
+			timeWallClock="10:30:47"
+			time="00:16.323"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagReport' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext='        Report    ']"
+				itempath="?/?/button[@innertext='        Report    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagReport"
+				id="f49f3e654d75429bb99a25585aec8410"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="108"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.415"
+			timeRelativeToTestModuleStartTime="00:16.416"
+			timeWallClock="10:30:47"
+			time="00:16.415"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Deviatio_3eefc79d_rxlog.jpg"
+			errthumb=".\Deviatio_3eefc79d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="109"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.813"
+			timeRelativeToTestModuleStartTime="00:16.814"
+			timeWallClock="10:30:47"
+			time="00:16.813"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'SensorAlarmTag' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentLeft']/div[8]/ul/li[1]"
+				itempath="div[8]/ul/li[1]"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentLeft.SensorAlarmTag"
+				id="43a1e69924cd465cadf6313e1a7db4e5"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="115"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.913"
+			timeRelativeToTestModuleStartTime="00:16.914"
+			timeWallClock="10:30:47"
+			time="00:16.913"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Deviatio_3eeac79d_rxlog.jpg"
+			errthumb=".\Deviatio_3eeac79d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.291"
+			timeRelativeToTestModuleStartTime="00:17.292"
+			timeWallClock="10:30:48"
+			time="00:17.291"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'SystemIssuesTag' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentLeft']/div[8]/ul/li[4]"
+				itempath="div[8]/ul/li[4]"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentLeft.SystemIssuesTag"
+				id="044b4f5a6bd848ac9b2f856a2c5cf4a2"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="118"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.380"
+			timeRelativeToTestModuleStartTime="00:17.381"
+			timeWallClock="10:30:48"
+			time="00:17.380"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Deviatio_3ee9c79d_rxlog.jpg"
+			errthumb=".\Deviatio_3ee9c79d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="119"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.754"
+			timeRelativeToTestModuleStartTime="00:17.755"
+			timeWallClock="10:30:48"
+			time="00:17.754"
+			level="Success"
+			category="Validation"
+			errimg=".\Deviatio_634cffdd_91da1061_trace.jpg"
+			errthumb=".\Deviatio_634cffdd_91da1061_trace_thumb.jpg">
+			<message>
+				Element for item 'SensorWarningTag' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentLeft']/div[8]/ul/li[2]"
+				itempath="div[8]/ul/li[2]"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentLeft.SensorWarningTag"
+				id="a5380f82e6344ce7aa117aba5edec322"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="121"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.830"
+			timeRelativeToTestModuleStartTime="00:17.831"
+			timeWallClock="10:30:48"
+			time="00:17.830"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Deviatio_3eecc79d_rxlog.jpg"
+			errthumb=".\Deviatio_3eecc79d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="122"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.185"
+			timeRelativeToTestModuleStartTime="00:18.186"
+			timeWallClock="10:30:49"
+			time="00:18.185"
+			level="Success"
+			category="Validation"
+			errimg=".\Deviatio_634cffdd_97eec378_trace.jpg"
+			errthumb=".\Deviatio_634cffdd_97eec378_trace_thumb.jpg">
+			<message>
+				Element for item 'SensorIssuesTag' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentLeft']/div[8]/ul/li[3]"
+				itempath="div[8]/ul/li[3]"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentLeft.SensorIssuesTag"
+				id="3b2507a41a1d4e2783eed22acbd99e92"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="124"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.280"
+			timeRelativeToTestModuleStartTime="00:18.281"
+			timeWallClock="10:30:49"
+			time="00:18.280"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Deviatio_3eebc79d_rxlog.jpg"
+			errthumb=".\Deviatio_3eebc79d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="125"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.871"
+			timeRelativeToTestModuleStartTime="00:21.872"
+			timeWallClock="10:30:52"
+			time="00:21.871"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Deviatio_3ee6c79d_rxlog.jpg"
+			errthumb=".\Deviatio_3ee6c79d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="139"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.137"
+			timeRelativeToTestModuleStartTime="00:22.138"
+			timeWallClock="10:30:52"
+			time="00:22.137"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Deviatio_3ee5c79d_rxlog.jpg"
+			errthumb=".\Deviatio_3ee5c79d_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="142"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:25.720"
+			timeRelativeToTestModuleStartTime="01:25.721"
+			timeWallClock="10:31:56"
+			time="01:25.720"
+			level="Error"
+			category="Module"
+			errimg=".\Deviatio_634cffdd_1868994c_trace.jpg"
+			errthumb=".\Deviatio_634cffdd_1868994c_trace_thumb.jpg">
+			<message>
+				Failed to find item 'smokeTestRepository.ElproMONITORLogin.Save'.<br/>No element found for path '/dom[@domain='192.168.250.188']//div[#'contentRight']/?/?/button[@innertext='Save']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   bei Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   bei smokeTest.smokeTestRepositoryFolders.ElproMONITORLoginAppFolder.get_Save() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\smokeTestRepository.cs:Zeile 1275.&#13;&#10;   bei smokeTest.DeviationVerification.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs:Zeile 152.&#13;&#10;   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DeviationVerification.cs"
+				codeline="152"
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentRight']/?/?/button[@innertext='Save']"
+				itempath=".//div[#'contentRight']/?/?/button[@innertext='Save']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Save"
+				id="8e0a39eab651419abce6e39bb7864abf"
+				timeout="60000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ebe89eac28cb5bc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="20.04.2018 15:34:32"
+		timestampiso="2018-04-20T13:34:32"
+		endtime="20.04.2018 15:36:06"
+		timeoutfactor="1"
+		module="moduleAnlegen">
+		<detail>
+			moduleAnlegen
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="01:34.510"
+			timeRelativeToTestModuleStartTime="01:34.510"
+			timeWallClock="15:36:06"
+			time="01:34.510"
+			level="Error"
+			category="User"
+			errimg=".\moduleAn_e9c55f22_254d2d22_trace.jpg"
+			errthumb=".\moduleAn_e9c55f22_254d2d22_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:34.634"
+			timeRelativeToTestModuleStartTime="01:34.634"
+			timeWallClock="15:36:06"
+			time="01:34.634"
+			level="Failure"
+			category="Module"
+			errimg=".\moduleAn_e9c55f22_dfca0b04_trace.jpg"
+			errthumb=".\moduleAn_e9c55f22_dfca0b04_trace_thumb.jpg">
+			<message>
+				Der Thread wurde abgebrochen.
+			</message>
+			<metainfo
+				stacktrace="   bei System.Drawing.SafeNativeMethods.Gdip.GdipGetImageThumbnail(HandleRef image, Int32 thumbWidth, Int32 thumbHeight, IntPtr&amp; thumbImage, GetThumbnailImageAbort callback, IntPtr callbackdata)&#13;&#10;   bei System.Drawing.Image.GetThumbnailImage(Int32 thumbWidth, Int32 thumbHeight, GetThumbnailImageAbort callback, IntPtr callbackData)&#13;&#10;   bei Ranorex.Core.XmlLogger.SaveScreenshot(Bitmap img, Int32 thumbWidth, ReportEnvironment reportEnv, String fullImgSuffix, String thumbImgSuffix, Boolean appendImageCount, Int32&amp; imgCnt, Boolean overwriteExisting, String&amp; imgFileName, String&amp; imgThumbFileName)&#13;&#10;   bei Ranorex.Core.Reporting.ReportItem.SaveScreenshot(CompressedImage img)&#13;&#10;   bei Ranorex.Core.Reporting.TestReport.SaveLocalScreenshotBuffer(Activity mod)&#13;&#10;   bei Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

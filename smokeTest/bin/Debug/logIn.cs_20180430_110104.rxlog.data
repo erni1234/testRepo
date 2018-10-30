@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="73a79d19480e14c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="30.04.2018 11:01:09"
+		timestampiso="2018-04-30T09:01:09"
+		endtime="30.04.2018 11:01:20"
+		timeoutfactor="1"
+		module="logIn">
+		<detail>
+			logIn
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.584"
+			timeRelativeToTestModuleStartTime="00:09.585"
+			timeWallClock="11:01:19"
+			time="00:09.584"
+			level="Info"
+			category="Screenshot"
+			errimg=".\logIn.cs_f9a4659e_rxlog.jpg"
+			errthumb=".\logIn.cs_f9a4659e_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\logIn.cs"
+				codeline="69"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.594"
+			timeRelativeToTestModuleStartTime="00:09.595"
+			timeWallClock="11:01:19"
+			time="00:09.594"
+			level="Info"
+			category="User">
+			<message>
+				SUBMIT BUTTON VERIFIED
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\logIn.cs"
+				codeline="70"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

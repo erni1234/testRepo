@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2d7ef17acda5aa"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="28.03.2018 14:28:59"
+		timestampiso="2018-03-28T12:28:59"
+		endtime="28.03.2018 14:29:07"
+		timeoutfactor="1"
+		module="SettingsButtonAndPageVerification">
+		<detail>
+			SettingsButtonAndPageVerification
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.134"
+			timeRelativeToTestModuleStartTime="00:05.134"
+			timeWallClock="14:29:05"
+			time="00:05.134"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'AddNewSensor' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.178']//div[#'contentCenter']/?/?/button[@innertext='Add new Sensor']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewSensor"
+				id="c613505a658441888bc158f533488499"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+				codeline="54"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.336"
+			timeRelativeToTestModuleStartTime="00:05.336"
+			timeWallClock="14:29:05"
+			time="00:05.336"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Settings_eb614e8e_rxlog.jpg"
+			errthumb=".\Settings_eb614e8e_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+				codeline="55"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.895"
+			timeRelativeToTestModuleStartTime="00:06.895"
+			timeWallClock="14:29:06"
+			time="00:06.895"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'AddNewDigitalInput' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.178']//div[#'contentCenter']/?/?/button[@innertext='Add new Digital Input']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewDigitalInput"
+				id="75087c9bf4c0428eb7439cab38f803a4"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+				codeline="58"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.088"
+			timeRelativeToTestModuleStartTime="00:07.088"
+			timeWallClock="14:29:07"
+			time="00:07.088"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Settings_eb604e8e_rxlog.jpg"
+			errthumb=".\Settings_eb604e8e_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+				codeline="59"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

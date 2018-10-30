@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="66483e67818d9b1"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="16.04.2018 13:21:53"
+		timestampiso="2018-04-16T11:21:53"
+		endtime="16.04.2018 13:22:06"
+		timeoutfactor="1"
+		module="SensorEnabledButtonsVerification">
+		<detail>
+			SensorEnabledButtonsVerification
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.874"
+			timeRelativeToTestModuleStartTime="00:06.874"
+			timeWallClock="13:22:00"
+			time="00:06.874"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Report' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Report']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.Report"
+				id="7840f09a18fc497fabff9d6e5a009417"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="68"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.424"
+			timeRelativeToTestModuleStartTime="00:07.424"
+			timeWallClock="13:22:00"
+			time="00:07.424"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEn_2b4a3c0b_rxlog.jpg"
+			errthumb=".\SensorEn_2b4a3c0b_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="69"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.927"
+			timeRelativeToTestModuleStartTime="00:07.927"
+			timeWallClock="13:22:01"
+			time="00:07.927"
+			level="Info"
+			category="User">
+			<message>
+				True
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="70"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.412"
+			timeRelativeToTestModuleStartTime="00:08.412"
+			timeWallClock="13:22:01"
+			time="00:08.412"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Retire' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Retire']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.Retire"
+				id="8db9000ba6494ebb97e82adbba397b60"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="72"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.992"
+			timeRelativeToTestModuleStartTime="00:08.992"
+			timeWallClock="13:22:02"
+			time="00:08.992"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEn_2b4a3c0a_rxlog.jpg"
+			errthumb=".\SensorEn_2b4a3c0a_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="73"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.467"
+			timeRelativeToTestModuleStartTime="00:09.467"
+			timeWallClock="13:22:02"
+			time="00:09.467"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'smokeTestRepository.ElproMONITORSensors.ContentRight.Retire' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Retire']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.Retire"
+				id="8db9000ba6494ebb97e82adbba397b60"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="75"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.951"
+			timeRelativeToTestModuleStartTime="00:09.951"
+			timeWallClock="13:22:03"
+			time="00:09.951"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Edit' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Edit']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.Edit"
+				id="f92ce9cf2986487b8f0b58992ad4451a"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="81"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.493"
+			timeRelativeToTestModuleStartTime="00:10.493"
+			timeWallClock="13:22:03"
+			time="00:10.493"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEn_2b4a3c09_rxlog.jpg"
+			errthumb=".\SensorEn_2b4a3c09_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.987"
+			timeRelativeToTestModuleStartTime="00:10.987"
+			timeWallClock="13:22:04"
+			time="00:10.987"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'smokeTestRepository.ElproMONITORSensors.ContentRight.Edit' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Edit']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.Edit"
+				id="f92ce9cf2986487b8f0b58992ad4451a"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="84"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.529"
+			timeRelativeToTestModuleStartTime="00:11.529"
+			timeWallClock="13:22:04"
+			time="00:11.529"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'AddNewSensor' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Add new Sensor']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.AddNewSensor"
+				id="52fea247a6ee4180915ee3801253d7fb"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="86"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.161"
+			timeRelativeToTestModuleStartTime="00:12.161"
+			timeWallClock="13:22:05"
+			time="00:12.161"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEn_2b4a3c08_rxlog.jpg"
+			errthumb=".\SensorEn_2b4a3c08_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="87"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.598"
+			timeRelativeToTestModuleStartTime="00:12.598"
+			timeWallClock="13:22:05"
+			time="00:12.598"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Close' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Close']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.Close"
+				id="50067c2c832947eeb78411d72b8c8579"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="90"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.145"
+			timeRelativeToTestModuleStartTime="00:13.145"
+			timeWallClock="13:22:06"
+			time="00:13.145"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorEn_2b4a3c0f_rxlog.jpg"
+			errthumb=".\SensorEn_2b4a3c0f_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="91"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.269"
+			timeRelativeToTestModuleStartTime="00:13.269"
+			timeWallClock="13:22:06"
+			time="00:13.269"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'smokeTestRepository.ElproMONITORSensors.ContentRight.Close' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='elproMONITOR - Sensors' and @page='35']//div[#'contentRight']/?/?/button[@innertext='Close']"
+				fullname="smokeTestRepository.ElproMONITORSensors.ContentRight.Close"
+				id="50067c2c832947eeb78411d72b8c8579"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorEnabledButtonsVerification.cs"
+				codeline="93"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4036a88521610e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="24.05.2018 12:51:03"
+		timestampiso="2018-05-24T10:51:03"
+		endtime="24.05.2018 12:53:14"
+		timeoutfactor="1"
+		module="Analysis">
+		<detail>
+			Analysis
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.059"
+			timeRelativeToTestModuleStartTime="00:06.060"
+			timeWallClock="12:51:09"
+			time="00:06.059"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'NavElproAbout' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.182']//a[#'Nav_Elpro_About']"
+				itempath=".//a[#'Nav_Elpro_About']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavElproAbout"
+				id="026e4a3b50314f46b19c405a56c9d77c"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="59"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.291"
+			timeRelativeToTestModuleStartTime="00:06.292"
+			timeWallClock="12:51:09"
+			time="00:06.291"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_406813eb_rxlog.jpg"
+			errthumb=".\Analysis_406813eb_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="60"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:45.527"
+			timeRelativeToTestModuleStartTime="01:45.528"
+			timeWallClock="12:52:48"
+			time="01:45.527"
+			level="Success"
+			category="User">
+			<message>
+				Correct Version of elproMonitor installed
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="67"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:58.709"
+			timeRelativeToTestModuleStartTime="01:58.710"
+			timeWallClock="12:53:01"
+			time="01:58.709"
+			level="Info"
+			category="User">
+			<message>
+				Export Button is enabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="91"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.307"
+			timeRelativeToTestModuleStartTime="01:59.308"
+			timeWallClock="12:53:02"
+			time="01:59.307"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagExport' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.182']//div[#'contentRight']//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Export\ ']"
+				itempath=".//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Export\ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentRight.ButtonTagExport"
+				id="ad7da0b9fcc44cd8941db24dc0859640"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="92"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.404"
+			timeRelativeToTestModuleStartTime="01:59.405"
+			timeWallClock="12:53:02"
+			time="01:59.404"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_406813ec_rxlog.jpg"
+			errthumb=".\Analysis_406813ec_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="93"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.429"
+			timeRelativeToTestModuleStartTime="01:59.430"
+			timeWallClock="12:53:02"
+			time="01:59.429"
+			level="Info"
+			category="User">
+			<message>
+				Report Button is enabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.882"
+			timeRelativeToTestModuleStartTime="01:59.883"
+			timeWallClock="12:53:02"
+			time="01:59.882"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagReport' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.182']//div[#'contentRight']//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Report\ ']"
+				itempath=".//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Report\ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentRight.ButtonTagReport"
+				id="7c6c22a9910542a48caa5b64a3b56880"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="96"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.971"
+			timeRelativeToTestModuleStartTime="01:59.972"
+			timeWallClock="12:53:03"
+			time="01:59.971"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_406813ed_rxlog.jpg"
+			errthumb=".\Analysis_406813ed_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.972"
+			timeRelativeToTestModuleStartTime="01:59.973"
+			timeWallClock="12:53:03"
+			time="01:59.972"
+			level="Info"
+			category="User">
+			<message>
+				Close Button is enabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:00.316"
+			timeRelativeToTestModuleStartTime="02:00.317"
+			timeWallClock="12:53:03"
+			time="02:00.316"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagClose' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.182']//div[#'contentRight']//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Close\ \ ']"
+				itempath=".//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Close\ \ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentRight.ButtonTagClose"
+				id="9f86223fdfa9493fb8d1d46a2f01d913"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="100"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:00.405"
+			timeRelativeToTestModuleStartTime="02:00.406"
+			timeWallClock="12:53:03"
+			time="02:00.405"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_406813ee_rxlog.jpg"
+			errthumb=".\Analysis_406813ee_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:00.476"
+			timeRelativeToTestModuleStartTime="02:00.477"
+			timeWallClock="12:53:03"
+			time="02:00.476"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_406813ef_rxlog.jpg"
+			errthumb=".\Analysis_406813ef_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:00.539"
+			timeRelativeToTestModuleStartTime="02:00.540"
+			timeWallClock="12:53:03"
+			time="02:00.539"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_406813f0_rxlog.jpg"
+			errthumb=".\Analysis_406813f0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:00.607"
+			timeRelativeToTestModuleStartTime="02:00.608"
+			timeWallClock="12:53:03"
+			time="02:00.607"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_406813f1_rxlog.jpg"
+			errthumb=".\Analysis_406813f1_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="104"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:00.655"
+			timeRelativeToTestModuleStartTime="02:00.656"
+			timeWallClock="12:53:03"
+			time="02:00.655"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_406813f2_rxlog.jpg"
+			errthumb=".\Analysis_406813f2_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="104"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:02.490"
+			timeRelativeToTestModuleStartTime="02:02.491"
+			timeWallClock="12:53:05"
+			time="02:02.490"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_406813e3_rxlog.jpg"
+			errthumb=".\Analysis_406813e3_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="141"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:04.577"
+			timeRelativeToTestModuleStartTime="02:04.578"
+			timeWallClock="12:53:07"
+			time="02:04.577"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_406813e4_rxlog.jpg"
+			errthumb=".\Analysis_406813e4_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="156"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:04.642"
+			timeRelativeToTestModuleStartTime="02:04.643"
+			timeWallClock="12:53:07"
+			time="02:04.642"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_407813ec_rxlog.jpg"
+			errthumb=".\Analysis_407813ec_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="166"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:05.915"
+			timeRelativeToTestModuleStartTime="02:05.916"
+			timeWallClock="12:53:08"
+			time="02:05.915"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_407913ec_rxlog.jpg"
+			errthumb=".\Analysis_407913ec_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="187"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:06.516"
+			timeRelativeToTestModuleStartTime="02:06.517"
+			timeWallClock="12:53:09"
+			time="02:06.516"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_407a13ec_rxlog.jpg"
+			errthumb=".\Analysis_407a13ec_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="193"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:07.667"
+			timeRelativeToTestModuleStartTime="02:07.668"
+			timeWallClock="12:53:10"
+			time="02:07.667"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_407b13ec_rxlog.jpg"
+			errthumb=".\Analysis_407b13ec_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="200"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:08.222"
+			timeRelativeToTestModuleStartTime="02:08.223"
+			timeWallClock="12:53:11"
+			time="02:08.222"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_407c13ec_rxlog.jpg"
+			errthumb=".\Analysis_407c13ec_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="202"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:10.738"
+			timeRelativeToTestModuleStartTime="02:10.739"
+			timeWallClock="12:53:13"
+			time="02:10.738"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagAnalysis' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.182']//div[#'contentCenter']/?/?/button[@innertext='        Analysis    ']"
+				itempath="?/?/button[@innertext='        Analysis    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagAnalysis"
+				id="38d21612bbc24b4ca6082d30dac7b9d9"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="213"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:10.812"
+			timeRelativeToTestModuleStartTime="02:10.813"
+			timeWallClock="12:53:13"
+			time="02:10.812"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_407d13ec_rxlog.jpg"
+			errthumb=".\Analysis_407d13ec_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="214"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.163"
+			timeRelativeToTestModuleStartTime="02:11.164"
+			timeWallClock="12:53:14"
+			time="02:11.163"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagDeactivate' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.182']//div[#'contentCenter']/?/?/button[@innertext='        Deactivate    ']"
+				itempath="?/?/button[@innertext='        Deactivate    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagDeactivate"
+				id="90e6b1a5a50442b8b27c80cd2d873779"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="216"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.246"
+			timeRelativeToTestModuleStartTime="02:11.247"
+			timeWallClock="12:53:14"
+			time="02:11.246"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_407e13ec_rxlog.jpg"
+			errthumb=".\Analysis_407e13ec_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="217"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:11.609"
+			timeRelativeToTestModuleStartTime="02:11.610"
+			timeWallClock="12:53:14"
+			time="02:11.609"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagActivate' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.182']//div[#'contentCenter']/?/?/button[@innertext='        Activate    ']"
+				itempath="?/?/button[@innertext='        Activate    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagActivate"
+				id="d1da77054b394ee0aa4fcaa11a2d5a1c"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="219"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b4c9717f16c8261"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="23.05.2018 14:06:39"
+		timestampiso="2018-05-23T12:06:39"
+		endtime="23.05.2018 14:09:21"
+		timeoutfactor="1"
+		module="Analysis">
+		<detail>
+			Analysis
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.062"
+			timeRelativeToTestModuleStartTime="00:05.063"
+			timeWallClock="14:06:44"
+			time="00:05.062"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'NavElproAbout' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.181']//a[#'Nav_Elpro_About']"
+				itempath=".//a[#'Nav_Elpro_About']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavElproAbout"
+				id="026e4a3b50314f46b19c405a56c9d77c"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="59"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.288"
+			timeRelativeToTestModuleStartTime="00:05.289"
+			timeWallClock="14:06:44"
+			time="00:05.288"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6486cff8_rxlog.jpg"
+			errthumb=".\Analysis_6486cff8_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="60"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:45.722"
+			timeRelativeToTestModuleStartTime="01:45.723"
+			timeWallClock="14:08:24"
+			time="01:45.722"
+			level="Success"
+			category="User">
+			<message>
+				Correct Version of elproMonitor installed
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="67"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:32.661"
+			timeRelativeToTestModuleStartTime="02:32.662"
+			timeWallClock="14:09:11"
+			time="02:32.661"
+			level="Info"
+			category="User">
+			<message>
+				Export Button is enabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="91"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:32.744"
+			timeRelativeToTestModuleStartTime="02:32.745"
+			timeWallClock="14:09:11"
+			time="02:32.744"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6486cff9_rxlog.jpg"
+			errthumb=".\Analysis_6486cff9_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="92"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:32.759"
+			timeRelativeToTestModuleStartTime="02:32.760"
+			timeWallClock="14:09:11"
+			time="02:32.759"
+			level="Info"
+			category="User">
+			<message>
+				Report Button is enabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:32.831"
+			timeRelativeToTestModuleStartTime="02:32.832"
+			timeWallClock="14:09:11"
+			time="02:32.831"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6486cff6_rxlog.jpg"
+			errthumb=".\Analysis_6486cff6_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:32.832"
+			timeRelativeToTestModuleStartTime="02:32.833"
+			timeWallClock="14:09:11"
+			time="02:32.832"
+			level="Info"
+			category="User">
+			<message>
+				Close Button is enabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:32.892"
+			timeRelativeToTestModuleStartTime="02:32.893"
+			timeWallClock="14:09:11"
+			time="02:32.892"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6486cff7_rxlog.jpg"
+			errthumb=".\Analysis_6486cff7_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:32.961"
+			timeRelativeToTestModuleStartTime="02:32.962"
+			timeWallClock="14:09:12"
+			time="02:32.961"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6486cff4_rxlog.jpg"
+			errthumb=".\Analysis_6486cff4_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:33.027"
+			timeRelativeToTestModuleStartTime="02:33.028"
+			timeWallClock="14:09:12"
+			time="02:33.027"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6486cff5_rxlog.jpg"
+			errthumb=".\Analysis_6486cff5_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:33.095"
+			timeRelativeToTestModuleStartTime="02:33.096"
+			timeWallClock="14:09:12"
+			time="02:33.095"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6486cff2_rxlog.jpg"
+			errthumb=".\Analysis_6486cff2_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:33.161"
+			timeRelativeToTestModuleStartTime="02:33.162"
+			timeWallClock="14:09:12"
+			time="02:33.161"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6486cff3_rxlog.jpg"
+			errthumb=".\Analysis_6486cff3_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="101"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:34.846"
+			timeRelativeToTestModuleStartTime="02:34.847"
+			timeWallClock="14:09:13"
+			time="02:34.846"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6486cff0_rxlog.jpg"
+			errthumb=".\Analysis_6486cff0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="138"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:36.882"
+			timeRelativeToTestModuleStartTime="02:36.883"
+			timeWallClock="14:09:15"
+			time="02:36.882"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6486cff1_rxlog.jpg"
+			errthumb=".\Analysis_6486cff1_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="153"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:36.948"
+			timeRelativeToTestModuleStartTime="02:36.949"
+			timeWallClock="14:09:15"
+			time="02:36.948"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6496cff9_rxlog.jpg"
+			errthumb=".\Analysis_6496cff9_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="163"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:38.169"
+			timeRelativeToTestModuleStartTime="02:38.170"
+			timeWallClock="14:09:17"
+			time="02:38.169"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6497cff9_rxlog.jpg"
+			errthumb=".\Analysis_6497cff9_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="188"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:39.071"
+			timeRelativeToTestModuleStartTime="02:39.072"
+			timeWallClock="14:09:18"
+			time="02:39.071"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6498cff9_rxlog.jpg"
+			errthumb=".\Analysis_6498cff9_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="194"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:40.192"
+			timeRelativeToTestModuleStartTime="02:40.193"
+			timeWallClock="14:09:19"
+			time="02:40.192"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_6499cff9_rxlog.jpg"
+			errthumb=".\Analysis_6499cff9_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="200"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:40.664"
+			timeRelativeToTestModuleStartTime="02:40.665"
+			timeWallClock="14:09:19"
+			time="02:40.664"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_649acff9_rxlog.jpg"
+			errthumb=".\Analysis_649acff9_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="202"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:42.785"
+			timeRelativeToTestModuleStartTime="02:42.786"
+			timeWallClock="14:09:21"
+			time="02:42.785"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_649bcff9_rxlog.jpg"
+			errthumb=".\Analysis_649bcff9_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="213"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:42.834"
+			timeRelativeToTestModuleStartTime="02:42.835"
+			timeWallClock="14:09:21"
+			time="02:42.834"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Analysis_649ccff9_rxlog.jpg"
+			errthumb=".\Analysis_649ccff9_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\Analysis.cs"
+				codeline="213"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

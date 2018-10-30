@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1123c49df134409f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="11.09.2018 08:25:01"
+		timestampiso="2018-09-11T06:25:01"
+		endtime="11.09.2018 08:27:31"
+		timeoutfactor="1"
+		module="SensorCalibrationAnalysis">
+		<detail>
+			SensorCalibrationAnalysis
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.784"
+			timeRelativeToTestModuleStartTime="00:15.785"
+			timeWallClock="08:25:17"
+			time="00:15.784"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_e1a04762_rxlog.jpg"
+			errthumb=".\SensorCa_e1a04762_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.853"
+			timeRelativeToTestModuleStartTime="00:15.854"
+			timeWallClock="08:25:17"
+			time="00:15.853"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_e19f4762_rxlog.jpg"
+			errthumb=".\SensorCa_e19f4762_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="78"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.493"
+			timeRelativeToTestModuleStartTime="00:16.494"
+			timeWallClock="08:25:18"
+			time="00:16.493"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagCalibrate' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				itempath="?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagCalibrate"
+				id="c5118c38224a44398c7b2894ce95ce8f"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="80"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.158"
+			timeRelativeToTestModuleStartTime="01:21.159"
+			timeWallClock="08:26:22"
+			time="01:21.158"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_e19e4762_rxlog.jpg"
+			errthumb=".\SensorCa_e19e4762_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="112"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:22.046"
+			timeRelativeToTestModuleStartTime="02:22.047"
+			timeWallClock="08:27:23"
+			time="02:22.046"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_e19d4762_rxlog.jpg"
+			errthumb=".\SensorCa_e19d4762_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="117"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.9m"
+		durationms="115598"
+		type="root"
+		rid="1fbf414ba182cb31"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="11.09.2018 08:32:28"
+		timestampiso="2018-09-11T06:32:28"
+		endtime="11.09.2018 08:34:24"
+		timeoutfactor="1"
+		module="SensorCalibrationAnalysis">
+		<detail>
+			SensorCalibrationAnalysis
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.807"
+			timeRelativeToTestModuleStartTime="00:10.808"
+			timeWallClock="08:32:39"
+			time="00:10.807"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_6c8e00fa_rxlog.jpg"
+			errthumb=".\SensorCa_6c8e00fa_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.881"
+			timeRelativeToTestModuleStartTime="00:10.882"
+			timeWallClock="08:32:39"
+			time="00:10.881"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_6c8d00fa_rxlog.jpg"
+			errthumb=".\SensorCa_6c8d00fa_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="78"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.220"
+			timeRelativeToTestModuleStartTime="00:11.221"
+			timeWallClock="08:32:40"
+			time="00:11.220"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagCalibrate' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				itempath="?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagCalibrate"
+				id="c5118c38224a44398c7b2894ce95ce8f"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="80"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:12.683"
+			timeRelativeToTestModuleStartTime="01:12.684"
+			timeWallClock="08:33:41"
+			time="01:12.683"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="86"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:13.429"
+			timeRelativeToTestModuleStartTime="01:13.430"
+			timeWallClock="08:33:42"
+			time="01:13.429"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{TdTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="87"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:55.598"
+			timeRelativeToTestModuleStartTime="01:55.599"
+			timeWallClock="08:34:24"
+			time="01:55.598"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21759e392de783a4"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="30.04.2018 14:41:05"
+		timestampiso="2018-04-30T12:41:05"
+		endtime="30.04.2018 14:41:17"
+		timeoutfactor="1"
+		module="IoModulesEnabledButtonsVerification">
+		<detail>
+			IoModulesEnabledButtonsVerification
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.321"
+			timeRelativeToTestModuleStartTime="00:10.321"
+			timeWallClock="14:41:15"
+			time="00:10.321"
+			level="Info"
+			category="User">
+			<message>
+				Report Button is enabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IoModulesEnabledButtonsVerification.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.421"
+			timeRelativeToTestModuleStartTime="00:10.421"
+			timeWallClock="14:41:15"
+			time="00:10.421"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IoModule_44f036f0_rxlog.jpg"
+			errthumb=".\IoModule_44f036f0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IoModulesEnabledButtonsVerification.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.070"
+			timeRelativeToTestModuleStartTime="00:11.070"
+			timeWallClock="14:41:16"
+			time="00:11.070"
+			level="Warn"
+			category="User">
+			<message>
+				Delete Button is not enabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IoModulesEnabledButtonsVerification.cs"
+				codeline="97"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.136"
+			timeRelativeToTestModuleStartTime="00:11.136"
+			timeWallClock="14:41:16"
+			time="00:11.136"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IoModule_b98b36f0_rxlog.jpg"
+			errthumb=".\IoModule_b98b36f0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IoModulesEnabledButtonsVerification.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.622"
+			timeRelativeToTestModuleStartTime="00:11.622"
+			timeWallClock="14:41:17"
+			time="00:11.622"
+			level="Warn"
+			category="User">
+			<message>
+				Edit Button is not enabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IoModulesEnabledButtonsVerification.cs"
+				codeline="110"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.684"
+			timeRelativeToTestModuleStartTime="00:11.684"
+			timeWallClock="14:41:17"
+			time="00:11.684"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IoModule_2e2636f0_rxlog.jpg"
+			errthumb=".\IoModule_2e2636f0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IoModulesEnabledButtonsVerification.cs"
+				codeline="111"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.476"
+			timeRelativeToTestModuleStartTime="00:12.476"
+			timeWallClock="14:41:17"
+			time="00:12.476"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'AddNewIOModule' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.183']//div[#'contentCenter']/?/?/button[@innertext='Add new I/O Module']"
+				itempath="?/?/button[@innertext='Add new I/O Module']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewIOModule"
+				id="27a87b1fa7d84e6da6eb539960bf0bb2"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IoModulesEnabledButtonsVerification.cs"
+				codeline="117"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.481"
+			timeRelativeToTestModuleStartTime="00:12.481"
+			timeWallClock="14:41:17"
+			time="00:12.481"
+			level="Info"
+			category="User">
+			<message>
+				AddNewIOModule Button is enabled
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IoModulesEnabledButtonsVerification.cs"
+				codeline="118"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.552"
+			timeRelativeToTestModuleStartTime="00:12.552"
+			timeWallClock="14:41:17"
+			time="00:12.552"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IoModule_a2c136f0_rxlog.jpg"
+			errthumb=".\IoModule_a2c136f0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IoModulesEnabledButtonsVerification.cs"
+				codeline="118"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

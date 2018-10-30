@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d3219a29950750"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="24.08.2018 16:50:53"
+		timestampiso="2018-08-24T14:50:53"
+		endtime="24.08.2018 16:51:11"
+		timeoutfactor="1"
+		module="NetSensorDeactivated">
+		<detail>
+			NetSensorDeactivated
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.041"
+			timeRelativeToTestModuleStartTime="00:11.042"
+			timeWallClock="16:51:04"
+			time="00:11.041"
+			level="Info"
+			category="Screenshot"
+			errimg=".\NetSenso_8b0bf4bc_rxlog.jpg"
+			errthumb=".\NetSenso_8b0bf4bc_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivated.cs"
+				codeline="73"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.074"
+			timeRelativeToTestModuleStartTime="00:11.075"
+			timeWallClock="16:51:04"
+			time="00:11.074"
+			level="Success"
+			category="Validation">
+			<message>
+				Element '{ButtonTag:        Deactivate    }' does exist.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivated.cs"
+				codeline="74"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="179f909f4510b5f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="28.08.2018 16:42:10"
+		timestampiso="2018-08-28T14:42:10"
+		endtime="28.08.2018 16:42:31"
+		timeoutfactor="1"
+		module="RetireSensor">
+		<detail>
+			RetireSensor
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.357"
+			timeRelativeToTestModuleStartTime="00:12.357"
+			timeWallClock="16:42:22"
+			time="00:12.357"
+			level="Success"
+			category="Validation">
+			<message>
+				Element '{ButtonTag:Retire}' does exist.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\RetireSensor.cs"
+				codeline="76"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.466"
+			timeRelativeToTestModuleStartTime="00:12.466"
+			timeWallClock="16:42:22"
+			time="00:12.466"
+			level="Info"
+			category="Screenshot"
+			errimg=".\RetireSe_f3231106_rxlog.jpg"
+			errthumb=".\RetireSe_f3231106_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\RetireSensor.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.347"
+			timeRelativeToTestModuleStartTime="00:21.347"
+			timeWallClock="16:42:31"
+			time="00:21.347"
+			level="Info"
+			category="User">
+			<message>
+				Sensor successfully retired
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\RetireSensor.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

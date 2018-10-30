@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="28f1fcae0aa2114"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="19.04.2018 10:56:13"
+		timestampiso="2018-04-19T08:56:13"
+		endtime="19.04.2018 10:57:14"
+		timeoutfactor="1"
+		module="LoginEMON">
+		<detail>
+			LoginEMON
+		</detail>
+		<errormessage>
+			Failed to find item 'smokeTestRepository.Explorer.ElproMONITORLoginInternetExplorer'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.434"
+			timeRelativeToTestModuleStartTime="00:00.434"
+			timeWallClock="10:56:13"
+			time="00:00.434"
+			level="Warn"
+			category="Data"
+			errimg=".\LoginEMO_3c28aada_a122d391_trace.jpg"
+			errthumb=".\LoginEMO_3c28aada_a122d391_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>UserName, Password
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.453"
+			timeRelativeToTestModuleStartTime="00:00.453"
+			timeWallClock="10:56:13"
+			time="00:00.453"
+			level="Info"
+			category="Mouse"
+			errimg=".\LoginEMO_3c28aada_a122d391_trace.jpg"
+			errthumb=".\LoginEMO_3c28aada_a122d391_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Explorer.ElproMONITORLoginInternetExplorer' at 92;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Ausgeführte Anwendungen']/button[@accessiblename~'^elproMONITOR\ -\ Login\ -\ In']"
+				fullname="smokeTestRepository.Explorer.ElproMONITORLoginInternetExplorer"
+				id="2ef87a0d44a849afa571217933190340"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginEMON.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.771"
+			timeRelativeToTestModuleStartTime="01:00.771"
+			timeWallClock="10:57:14"
+			time="01:00.771"
+			level="Error"
+			category="Module"
+			errimg=".\LoginEMO_3c28aada_1d596f7e_trace.jpg"
+			errthumb=".\LoginEMO_3c28aada_1d596f7e_trace_thumb.jpg">
+			<message>
+				Failed to find item 'smokeTestRepository.Explorer.ElproMONITORLoginInternetExplorer'.<br/>No element found for path '/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Ausgef&#252;hrte Anwendungen']/button[@accessiblename~'^elproMONITOR\ -\ Login\ -\ In']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   bei Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   bei smokeTest.smokeTestRepositoryFolders.ExplorerAppFolder.get_ElproMONITORLoginInternetExplorer() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\smokeTestRepository.cs:Zeile 186.
+   bei smokeTest.LoginEMON.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginEMON.cs:Zeile 113.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\loginEMON.cs"
+				codeline="113"
+				type="repoitem"
+				path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Ausgeführte Anwendungen']/button[@accessiblename~'^elproMONITOR\ -\ Login\ -\ In']"
+				fullname="smokeTestRepository.Explorer.ElproMONITORLoginInternetExplorer"
+				id="2ef87a0d44a849afa571217933190340"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

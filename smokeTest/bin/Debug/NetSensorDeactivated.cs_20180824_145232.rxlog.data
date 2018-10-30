@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1db25861649b7a60"
+		totalerrorcount="0"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="24.08.2018 14:52:38"
+		timestampiso="2018-08-24T12:52:38"
+		endtime="24.08.2018 14:52:48"
+		timeoutfactor="1"
+		module="NetSensorDeactivated">
+		<detail>
+			NetSensorDeactivated
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.246"
+			timeRelativeToTestModuleStartTime="00:08.247"
+			timeWallClock="14:52:46"
+			time="00:08.246"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivated.cs"
+				codeline="60"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.057"
+			timeRelativeToTestModuleStartTime="00:09.058"
+			timeWallClock="14:52:47"
+			time="00:09.057"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivated.cs"
+				codeline="61"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.671"
+			timeRelativeToTestModuleStartTime="00:09.672"
+			timeWallClock="14:52:47"
+			time="00:09.671"
+			level="Info"
+			category="Screenshot">
+			<message>
+				(null)
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivated.cs"
+				codeline="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.886"
+			timeRelativeToTestModuleStartTime="00:09.887"
+			timeWallClock="14:52:48"
+			time="00:09.886"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ButtonTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivated.cs"
+				codeline="66"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="37e5dea65436c0f"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="03.05.2018 13:02:25"
+		timestampiso="2018-05-03T11:02:25"
+		endtime="03.05.2018 13:02:53"
+		timeoutfactor="1"
+		module="IOmoduleVerification">
+		<detail>
+			IOmoduleVerification
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.905"
+			timeRelativeToTestModuleStartTime="00:15.905"
+			timeWallClock="13:02:40"
+			time="00:15.905"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65634e64_rxlog.jpg"
+			errthumb=".\IOmodule_65634e64_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="109"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.262"
+			timeRelativeToTestModuleStartTime="00:17.262"
+			timeWallClock="13:02:42"
+			time="00:17.262"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65634e63_rxlog.jpg"
+			errthumb=".\IOmodule_65634e63_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="112"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.352"
+			timeRelativeToTestModuleStartTime="00:17.352"
+			timeWallClock="13:02:42"
+			time="00:17.352"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65634e66_rxlog.jpg"
+			errthumb=".\IOmodule_65634e66_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="113"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.563"
+			timeRelativeToTestModuleStartTime="00:19.563"
+			timeWallClock="13:02:44"
+			time="00:19.563"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65634e65_rxlog.jpg"
+			errthumb=".\IOmodule_65634e65_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="122"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.640"
+			timeRelativeToTestModuleStartTime="00:19.640"
+			timeWallClock="13:02:44"
+			time="00:19.640"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65634e68_rxlog.jpg"
+			errthumb=".\IOmodule_65634e68_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="123"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.065"
+			timeRelativeToTestModuleStartTime="00:22.065"
+			timeWallClock="13:02:47"
+			time="00:22.065"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65634e67_rxlog.jpg"
+			errthumb=".\IOmodule_65634e67_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="134"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.165"
+			timeRelativeToTestModuleStartTime="00:22.165"
+			timeWallClock="13:02:47"
+			time="00:22.165"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65634e6a_rxlog.jpg"
+			errthumb=".\IOmodule_65634e6a_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="135"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.433"
+			timeRelativeToTestModuleStartTime="00:24.433"
+			timeWallClock="13:02:49"
+			time="00:24.433"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65634e69_rxlog.jpg"
+			errthumb=".\IOmodule_65634e69_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="145"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.510"
+			timeRelativeToTestModuleStartTime="00:24.510"
+			timeWallClock="13:02:49"
+			time="00:24.510"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65634e6c_rxlog.jpg"
+			errthumb=".\IOmodule_65634e6c_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="146"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.551"
+			timeRelativeToTestModuleStartTime="00:26.551"
+			timeWallClock="13:02:51"
+			time="00:26.551"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65634e6b_rxlog.jpg"
+			errthumb=".\IOmodule_65634e6b_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="155"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.644"
+			timeRelativeToTestModuleStartTime="00:26.644"
+			timeWallClock="13:02:51"
+			time="00:26.644"
+			level="Info"
+			category="Screenshot"
+			errimg=".\IOmodule_65334e63_rxlog.jpg"
+			errthumb=".\IOmodule_65334e63_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+				codeline="156"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

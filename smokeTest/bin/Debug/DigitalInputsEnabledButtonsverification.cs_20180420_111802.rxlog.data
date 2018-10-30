@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="17cf60338b17d0bc"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="erdogb"
+		rxversion="7.2.0.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="20.04.2018 11:18:04"
+		timestampiso="2018-04-20T09:18:04"
+		endtime="20.04.2018 11:18:40"
+		timeoutfactor="1"
+		module="DigitalInputsEnabledButtonsverification">
+		<detail>
+			DigitalInputsEnabledButtonsverification
+		</detail>
+		<errormessage>
+			Element for item 'Report' does not exist (Failed to find item 'smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Report'. No element found for path '/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Report']' within 1.5m.).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.815"
+			timeRelativeToTestModuleStartTime="00:35.815"
+			timeWallClock="11:18:39"
+			time="00:35.815"
+			level="Failure"
+			category="Validation"
+			errimg=".\DigitalI_4e9a4d2e_1fec3737_trace.jpg"
+			errthumb=".\DigitalI_4e9a4d2e_1fec3737_trace_thumb.jpg">
+			<message>
+				Element for item 'Report' does not exist (Failed to find item 'smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Report'. No element found for path '/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Report']' within 1.5m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Report']"
+				fullname="smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Report"
+				id="a910450b05e64f5c9a886ca0ca486c84"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="73"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.826"
+			timeRelativeToTestModuleStartTime="00:35.826"
+			timeWallClock="11:18:39"
+			time="00:35.826"
+			level="Error"
+			category="Module"
+			errimg=".\DigitalI_4e9a4d2e_1fec3737_trace.jpg"
+			errthumb=".\DigitalI_4e9a4d2e_1fec3737_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for item 'Report' does not exist (Failed to find item 'smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Report'. No element found for path '/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Report']' within 1.5m.).
+			</message>
+			<metainfo
+				stacktrace="   bei Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   bei Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   bei Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   bei smokeTest.DigitalInputsEnabledButtonsverification.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs:Zeile 73.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\DigitalInputsEnabledButtonsverification.cs"
+				codeline="73"
+				type="repoitem"
+				path="/dom[@caption~'^elproMONITOR\ -\ Digital\ In' and @page='57']//div[#'contentRight']/?/?/button[@innertext='Report']"
+				fullname="smokeTestRepository.ElproMONITORDigitalInputs.ContentRight.Report"
+				id="a910450b05e64f5c9a886ca0ca486c84"
+				timeout="90000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

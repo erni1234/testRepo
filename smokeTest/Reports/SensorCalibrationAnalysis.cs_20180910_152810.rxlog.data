@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1103ad2477ccd15e"
+		totalerrorcount="0"
+		totalwarningcount="4"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="10.09.2018 15:28:16"
+		timestampiso="2018-09-10T13:28:16"
+		endtime="10.09.2018 15:30:44"
+		timeoutfactor="1"
+		module="SensorCalibrationAnalysis">
+		<detail>
+			SensorCalibrationAnalysis
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.991"
+			timeRelativeToTestModuleStartTime="00:14.991"
+			timeWallClock="15:28:31"
+			time="00:14.991"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_62278f0_rxlog.jpg"
+			errthumb=".\SensorCa_62278f0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.063"
+			timeRelativeToTestModuleStartTime="00:15.063"
+			timeWallClock="15:28:31"
+			time="00:15.063"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_62178f0_rxlog.jpg"
+			errthumb=".\SensorCa_62178f0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="78"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.679"
+			timeRelativeToTestModuleStartTime="00:15.679"
+			timeWallClock="15:28:32"
+			time="00:15.679"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagCalibrate' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				itempath="?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagCalibrate"
+				id="c5118c38224a44398c7b2894ce95ce8f"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="80"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.329"
+			timeRelativeToTestModuleStartTime="01:20.329"
+			timeWallClock="15:29:37"
+			time="01:20.329"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_62078f0_rxlog.jpg"
+			errthumb=".\SensorCa_62078f0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="111"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:21.186"
+			timeRelativeToTestModuleStartTime="02:21.186"
+			timeWallClock="15:30:37"
+			time="02:21.186"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_61f78f0_rxlog.jpg"
+			errthumb=".\SensorCa_61f78f0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="115"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:21.498"
+			timeRelativeToTestModuleStartTime="02:21.498"
+			timeWallClock="15:30:38"
+			time="02:21.498"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ButtonTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="118"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:21.935"
+			timeRelativeToTestModuleStartTime="02:21.935"
+			timeWallClock="15:30:38"
+			time="02:21.935"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ButtonTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="118"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:27.265"
+			timeRelativeToTestModuleStartTime="02:27.265"
+			timeWallClock="15:30:44"
+			time="02:27.265"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ButtonTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="121"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:27.709"
+			timeRelativeToTestModuleStartTime="02:27.709"
+			timeWallClock="15:30:44"
+			time="02:27.709"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{ButtonTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="121"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="af47e4e18652d26"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="24.08.2018 16:28:44"
+		timestampiso="2018-08-24T14:28:44"
+		endtime="24.08.2018 16:30:06"
+		timeoutfactor="1"
+		module="NetSensorDeactivate">
+		<detail>
+			NetSensorDeactivate
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.599"
+			timeRelativeToTestModuleStartTime="00:02.600"
+			timeWallClock="16:28:46"
+			time="00:02.599"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.NavMonitorIndex' at 63;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//a[#'Nav_Monitor_Index']"
+				itempath=".//a[#'Nav_Monitor_Index']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavMonitorIndex"
+				id="800ab70f736043d58b81a27817f0e2c0"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.489"
+			timeRelativeToTestModuleStartTime="00:05.490"
+			timeWallClock="16:28:49"
+			time="00:05.489"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.ContentLeft.Net05Min' at 57;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentLeft']/?/?/ul/?/?/a[@innertext='Net-05-Min']"
+				itempath="?/?/ul/?/?/a[@innertext='Net-05-Min']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentLeft.Net05Min"
+				id="b37306378388451ca6f9baf6ed7bbde8"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.276"
+			timeRelativeToTestModuleStartTime="00:10.277"
+			timeWallClock="16:28:54"
+			time="00:10.276"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Sensors.Checkbox2' at 19;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//table[#'sensors']/tbody/tr[1]/td[1]/input[@type='checkbox' and @name=null()]"
+				itempath="tbody/tr[1]/td[1]/input[@type='checkbox' and @name=null()]"
+				fullname="smokeTestRepository.ElproMONITORLogin.Sensors.Checkbox2"
+				id="a9f8944d78524a56a7b8c13bc039d3c7"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.141"
+			timeRelativeToTestModuleStartTime="00:13.142"
+			timeWallClock="16:28:57"
+			time="00:13.141"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ElproMONITORLogin.ContentCenter.ButtonTagDeactivate'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext='        Deactivate    ']"
+				itempath="?/?/button[@innertext='        Deactivate    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagDeactivate"
+				id="90e6b1a5a50442b8b27c80cd2d873779"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.292"
+			timeRelativeToTestModuleStartTime="00:14.293"
+			timeWallClock="16:28:58"
+			time="00:14.292"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagDeactivate' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext='        Deactivate    ']"
+				itempath="?/?/button[@innertext='        Deactivate    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagDeactivate"
+				id="90e6b1a5a50442b8b27c80cd2d873779"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.296"
+			timeRelativeToTestModuleStartTime="00:14.297"
+			timeWallClock="16:28:58"
+			time="00:14.296"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.ContentCenter.ButtonTagDeactivate' at 59;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext='        Deactivate    ']"
+				itempath="?/?/button[@innertext='        Deactivate    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagDeactivate"
+				id="90e6b1a5a50442b8b27c80cd2d873779"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.250"
+			timeRelativeToTestModuleStartTime="00:16.251"
+			timeWallClock="16:29:00"
+			time="00:16.250"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to 'NetSensorDeactivation' on item 'ElproMONITORLogin.Form.Templates'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'form']/section//select[@name='Templates']"
+				itempath="section//select[@name='Templates']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Form.Templates"
+				id="c822319906db440e95af10cd71fc307a"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.433"
+			timeRelativeToTestModuleStartTime="00:17.434"
+			timeWallClock="16:29:01"
+			time="00:17.433"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Form.Password' at 94;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'form']/section//input[@type='password']"
+				itempath="section//input[@type='password']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Form.Password"
+				id="e202477e1127414ab3dcd9aa8d046f7d"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.124"
+			timeRelativeToTestModuleStartTime="00:19.125"
+			timeWallClock="16:29:03"
+			time="00:19.124"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'password1234' with focus on 'ElproMONITORLogin.Form.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'form']/section//input[@type='password']"
+				itempath="section//input[@type='password']"
+				fullname="smokeTestRepository.ElproMONITORLogin.Form.Password"
+				id="e202477e1127414ab3dcd9aa8d046f7d"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.523"
+			timeRelativeToTestModuleStartTime="00:21.525"
+			timeWallClock="16:29:05"
+			time="00:21.523"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.ContentRight.ButtonTagDeactivate' at 74;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentRight']//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Deactiva']"
+				itempath=".//button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Deactiva']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentRight.ButtonTagDeactivate"
+				id="99e61b6bafb94788a7fb19da46c9c379"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.948"
+			timeRelativeToTestModuleStartTime="00:22.949"
+			timeWallClock="16:29:07"
+			time="00:22.948"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 50s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="118"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:12.951"
+			timeRelativeToTestModuleStartTime="01:12.952"
+			timeWallClock="16:29:57"
+			time="01:12.951"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.NavMonitorIndex' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//a[#'Nav_Monitor_Index']"
+				itempath=".//a[#'Nav_Monitor_Index']"
+				fullname="smokeTestRepository.ElproMONITORLogin.NavMonitorIndex"
+				id="800ab70f736043d58b81a27817f0e2c0"
+				timeout="60000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="121"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:13.986"
+			timeRelativeToTestModuleStartTime="01:13.987"
+			timeWallClock="16:29:58"
+			time="01:13.986"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.ContentLeft.Net05Min' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentLeft']/?/?/ul/?/?/a[@innertext='Net-05-Min']"
+				itempath="?/?/ul/?/?/a[@innertext='Net-05-Min']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentLeft.Net05Min"
+				id="b37306378388451ca6f9baf6ed7bbde8"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="125"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.436"
+			timeRelativeToTestModuleStartTime="01:18.437"
+			timeWallClock="16:30:02"
+			time="01:18.436"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ElproMONITORLogin.Sensors.Checkbox2' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//table[#'sensors']/tbody/tr[1]/td[1]/input[@type='checkbox' and @name=null()]"
+				itempath="tbody/tr[1]/td[1]/input[@type='checkbox' and @name=null()]"
+				fullname="smokeTestRepository.ElproMONITORLogin.Sensors.Checkbox2"
+				id="a9f8944d78524a56a7b8c13bc039d3c7"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="129"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.045"
+			timeRelativeToTestModuleStartTime="01:21.046"
+			timeWallClock="16:30:05"
+			time="01:21.045"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ElproMONITORLogin.ContentCenter.ButtonTagActivate'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext='        Activate    ']"
+				itempath="?/?/button[@innertext='        Activate    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagActivate"
+				id="d1da77054b394ee0aa4fcaa11a2d5a1c"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="133"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:22.072"
+			timeRelativeToTestModuleStartTime="01:22.073"
+			timeWallClock="16:30:06"
+			time="01:22.072"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagActivate' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext='        Activate    ']"
+				itempath="?/?/button[@innertext='        Activate    ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagActivate"
+				id="d1da77054b394ee0aa4fcaa11a2d5a1c"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="134"
+				loglvl="Success"
+				itemindex="13">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:22.075"
+			timeRelativeToTestModuleStartTime="01:22.076"
+			timeWallClock="16:30:06"
+			time="01:22.075"
+			level="Info"
+			category="User">
+			<message>
+				Net Sensor deactivated with success
+			</message>
+			<metainfo
+				itemindex="14"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\NetSensorDeactivate.cs"
+				codeline="137"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

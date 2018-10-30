@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="21.52s"
+		durationms="21522"
+		type="root"
+		rid="a29c7b4a3c699ce"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="29.08.2018 11:35:09"
+		timestampiso="2018-08-29T09:35:09"
+		endtime="29.08.2018 11:35:31"
+		timeoutfactor="1"
+		module="AcknowledgeDeviation">
+		<detail>
+			AcknowledgeDeviation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.633"
+			timeRelativeToTestModuleStartTime="00:15.634"
+			timeWallClock="11:35:25"
+			time="00:15.633"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Acknowle_92e859a2_rxlog.jpg"
+			errthumb=".\Acknowle_92e859a2_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AcknowledgeDeviation.cs"
+				codeline="71"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.957"
+			timeRelativeToTestModuleStartTime="00:15.958"
+			timeWallClock="11:35:25"
+			time="00:15.957"
+			level="Info"
+			category="Screenshot"
+			errimg=".\Acknowle_92e859a1_rxlog.jpg"
+			errthumb=".\Acknowle_92e859a1_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\AcknowledgeDeviation.cs"
+				codeline="74"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.522"
+			timeRelativeToTestModuleStartTime="00:21.523"
+			timeWallClock="11:35:31"
+			time="00:21.522"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

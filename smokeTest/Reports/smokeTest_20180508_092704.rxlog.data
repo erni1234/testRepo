@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.4m"
+		durationms="85392"
+		type="root"
+		rid="1ac0f3c1efad2b40"
+		totalerrorcount="3"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="3"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="3"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="08.05.2018 09:27:04"
+		timestampiso="2018-05-08T07:27:04"
+		endtime="08.05.2018 09:28:29"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.4m"
+			durationms="85250"
+			type="test-suite"
+			rid="bbf34dba2b14784"
+			totalerrorcount="3"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="3"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="3"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="3"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="smokeTest"
+			headertext="smokeTest"
+			runconfigname="SmokeTest_TR_1"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="27.69s"
+				durationms="27693"
+				type="test-case"
+				rid="4f0876be7df75ee"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase(Verification1)"
+				testcontainerid="f2a26f24-7c5b-403e-9be6-dd76f8db12ea"
+				headertext="TestCase(Verification1)"
+				displayName="TestCase(Verification1)"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="15.56s"
+					durationms="15561"
+					type="test-module"
+					rid="867d1e6e120c628"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="topToolBarVerifications"
+					displayName="topToolBarVerifications"
+					moduleid="961f59d2-9a70-4b90-883a-272e13b28615"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.940"
+						timeRelativeToTestModuleStartTime="00:04.691"
+						timeWallClock="09:27:09"
+						time="00:04.940"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'NavElproAbout' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//a[#'Nav_Elpro_About']"
+							itempath=".//a[#'Nav_Elpro_About']"
+							fullname="smokeTestRepository.ElproMONITORLogin.NavElproAbout"
+							id="026e4a3b50314f46b19c405a56c9d77c"
+							timeout="60000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="61"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.200"
+						timeRelativeToTestModuleStartTime="00:04.951"
+						timeWallClock="09:27:09"
+						time="00:05.200"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_925b24c_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_925b24c_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="62"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.638"
+						timeRelativeToTestModuleStartTime="00:06.389"
+						timeWallClock="09:27:10"
+						time="00:06.638"
+						level="Success"
+						category="User">
+						<message>
+							Image found and clicked successfully
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="76"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.251"
+						timeRelativeToTestModuleStartTime="00:08.002"
+						timeWallClock="09:27:12"
+						time="00:08.251"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_abcd26e7_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_abcd26e7_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.439"
+						timeRelativeToTestModuleStartTime="00:08.190"
+						timeWallClock="09:27:12"
+						time="00:08.439"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'NavMonitorIndex' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//a[#'Nav_Monitor_Index']"
+							itempath=".//a[#'Nav_Monitor_Index']"
+							fullname="smokeTestRepository.ElproMONITORLogin.NavMonitorIndex"
+							id="800ab70f736043d58b81a27817f0e2c0"
+							timeout="60000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="87"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.558"
+						timeRelativeToTestModuleStartTime="00:08.309"
+						timeWallClock="09:27:12"
+						time="00:08.558"
+						level="Success"
+						category="Validation">
+						<message>
+							Existance of MONITOR-TAB verified'NavMonitorIndex'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//a[#'Nav_Monitor_Index']"
+							itempath=".//a[#'Nav_Monitor_Index']"
+							fullname="smokeTestRepository.ElproMONITORLogin.NavMonitorIndex"
+							id="800ab70f736043d58b81a27817f0e2c0"
+							timeout="60000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="88"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.820"
+						timeRelativeToTestModuleStartTime="00:08.571"
+						timeWallClock="09:27:13"
+						time="00:08.820"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_4e749b82_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_4e749b82_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="89"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.336"
+						timeRelativeToTestModuleStartTime="00:10.087"
+						timeWallClock="09:27:14"
+						time="00:10.336"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_f11c101d_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_f11c101d_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="105"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.528"
+						timeRelativeToTestModuleStartTime="00:10.279"
+						timeWallClock="09:27:14"
+						time="00:10.528"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'NavCalibrationIndex' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//a[#'Nav_Calibration_Index']"
+							itempath=".//a[#'Nav_Calibration_Index']"
+							fullname="smokeTestRepository.ElproMONITORLogin.NavCalibrationIndex"
+							id="c623fd4dfd31451794e25f95a20802e0"
+							timeout="60000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="106"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.704"
+						timeRelativeToTestModuleStartTime="00:10.455"
+						timeWallClock="09:27:14"
+						time="00:10.704"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_93c384b8_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_93c384b8_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="107"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.165"
+						timeRelativeToTestModuleStartTime="00:12.916"
+						timeWallClock="09:27:17"
+						time="00:13.165"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_366af953_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_366af953_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="125"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.370"
+						timeRelativeToTestModuleStartTime="00:13.121"
+						timeWallClock="09:27:17"
+						time="00:13.370"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'NavDeviationsIndex' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//a[#'Nav_Deviations_Index']"
+							itempath=".//a[#'Nav_Deviations_Index']"
+							fullname="smokeTestRepository.ElproMONITORLogin.NavDeviationsIndex"
+							id="84790a1cf9704f0dab50492587b19422"
+							timeout="60000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="126"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.622"
+						timeRelativeToTestModuleStartTime="00:13.373"
+						timeWallClock="09:27:17"
+						time="00:13.622"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_d9126dee_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_d9126dee_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="127"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.264"
+						timeRelativeToTestModuleStartTime="00:15.015"
+						timeWallClock="09:27:19"
+						time="00:15.264"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_7bb9e289_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_7bb9e289_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="140"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.502"
+						timeRelativeToTestModuleStartTime="00:15.253"
+						timeWallClock="09:27:19"
+						time="00:15.502"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'NavDeviceSettingsIndex' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//a[#'Nav_DeviceSettings_Index']"
+							itempath=".//a[#'Nav_DeviceSettings_Index']"
+							fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+							id="2ff9e083db334af6971aed372384639e"
+							timeout="60000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="141"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.807"
+						timeRelativeToTestModuleStartTime="00:15.558"
+						timeWallClock="09:27:20"
+						time="00:15.807"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_f3ea0d74_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_f3ea0d74_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\topToolBarVerifications.cs"
+							codeline="142"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="12.1s"
+					durationms="12103"
+					type="test-module"
+					rid="10faf5be85468933"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="SettingsButtonAndPageVerification"
+					displayName="SettingsButtonAndPageVerification"
+					moduleid="1b22f1cf-af57-486e-82da-478dc5954fbf"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.919"
+						timeRelativeToTestModuleStartTime="00:00.107"
+						timeWallClock="09:27:20"
+						time="00:15.919"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'NavDeviceSettingsIndex' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//a[#'Nav_DeviceSettings_Index']"
+							itempath=".//a[#'Nav_DeviceSettings_Index']"
+							fullname="smokeTestRepository.ElproMONITORLogin.NavDeviceSettingsIndex"
+							id="2ff9e083db334af6971aed372384639e"
+							timeout="60000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="61"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.714"
+						timeRelativeToTestModuleStartTime="00:03.902"
+						timeWallClock="09:27:23"
+						time="00:19.714"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'AddNewSensor' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//div[#'contentCenter']/?/?/button[@innertext='Add new Sensor']"
+							itempath="?/?/button[@innertext='Add new Sensor']"
+							fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewSensor"
+							id="c613505a658441888bc158f533488499"
+							timeout="90000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="67"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.010"
+						timeRelativeToTestModuleStartTime="00:04.198"
+						timeWallClock="09:27:24"
+						time="00:20.010"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_9691820f_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_9691820f_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="68"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.622"
+						timeRelativeToTestModuleStartTime="00:05.810"
+						timeWallClock="09:27:25"
+						time="00:21.622"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'AddNewDigitalInput' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//div[#'contentCenter']/?/?/button[@innertext='Add new Digital Input']"
+							itempath="?/?/button[@innertext='Add new Digital Input']"
+							fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewDigitalInput"
+							id="75087c9bf4c0428eb7439cab38f803a4"
+							timeout="90000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="73"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.859"
+						timeRelativeToTestModuleStartTime="00:06.047"
+						timeWallClock="09:27:26"
+						time="00:21.859"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_f57d26e7_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_f57d26e7_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="74"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.812"
+						timeRelativeToTestModuleStartTime="00:08.000"
+						timeWallClock="09:27:28"
+						time="00:23.812"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'AddNewDigitalOutput' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//div[#'contentCenter']/?/?/button[@innertext='Add new Digital Output']"
+							itempath="?/?/button[@innertext='Add new Digital Output']"
+							fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewDigitalOutput"
+							id="97f44f932de240bc90d5126a8c26d4db"
+							timeout="90000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="79"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.026"
+						timeRelativeToTestModuleStartTime="00:08.214"
+						timeWallClock="09:27:28"
+						time="00:24.026"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_6a1826e7_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_6a1826e7_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="80"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.686"
+						timeRelativeToTestModuleStartTime="00:09.874"
+						timeWallClock="09:27:29"
+						time="00:25.686"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'AddNewSensorGroup' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//div[#'contentCenter']/?/?/button[@innertext='Add new Sensor Group']"
+							itempath="?/?/button[@innertext='Add new Sensor Group']"
+							fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewSensorGroup"
+							id="553b623d506f44a28f00383aaac17911"
+							timeout="90000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="85"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.944"
+						timeRelativeToTestModuleStartTime="00:10.133"
+						timeWallClock="09:27:30"
+						time="00:25.944"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_deb326e7_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_deb326e7_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.659"
+						timeRelativeToTestModuleStartTime="00:11.847"
+						timeWallClock="09:27:31"
+						time="00:27.659"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'AddNewIOModule' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']//div[#'contentCenter']/?/?/button[@innertext='Add new I/O Module']"
+							itempath="?/?/button[@innertext='Add new I/O Module']"
+							fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.AddNewIOModule"
+							id="27a87b1fa7d84e6da6eb539960bf0bb2"
+							timeout="90000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="91"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.912"
+						timeRelativeToTestModuleStartTime="00:12.100"
+						timeWallClock="09:27:32"
+						time="00:27.912"
+						level="Info"
+						category="Screenshot"
+						errimg="images_smokeTes_feb41cfe\smokeTes_534e26e7_rxlog.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_534e26e7_rxlog_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SettingsButtonAndPageVerification.cs"
+							codeline="92"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="17.25s"
+				durationms="17251"
+				type="test-case"
+				rid="1d4f918e7234cca"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase(ioModuleVerification)"
+				testcontainerid="b1ad61e3-e4ae-4404-b8b4-fa763ec44b8a"
+				headertext="TestCase(ioModuleVerification)"
+				displayName="TestCase(ioModuleVerification)"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="17.25s"
+					durationms="17248"
+					type="test-module"
+					rid="1caddba2c9c8aea"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="IOmoduleVerification"
+					displayName="IOmoduleVerification"
+					moduleid="e2ed32a3-3df2-4157-929d-9a94a76d89b8"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						No element found for path '/dom[@domain='192.168.250.183']//div[#'pluginEditForm']/section[2]/?/?/span[@innertext~'^ID:\ 0102\ ECOLOG-PRO\ 4MA']' within 10s.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:45.070"
+						timeRelativeToTestModuleStartTime="00:17.151"
+						timeWallClock="09:27:49"
+						time="00:45.070"
+						level="Error"
+						category="Module"
+						errimg="images_smokeTes_feb41cfe\smokeTes_feb41cfe_32e7097a_trace.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_feb41cfe_32e7097a_trace_thumb.jpg">
+						<message>
+							No element found for path '/dom[@domain='192.168.250.183']//div[#'pluginEditForm']/section[2]/?/?/span[@innertext~'^ID:\ 0102\ ECOLOG-PRO\ 4MA']' within 10s.
+						</message>
+						<metainfo
+							stacktrace="   bei Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   bei Ranorex.Core.Element.FromPath(String path)
+   bei Ranorex.SpanTag.FromPath(String path)
+   bei Ranorex.SpanTag.op_Implicit(String path)
+   bei smokeTest.IOmoduleVerification.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs:Zeile 88.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\IOmoduleVerification.cs"
+							codeline="88"
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="14.2s"
+				durationms="14196"
+				type="test-case"
+				rid="2770cfc8880f5ab0"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase(Verification2)"
+				testcontainerid="b62ddb76-e096-4398-bc9f-5540aaaed248"
+				headertext="TestCase(Verification2)"
+				displayName="TestCase(Verification2)"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="14.19s"
+					durationms="14193"
+					type="test-module"
+					rid="3738f7ef9170eed"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="SensorElementsValidation2"
+					displayName="SensorElementsValidation2"
+					moduleid="70afd81c-40a8-454c-a37a-4c9585e86dd4"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						No element found for path '/dom[1]//div[#'contentRight']/?/?/button[@innertext='Report']' within 10s.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.917"
+						timeRelativeToTestModuleStartTime="00:01.746"
+						timeWallClock="09:27:51"
+						time="00:46.917"
+						level="Warn"
+						category="Automation"
+						errimg="images_smokeTes_feb41cfe\smokeTes_feb41cfe_567c1e35_trace.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_feb41cfe_567c1e35_trace_thumb.jpg">
+						<message>
+							Could not get a valid element rectangle from '{ATag:}', since the element is no longer valid.
+						</message>
+						<metainfo
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs"
+							codeline="56"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.248"
+						timeRelativeToTestModuleStartTime="00:14.077"
+						timeWallClock="09:28:03"
+						time="00:59.248"
+						level="Error"
+						category="Module"
+						errimg="images_smokeTes_feb41cfe\smokeTes_feb41cfe_181bb2fb_trace.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_feb41cfe_181bb2fb_trace_thumb.jpg">
+						<message>
+							No element found for path '/dom[1]//div[#'contentRight']/?/?/button[@innertext='Report']' within 10s.
+						</message>
+						<metainfo
+							stacktrace="   bei Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   bei Ranorex.Core.Element.FromPath(String path)
+   bei Ranorex.ButtonTag.FromPath(String path)
+   bei Ranorex.ButtonTag.op_Implicit(String path)
+   bei smokeTest.SensorElementsValidation2.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs:Zeile 63.
+   bei Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorElementsValidation2.cs"
+							codeline="63"
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="26.08s"
+				durationms="26079"
+				type="test-case"
+				rid="89e4559b3407f2b"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase(logoutMONITOR)"
+				testcontainerid="69a87783-358a-43ef-9383-b8e82e4dd322"
+				headertext="TestCase(logoutMONITOR)"
+				displayName="TestCase(logoutMONITOR)"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="26.07s"
+					durationms="26072"
+					type="test-module"
+					rid="af1e25a727f2516"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="logoutUser"
+					displayName="logoutUser"
+					moduleid="c1bcec11-e2ee-4172-818c-7770e8bf19a2"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:59.370"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="09:28:03"
+						time="00:59.370"
+						level="Info"
+						category="Mouse"
+						errimg="images_smokeTes_feb41cfe\smokeTes_feb41cfe_60f9d82c_trace.jpg"
+						errthumb="images_smokeTes_feb41cfe\smokeTes_feb41cfe_60f9d82c_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'ElproMONITORLogin.LogoutAdmin' at 123;28.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='192.168.250.182']/body/nav/?/?/div/ul[1]/?/?/a[@innertext='Logout (admin)']"
+							itempath="body/nav/?/?/div/ul[1]/?/?/a[@innertext='Logout (admin)']"
+							fullname="smokeTestRepository.ElproMONITORLogin.LogoutAdmin"
+							id="d4f2c771e329423b98720987700e63a9"
+							timeout="60000"
+							codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\logoutUser.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:25.392"
+						timeRelativeToTestModuleStartTime="00:26.024"
+						timeWallClock="09:28:29"
+						time="01:25.392"
+						level="Error"
+						category="Module">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

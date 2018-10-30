@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.6m"
+		durationms="217463"
+		type="root"
+		rid="1d6e20e82cd30610"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="erdogb"
+		rxversion="8.1.1.0"
+		host="EC168"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-CH"
+		screenresolution="3840x1200"
+		timestamp="10.09.2018 14:48:16"
+		timestampiso="2018-09-10T12:48:16"
+		endtime="10.09.2018 14:51:53"
+		timeoutfactor="1"
+		module="SensorCalibrationAnalysis">
+		<detail>
+			SensorCalibrationAnalysis
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.387"
+			timeRelativeToTestModuleStartTime="00:13.388"
+			timeWallClock="14:48:29"
+			time="00:13.387"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_24e77a2a_rxlog.jpg"
+			errthumb=".\SensorCa_24e77a2a_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="76"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.460"
+			timeRelativeToTestModuleStartTime="00:13.461"
+			timeWallClock="14:48:29"
+			time="00:13.460"
+			level="Info"
+			category="Screenshot"
+			errimg=".\SensorCa_24e67a2a_rxlog.jpg"
+			errthumb=".\SensorCa_24e67a2a_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="77"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.067"
+			timeRelativeToTestModuleStartTime="00:14.068"
+			timeWallClock="14:48:30"
+			time="00:14.067"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ButtonTagCalibrate' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.250.188']//div[#'contentCenter']/?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				itempath="?/?/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Calibrate\ \ ']"
+				fullname="smokeTestRepository.ElproMONITORLogin.ContentCenter.ButtonTagCalibrate"
+				id="c5118c38224a44398c7b2894ce95ce8f"
+				timeout="90000"
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="79"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:15.473"
+			timeRelativeToTestModuleStartTime="03:15.474"
+			timeWallClock="14:51:31"
+			time="03:15.473"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{InputTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="85"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:16.286"
+			timeRelativeToTestModuleStartTime="03:16.287"
+			timeWallClock="14:51:32"
+			time="03:16.286"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{TdTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="86"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:16.724"
+			timeRelativeToTestModuleStartTime="03:16.725"
+			timeWallClock="14:51:33"
+			time="03:16.724"
+			level="Warn"
+			category="Automation">
+			<message>
+				Could not get a valid element rectangle from '{TdTag:}', since the element is no longer valid.
+			</message>
+			<metainfo
+				codefile="c:\Users\erdogb\Documents\Ranorex\RanorexStudio Projects\smokeTest\smokeTest\SensorCalibrationAnalysis.cs"
+				codeline="86"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:37.463"
+			timeRelativeToTestModuleStartTime="03:37.464"
+			timeWallClock="14:51:53"
+			time="03:37.463"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
