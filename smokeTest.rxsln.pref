@@ -7,6 +7,6 @@
       <string>{221F4480-052D-419D-BF2F-3ACA1715DCB6}</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution smokeTest[Solution Items[]smokeTest[]]]&#xD;&#xA;Solution smokeTest\smokeTest\SensorCalibrationAnalysis.cs&#xD;&#xA;Solution smokeTest\smokeTest\DeleteSensor.cs" />
+  <ProjectBrowserState value="[Solution smokeTest[Solution Items[]smokeTest[]]]&#xD;&#xA;Solution smokeTest\smokeTest\smokeTest.rxtst&#xD;&#xA;Solution smokeTest" />
   <StartupProject value="{221F4480-052D-419D-BF2F-3ACA1715DCB6}" />
 </Properties>
